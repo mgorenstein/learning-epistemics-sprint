@@ -1,0 +1,61 @@
+# Bayesian Concept Learning (trial-and-error): every setting of the experiment.
+#
+# Nothing is optional. A setting that does not apply is written as null, and a
+# misspelled or missing setting is an error. A copy of this file is saved beside
+# every output. Paths are relative to the folder that holds this file.
+
+seed: 20261113
+
+# --- The learning problem: rules, internal likelihood and simplicity prior -----
+
+rules_file: bcl_rules.py       # a Python file that defines FEATURES and RULES
+
+alpha: 0.99                    # internal likelihood parameter of the ideal learner: mismatch weight
+                               #   is (1 - alpha) / 2 = 0.005. Generated labels are never flipped.
+
+prior:
+  kind: pcfg                   # uniform | pcfg | rational_rules
+  grammar_weights: null        # pcfg only: weights of the grammar's productions, or null for all 1.0
+  dirichlet: null              # rational_rules only: symmetric Dirichlet parameter, or null for 1.0
+  temperature: 3.0             # pcfg and rational_rules: above 1 flattens the prior; null means 1.0
+
+# --- Blocks (python -m bcl.blocks) --------------------------------------------
+
+blocks:
+  file: data/bcl/blocks.jsonl
+  blocks_per_concept: 100      # randomized blocks generated for each concept in RULES
+  repetitions: 1               # 1 shuffled pass over all 16 unique stimuli per block = 16 trials, zero repetitions
+  nonce_words: [lanch, sowdy, twnia, holky, betie, rores, molil, blira, volil, veail,
+                agrve, sange, camby, longo, relal, buits, pluic, rosth, tajok, crale,
+                edapt, busee, widge, cooax, cloul, kinge, liste, enjon, nouts, houte,
+                gomby, yaved, patse, sland, admpe, yexts, bineu, pargy, evinc, doody]
+
+# --- Models and run settings (python -m bcl.run) ------------------------------
+
+models:
+  - name: gemma4:26b           # the name the backend knows the model by
+    backend: ollama            # ollama | openai
+    think: false               # thinking mode: false required when reading first-token logprobs
+    extra_body: null           # extra fields added to every request for this model, or null
+
+run:
+  results_file: data/bcl/results.jsonl
+  timeout_seconds: 300         # give up on one request after this long
+  temperature: 0.0             # greedy decoding for each trial's yes/no answer
+  max_tokens: 4                # maximum tokens per trial reply
+  top_logprobs: 20             # token alternatives requested (1 to 20, or 0 to disable)
+
+backends:
+  ollama:
+    base_url: http://localhost:11434   # Ollama server URL
+    options: {num_ctx: 8192}           # Ollama options sent with every request
+    reuse_cache: true                  # keep KV cache across all turns of a block
+  openai:
+    base_url_env: OPENAI_BASE_URL
+    api_key_env: OPENAI_API_KEY
+
+# --- Scores (python -m bcl.score) ---------------------------------------------
+
+scores:
+  bootstrap_samples: 2000      # times blocks are resampled to get each interval
+  interval: 0.95               # coverage of the intervals

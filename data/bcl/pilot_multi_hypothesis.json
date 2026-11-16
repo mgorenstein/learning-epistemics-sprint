@@ -1,0 +1,5657 @@
+[
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 1,
+    "truth": true,
+    "bayes_p_yes": 0.3536273186710261,
+    "fitted_3p_p_yes": 0.45708365882919755,
+    "fitted_1p_p_yes": 0.37685545168924955,
+    "base_correct": true,
+    "base_p_yes": 0.9893779042353155,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.14563146036206365,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 2.6876515095190063e-07,
+    "m2_tok_p_yes": 2.6876515095190063e-07,
+    "m2_n_rules": 1,
+    "m2_items": [
+      [
+        1,
+        "guessing",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 2,
+    "truth": false,
+    "bayes_p_yes": 0.33012172635658765,
+    "fitted_3p_p_yes": 0.491919717684198,
+    "fitted_1p_p_yes": 0.36124366788883117,
+    "base_correct": true,
+    "base_p_yes": 0.07940068371194901,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.5,
+    "m1_rb_p_yes": 0.500231590993661,
+    "m1_unique_rules": 4,
+    "m2_correct": false,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9966745571736259,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "all objects are sange",
+        true
+      ],
+      [
+        2,
+        "red objects are sange",
+        true
+      ],
+      [
+        3,
+        "circles are sange",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 3,
+    "truth": true,
+    "bayes_p_yes": 0.599937965986333,
+    "fitted_3p_p_yes": 0.6519149855726558,
+    "fitted_1p_p_yes": 0.5476606850162044,
+    "base_correct": true,
+    "base_p_yes": 0.9999999583370295,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999998396684705,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.7272727272727273,
+    "m2_tok_p_yes": 0.9999999836807063,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        true
+      ],
+      [
+        2,
+        "shape is circle",
+        false
+      ],
+      [
+        3,
+        "color is not yellow",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 4,
+    "truth": false,
+    "bayes_p_yes": 0.1812015132521717,
+    "fitted_3p_p_yes": 0.303821950796196,
+    "fitted_1p_p_yes": 0.24251447777076665,
+    "base_correct": true,
+    "base_p_yes": 3.1954965466184655e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 6.324670154973203e-07,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.18181818181818182,
+    "m2_tok_p_yes": 1.3701296851203854e-07,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is circle or triangle",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is square",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 5,
+    "truth": false,
+    "bayes_p_yes": 0.24648885695238654,
+    "fitted_3p_p_yes": 0.5743002744603447,
+    "fitted_1p_p_yes": 0.33009841851910815,
+    "base_correct": true,
+    "base_p_yes": 1.1071560857457107e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.3014376199707536e-06,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.45454545454545453,
+    "m2_tok_p_yes": 0.00015744291653812398,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle",
+        true
+      ],
+      [
+        3,
+        "color is red or shape is triangle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 6,
+    "truth": false,
+    "bayes_p_yes": 0.025090465405043793,
+    "fitted_3p_p_yes": 0.24080994440575737,
+    "fitted_1p_p_yes": 0.12677879899335642,
+    "base_correct": true,
+    "base_p_yes": 8.141738315105895e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 6.639432482518837e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.140701997290888e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 7,
+    "truth": false,
+    "bayes_p_yes": 0.005602961829082811,
+    "fitted_3p_p_yes": 0.10131364763214969,
+    "fitted_1p_p_yes": 0.09186939074330752,
+    "base_correct": true,
+    "base_p_yes": 8.028747746545084e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 7.84088464634674e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.4554475144192686e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 8,
+    "truth": true,
+    "bayes_p_yes": 0.9857587126504085,
+    "fitted_3p_p_yes": 0.7319185198175507,
+    "fitted_1p_p_yes": 0.8314920752791398,
+    "base_correct": true,
+    "base_p_yes": 0.9999906301937606,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9998762542524671,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.5454545454545455,
+    "m2_tok_p_yes": 0.9999999927685023,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        true
+      ],
+      [
+        2,
+        "shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is red and shape is triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 9,
+    "truth": false,
+    "bayes_p_yes": 0.005285122762181472,
+    "fitted_3p_p_yes": 0.07339337318228716,
+    "fitted_1p_p_yes": 0.08637645533868292,
+    "base_correct": true,
+    "base_p_yes": 1.5929016693966896e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 5.247406548028348e-07,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.45454545454545453,
+    "m2_tok_p_yes": 9.356554253359563e-05,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle",
+        true
+      ],
+      [
+        3,
+        "color is red or shape is triangle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 10,
+    "truth": false,
+    "bayes_p_yes": 0.005305108302336656,
+    "fitted_3p_p_yes": 0.06350132943882918,
+    "fitted_1p_p_yes": 0.0860013924737539,
+    "base_correct": true,
+    "base_p_yes": 4.531222381421089e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.1508994187246996e-07,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 4.4312783939080417e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle or square",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 11,
+    "truth": false,
+    "bayes_p_yes": 0.005156029637564524,
+    "fitted_3p_p_yes": 0.04760181824224954,
+    "fitted_1p_p_yes": 0.0841358094582803,
+    "base_correct": true,
+    "base_p_yes": 3.1662790059513166e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 7.555878853634645e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.45454545454545453,
+    "m2_tok_p_yes": 2.5755547357906107e-05,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle",
+        true
+      ],
+      [
+        3,
+        "color is red or shape is triangle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 12,
+    "truth": true,
+    "bayes_p_yes": 0.9914092305074911,
+    "fitted_3p_p_yes": 0.894632606593395,
+    "fitted_1p_p_yes": 0.9059009444422469,
+    "base_correct": true,
+    "base_p_yes": 0.9999999304843687,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9998191551394986,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.5454545454545455,
+    "m2_tok_p_yes": 0.9999999990461652,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        true
+      ],
+      [
+        2,
+        "shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is red and shape is triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 13,
+    "truth": false,
+    "bayes_p_yes": 0.01989775793612987,
+    "fitted_3p_p_yes": 0.16221616642869555,
+    "fitted_1p_p_yes": 0.09672465300181418,
+    "base_correct": true,
+    "base_p_yes": 5.3383413589407914e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.9651620672713945e-08,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.18181818181818182,
+    "m2_tok_p_yes": 7.706369735173786e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle or diamond",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is circle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 14,
+    "truth": false,
+    "bayes_p_yes": 0.005158189025509579,
+    "fitted_3p_p_yes": 0.050692465484102354,
+    "fitted_1p_p_yes": 0.08398419582444308,
+    "base_correct": true,
+    "base_p_yes": 2.4468496116623834e-09,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 5.064160163816345e-07,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 5.924527961053857e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle or diamond",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 15,
+    "truth": false,
+    "bayes_p_yes": 0.005279615229182764,
+    "fitted_3p_p_yes": 0.07133280111965806,
+    "fitted_1p_p_yes": 0.08494455200239139,
+    "base_correct": true,
+    "base_p_yes": 1.930946319427189e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.3437359082230916e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 5.6550681159277e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle or diamond",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red-000",
+    "concept": "red",
+    "trial": 16,
+    "truth": false,
+    "bayes_p_yes": 0.005157386770629991,
+    "fitted_3p_p_yes": 0.04894882730330642,
+    "fitted_1p_p_yes": 0.0838186394633785,
+    "base_correct": true,
+    "base_p_yes": 2.325733171087242e-09,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.4209276970624075e-08,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 6.9501937979133475e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle or diamond",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 1,
+    "truth": true,
+    "bayes_p_yes": 0.35362731867102615,
+    "fitted_3p_p_yes": 0.45708365882919755,
+    "fitted_1p_p_yes": 0.37685545168924944,
+    "base_correct": true,
+    "base_p_yes": 0.9422187926488943,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.25,
+    "m1_rb_p_yes": 0.07785620280184699,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 4.274415983889254e-07,
+    "m2_tok_p_yes": 4.274415983889254e-07,
+    "m2_n_rules": 1,
+    "m2_items": [
+      [
+        1,
+        "guessing",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 2,
+    "truth": false,
+    "bayes_p_yes": 0.33012172635658765,
+    "fitted_3p_p_yes": 0.491919717684198,
+    "fitted_1p_p_yes": 0.36124366788883117,
+    "base_correct": false,
+    "base_p_yes": 0.9495545016915627,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.0004887976904207331,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.8181818181818182,
+    "m2_tok_p_yes": 0.3302011963692118,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue or triangle",
+        true
+      ],
+      [
+        2,
+        "blue or diamond",
+        true
+      ],
+      [
+        3,
+        "triangle or diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 3,
+    "truth": true,
+    "bayes_p_yes": 0.5999379659863329,
+    "fitted_3p_p_yes": 0.6519149855726558,
+    "fitted_1p_p_yes": 0.5476606850162042,
+    "base_correct": true,
+    "base_p_yes": 0.9999917050868252,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999967451268493,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999969957752118,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue or triangle",
+        true
+      ],
+      [
+        2,
+        "blue",
+        true
+      ],
+      [
+        3,
+        "triangle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 4,
+    "truth": true,
+    "bayes_p_yes": 0.9672300584286688,
+    "fitted_3p_p_yes": 0.8209023799155764,
+    "fitted_1p_p_yes": 0.8009088820865843,
+    "base_correct": true,
+    "base_p_yes": 0.9999999503079567,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999983132970129,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.8181818181818182,
+    "m2_tok_p_yes": 0.9999999972872053,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue",
+        true
+      ],
+      [
+        2,
+        "blue or triangle",
+        true
+      ],
+      [
+        3,
+        "blue and circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 5,
+    "truth": false,
+    "bayes_p_yes": 0.34993949496692783,
+    "fitted_3p_p_yes": 0.6131953957774245,
+    "fitted_1p_p_yes": 0.38348799766688235,
+    "base_correct": true,
+    "base_p_yes": 3.412040225105134e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 7.232547125081486e-08,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.984396404368419e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue",
+        false
+      ],
+      [
+        2,
+        "triangle",
+        false
+      ],
+      [
+        3,
+        "blue or triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 6,
+    "truth": false,
+    "bayes_p_yes": 0.05181501629947452,
+    "fitted_3p_p_yes": 0.48728190958309464,
+    "fitted_1p_p_yes": 0.17897969108338974,
+    "base_correct": true,
+    "base_p_yes": 6.798471239407127e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.6265957694539094e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.18181818181818182,
+    "m2_tok_p_yes": 3.601046402924681e-07,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue",
+        false
+      ],
+      [
+        2,
+        "blue or triangle",
+        false
+      ],
+      [
+        3,
+        "blue or circle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 7,
+    "truth": false,
+    "bayes_p_yes": 0.02010365027129073,
+    "fitted_3p_p_yes": 0.2284135744851968,
+    "fitted_1p_p_yes": 0.11100027527926154,
+    "base_correct": true,
+    "base_p_yes": 1.6916938790250513e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.3131863775128665e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.7272727272727273,
+    "m2_tok_p_yes": 0.9999902729587078,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue or triangle",
+        true
+      ],
+      [
+        2,
+        "blue",
+        false
+      ],
+      [
+        3,
+        "triangle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 8,
+    "truth": false,
+    "bayes_p_yes": 0.005587366246456065,
+    "fitted_3p_p_yes": 0.12294867596790668,
+    "fitted_1p_p_yes": 0.09010796369421091,
+    "base_correct": true,
+    "base_p_yes": 1.2434491205758232e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 7.2152317726091976e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.758437467459968e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue",
+        false
+      ],
+      [
+        2,
+        "blue and circle",
+        false
+      ],
+      [
+        3,
+        "blue and square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 9,
+    "truth": false,
+    "bayes_p_yes": 0.005279283740664252,
+    "fitted_3p_p_yes": 0.06146605832307444,
+    "fitted_1p_p_yes": 0.08534093099299367,
+    "base_correct": true,
+    "base_p_yes": 3.223989819005049e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.161668029902428e-07,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.999461711564068e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue and circle",
+        false
+      ],
+      [
+        2,
+        "blue and square",
+        false
+      ],
+      [
+        3,
+        "blue and diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 10,
+    "truth": false,
+    "bayes_p_yes": 0.005309638278370599,
+    "fitted_3p_p_yes": 0.0689219329218571,
+    "fitted_1p_p_yes": 0.08603850094281314,
+    "base_correct": true,
+    "base_p_yes": 2.620075510535416e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.5323755196182813e-06,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.4469782264297053e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue and circle",
+        false
+      ],
+      [
+        2,
+        "blue and square",
+        false
+      ],
+      [
+        3,
+        "blue and diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 11,
+    "truth": false,
+    "bayes_p_yes": 0.005158329729737734,
+    "fitted_3p_p_yes": 0.050144284108317644,
+    "fitted_1p_p_yes": 0.08412756808801287,
+    "base_correct": true,
+    "base_p_yes": 1.548298212271738e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.630094398198014e-08,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.6812356239420708e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue and circle",
+        false
+      ],
+      [
+        2,
+        "blue and square",
+        false
+      ],
+      [
+        3,
+        "blue and diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 12,
+    "truth": false,
+    "bayes_p_yes": 0.00528051663841867,
+    "fitted_3p_p_yes": 0.07352055755056809,
+    "fitted_1p_p_yes": 0.0857522682920529,
+    "base_correct": true,
+    "base_p_yes": 4.00154224127969e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.3875057428475505e-07,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.4753217770652834e-07,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue and circle",
+        false
+      ],
+      [
+        2,
+        "blue and square",
+        false
+      ],
+      [
+        3,
+        "blue and diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 13,
+    "truth": false,
+    "bayes_p_yes": 0.005279040161345066,
+    "fitted_3p_p_yes": 0.06846452876683612,
+    "fitted_1p_p_yes": 0.08555199226501548,
+    "base_correct": true,
+    "base_p_yes": 1.459516010844963e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 4.510189057299418e-08,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.0636736569977336e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue and circle",
+        false
+      ],
+      [
+        2,
+        "blue or circle",
+        false
+      ],
+      [
+        3,
+        "blue and square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 14,
+    "truth": false,
+    "bayes_p_yes": 0.005156809794296307,
+    "fitted_3p_p_yes": 0.04630488842764934,
+    "fitted_1p_p_yes": 0.08388673877063216,
+    "base_correct": true,
+    "base_p_yes": 5.42939112990065e-09,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.106264278990739e-08,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.1753824132550143e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue and circle",
+        false
+      ],
+      [
+        2,
+        "blue or circle",
+        false
+      ],
+      [
+        3,
+        "blue and square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 15,
+    "truth": true,
+    "bayes_p_yes": 0.9914284074998259,
+    "fitted_3p_p_yes": 0.9018925627149741,
+    "fitted_1p_p_yes": 0.9127396864746153,
+    "base_correct": true,
+    "base_p_yes": 0.9999999102644153,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.999998461096348,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9997298104304391,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue and circle",
+        true
+      ],
+      [
+        2,
+        "blue and not triangle",
+        true
+      ],
+      [
+        3,
+        "blue and not diamond",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue-000",
+    "concept": "blue",
+    "trial": 16,
+    "truth": false,
+    "bayes_p_yes": 0.005157386770629991,
+    "fitted_3p_p_yes": 0.04894882730330646,
+    "fitted_1p_p_yes": 0.0838186394633785,
+    "base_correct": true,
+    "base_p_yes": 4.002733002394948e-09,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 8.4086658344901e-09,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.9843395774747756e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue",
+        false
+      ],
+      [
+        2,
+        "blue and (circle or diamond)",
+        false
+      ],
+      [
+        3,
+        "blue and not triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 1,
+    "truth": false,
+    "bayes_p_yes": 0.35362731867102615,
+    "fitted_3p_p_yes": 0.45708365882919755,
+    "fitted_1p_p_yes": 0.37685545168924955,
+    "base_correct": true,
+    "base_p_yes": 0.37843768799154925,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.03631281175456461,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.9277020325913937,
+    "m2_tok_p_yes": 0.9277020325913937,
+    "m2_n_rules": 1,
+    "m2_items": [
+      [
+        1,
+        "guessing",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 2,
+    "truth": true,
+    "bayes_p_yes": 0.19097674049319394,
+    "fitted_3p_p_yes": 0.259912866925152,
+    "fitted_1p_p_yes": 0.2574401094723032,
+    "base_correct": false,
+    "base_p_yes": 0.015579688348235149,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.020281914082499908,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999843900924396,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is not yellow",
+        true
+      ],
+      [
+        2,
+        "shape is not diamond",
+        true
+      ],
+      [
+        3,
+        "color is red, blue, or green",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 3,
+    "truth": false,
+    "bayes_p_yes": 0.03492877990846755,
+    "fitted_3p_p_yes": 0.24858747886705163,
+    "fitted_1p_p_yes": 0.19110972906991386,
+    "base_correct": true,
+    "base_p_yes": 1.9822049939724323e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.0002583714797615096,
+    "m1_unique_rules": 4,
+    "m2_correct": false,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.999999241511942,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is not yellow",
+        true
+      ],
+      [
+        2,
+        "shape is not diamond",
+        true
+      ],
+      [
+        3,
+        "color is red or blue",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 4,
+    "truth": false,
+    "bayes_p_yes": 0.22011760010408082,
+    "fitted_3p_p_yes": 0.4238158897077955,
+    "fitted_1p_p_yes": 0.3071580476139867,
+    "base_correct": false,
+    "base_p_yes": 0.9999065309618762,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.75,
+    "m1_rb_p_yes": 0.7473272127170435,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.7352254494452985e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        false
+      ],
+      [
+        2,
+        "color is blue or green",
+        false
+      ],
+      [
+        3,
+        "shape is not diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 5,
+    "truth": true,
+    "bayes_p_yes": 0.9593436365051389,
+    "fitted_3p_p_yes": 0.6105031703652188,
+    "fitted_1p_p_yes": 0.7050987678565483,
+    "base_correct": true,
+    "base_p_yes": 0.9999989355646169,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.0016291668775962002,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.999999976147006,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        true
+      ],
+      [
+        2,
+        "color is not yellow and shape is not diamond",
+        true
+      ],
+      [
+        3,
+        "color is red and shape is square",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 6,
+    "truth": true,
+    "bayes_p_yes": 0.9910069866785981,
+    "fitted_3p_p_yes": 0.8733005015693869,
+    "fitted_1p_p_yes": 0.8872396761042091,
+    "base_correct": true,
+    "base_p_yes": 0.9999999807531563,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.0003333993677168313,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999953747625,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        true
+      ],
+      [
+        2,
+        "color is not yellow and shape is square",
+        true
+      ],
+      [
+        3,
+        "color is red and shape is square",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 7,
+    "truth": false,
+    "bayes_p_yes": 0.03151959899269217,
+    "fitted_3p_p_yes": 0.27023834915160366,
+    "fitted_1p_p_yes": 0.12822028223188991,
+    "base_correct": true,
+    "base_p_yes": 7.470747998701006e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.2009535140453873e-06,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.0400687501148095e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        false
+      ],
+      [
+        2,
+        "color is not yellow",
+        false
+      ],
+      [
+        3,
+        "color is blue or red and shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 8,
+    "truth": false,
+    "bayes_p_yes": 0.020480316189668554,
+    "fitted_3p_p_yes": 0.17629065021492496,
+    "fitted_1p_p_yes": 0.10135561454898478,
+    "base_correct": true,
+    "base_p_yes": 4.6811512340211786e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 7.993530763561907e-05,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 3.9226035476151034e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        false
+      ],
+      [
+        2,
+        "color is not yellow and shape is square",
+        false
+      ],
+      [
+        3,
+        "color is not red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 9,
+    "truth": false,
+    "bayes_p_yes": 0.020061508860740197,
+    "fitted_3p_p_yes": 0.20430741269679473,
+    "fitted_1p_p_yes": 0.10522775372115994,
+    "base_correct": true,
+    "base_p_yes": 9.343544331216909e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.2819289734518596e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.5442796150201566e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        false
+      ],
+      [
+        2,
+        "color is not yellow and shape is square",
+        false
+      ],
+      [
+        3,
+        "color is blue or red and shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 10,
+    "truth": true,
+    "bayes_p_yes": 0.991430943536304,
+    "fitted_3p_p_yes": 0.913125572969764,
+    "fitted_1p_p_yes": 0.9119589031366966,
+    "base_correct": true,
+    "base_p_yes": 0.9999999987580821,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9998973644332755,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.8181818181818182,
+    "m2_tok_p_yes": 0.9999999995360778,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        true
+      ],
+      [
+        2,
+        "color is not yellow and shape is square",
+        true
+      ],
+      [
+        3,
+        "color is not red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 11,
+    "truth": false,
+    "bayes_p_yes": 0.005158115079305252,
+    "fitted_3p_p_yes": 0.04778589906408316,
+    "fitted_1p_p_yes": 0.08402301851777884,
+    "base_correct": true,
+    "base_p_yes": 1.5908271583464408e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.979961462233736e-08,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 4.988448481268765e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        false
+      ],
+      [
+        2,
+        "color is not yellow",
+        false
+      ],
+      [
+        3,
+        "color is not red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 12,
+    "truth": false,
+    "bayes_p_yes": 0.0052803580373582334,
+    "fitted_3p_p_yes": 0.06985808045587902,
+    "fitted_1p_p_yes": 0.08513780228208061,
+    "base_correct": true,
+    "base_p_yes": 1.561290149388944e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.915529549281773e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.634768923254068e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        false
+      ],
+      [
+        2,
+        "color is not yellow and shape is square",
+        false
+      ],
+      [
+        3,
+        "color is blue and shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 13,
+    "truth": false,
+    "bayes_p_yes": 0.00528039822697135,
+    "fitted_3p_p_yes": 0.07272723893313184,
+    "fitted_1p_p_yes": 0.08511224523713529,
+    "base_correct": true,
+    "base_p_yes": 1.4242549940170777e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 4.672595825075871e-06,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 8.421154591718734e-11,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        false
+      ],
+      [
+        2,
+        "color is not yellow and shape is square",
+        false
+      ],
+      [
+        3,
+        "color is blue or green and shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 14,
+    "truth": false,
+    "bayes_p_yes": 0.005157336999366433,
+    "fitted_3p_p_yes": 0.0464582320185957,
+    "fitted_1p_p_yes": 0.08381906835448875,
+    "base_correct": true,
+    "base_p_yes": 3.3783211507759933e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 4.832339060370309e-07,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 3.909500625785531e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        false
+      ],
+      [
+        2,
+        "color is not yellow and shape is square",
+        false
+      ],
+      [
+        3,
+        "color is blue and shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 15,
+    "truth": false,
+    "bayes_p_yes": 0.005157361881062302,
+    "fitted_3p_p_yes": 0.047630168552394055,
+    "fitted_1p_p_yes": 0.08381884622703095,
+    "base_correct": true,
+    "base_p_yes": 1.665733476102692e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 6.788348031708923e-08,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.1674835321530085e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        false
+      ],
+      [
+        2,
+        "color is not yellow and shape is square",
+        false
+      ],
+      [
+        3,
+        "color is blue or green and shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "square-000",
+    "concept": "square",
+    "trial": 16,
+    "truth": false,
+    "bayes_p_yes": 0.005157386770629993,
+    "fitted_3p_p_yes": 0.04894882730330646,
+    "fitted_1p_p_yes": 0.0838186394633785,
+    "base_correct": true,
+    "base_p_yes": 9.42487235480328e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.5863178736787876e-05,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 3.0252429427037103e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        false
+      ],
+      [
+        2,
+        "color is not yellow and shape is square",
+        false
+      ],
+      [
+        3,
+        "color is blue or green and shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 1,
+    "truth": false,
+    "bayes_p_yes": 0.3536273186710261,
+    "fitted_3p_p_yes": 0.45708365882919755,
+    "fitted_1p_p_yes": 0.37685545168924955,
+    "base_correct": true,
+    "base_p_yes": 0.30603604191085004,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.011771888060477315,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.8935799558869194,
+    "m2_tok_p_yes": 0.8935799558869194,
+    "m2_n_rules": 1,
+    "m2_items": [
+      [
+        1,
+        "guessing",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 2,
+    "truth": false,
+    "bayes_p_yes": 0.36648711275583556,
+    "fitted_3p_p_yes": 0.4254325187979905,
+    "fitted_1p_p_yes": 0.38629689806269607,
+    "base_correct": true,
+    "base_p_yes": 0.09073701041593997,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.03560994646661099,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 6.058559443165614e-07,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is not yellow",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 3,
+    "truth": false,
+    "bayes_p_yes": 0.2314358282539386,
+    "fitted_3p_p_yes": 0.2458780829418358,
+    "fitted_1p_p_yes": 0.2847260730774282,
+    "base_correct": true,
+    "base_p_yes": 0.0005250958695750882,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.009456465407612108,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.8181818181818182,
+    "m2_tok_p_yes": 0.9999443409722639,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is triangle",
+        true
+      ],
+      [
+        2,
+        "color is green",
+        true
+      ],
+      [
+        3,
+        "shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 4,
+    "truth": false,
+    "bayes_p_yes": 0.012149082272412988,
+    "fitted_3p_p_yes": 0.07872696863987823,
+    "fitted_1p_p_yes": 0.11145446032854389,
+    "base_correct": true,
+    "base_p_yes": 0.01732201145073161,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.125,
+    "m1_rb_p_yes": 0.0986686799921204,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.5454545454545455,
+    "m2_tok_p_yes": 0.9999883297457248,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is yellow",
+        true
+      ],
+      [
+        2,
+        "shape is square",
+        false
+      ],
+      [
+        3,
+        "color is green",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 5,
+    "truth": true,
+    "bayes_p_yes": 0.2947858484863828,
+    "fitted_3p_p_yes": 0.2690500777491761,
+    "fitted_1p_p_yes": 0.3330077839067792,
+    "base_correct": false,
+    "base_p_yes": 0.0025386196375843436,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.0020376019589529227,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.5293855002120115e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        false
+      ],
+      [
+        2,
+        "color is blue",
+        false
+      ],
+      [
+        3,
+        "color is green and shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 6,
+    "truth": true,
+    "bayes_p_yes": 0.9524411455285697,
+    "fitted_3p_p_yes": 0.5116003259954389,
+    "fitted_1p_p_yes": 0.6993482742552544,
+    "base_correct": false,
+    "base_p_yes": 8.737788103897837e-07,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 6.929504029608244e-08,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.7272727272727273,
+    "m2_tok_p_yes": 0.9999868827498672,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        true
+      ],
+      [
+        2,
+        "color is green",
+        false
+      ],
+      [
+        3,
+        "shape is not triangle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 7,
+    "truth": false,
+    "bayes_p_yes": 0.006687569036087707,
+    "fitted_3p_p_yes": 0.11169653038419657,
+    "fitted_1p_p_yes": 0.10578678494494749,
+    "base_correct": true,
+    "base_p_yes": 1.1783343229265876e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.0575163545964614e-07,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.54777554559451e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        false
+      ],
+      [
+        2,
+        "color is yellow",
+        false
+      ],
+      [
+        3,
+        "color is green",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 8,
+    "truth": true,
+    "bayes_p_yes": 0.9909377618739693,
+    "fitted_3p_p_yes": 0.8256079322599811,
+    "fitted_1p_p_yes": 0.8866276239582476,
+    "base_correct": true,
+    "base_p_yes": 0.9992994180039717,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.125,
+    "m1_rb_p_yes": 0.11177696475961618,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.5454545454545455,
+    "m2_tok_p_yes": 0.9997828068876886,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        true
+      ],
+      [
+        2,
+        "color is yellow or green",
+        false
+      ],
+      [
+        3,
+        "shape is circle and color is not red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 9,
+    "truth": false,
+    "bayes_p_yes": 0.005282608003858751,
+    "fitted_3p_p_yes": 0.06667092873079095,
+    "fitted_1p_p_yes": 0.08752070681021502,
+    "base_correct": true,
+    "base_p_yes": 6.075984137206625e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.638536076341045e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.18181818181818182,
+    "m2_tok_p_yes": 3.943234609334755e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        false
+      ],
+      [
+        2,
+        "color is green and shape is circle",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is circle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 10,
+    "truth": false,
+    "bayes_p_yes": 0.02983801296406927,
+    "fitted_3p_p_yes": 0.18793201977965834,
+    "fitted_1p_p_yes": 0.10551961044821015,
+    "base_correct": true,
+    "base_p_yes": 1.8795543084598354e-06,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 7.817043512219681e-05,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.2577496244446479e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        false
+      ],
+      [
+        2,
+        "color is red or yellow",
+        false
+      ],
+      [
+        3,
+        "color is green or shape is circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 11,
+    "truth": false,
+    "bayes_p_yes": 0.01984419412560337,
+    "fitted_3p_p_yes": 0.13617259547707988,
+    "fitted_1p_p_yes": 0.09672380660997486,
+    "base_correct": true,
+    "base_p_yes": 1.218227713180799e-06,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.6451293782030253e-06,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 3.993361205961736e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        false
+      ],
+      [
+        2,
+        "color is red or yellow",
+        false
+      ],
+      [
+        3,
+        "color is green or red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 12,
+    "truth": false,
+    "bayes_p_yes": 0.005427810723117506,
+    "fitted_3p_p_yes": 0.09303228633112767,
+    "fitted_1p_p_yes": 0.08693852219366173,
+    "base_correct": true,
+    "base_p_yes": 2.35238214264783e-06,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.082788271710832e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.2449334755836273e-07,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        false
+      ],
+      [
+        2,
+        "color is red or yellow",
+        false
+      ],
+      [
+        3,
+        "color is green or blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 13,
+    "truth": true,
+    "bayes_p_yes": 0.9914288668302753,
+    "fitted_3p_p_yes": 0.9057822481704051,
+    "fitted_1p_p_yes": 0.9126504498852912,
+    "base_correct": true,
+    "base_p_yes": 0.9980102072160922,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.125,
+    "m1_rb_p_yes": 0.15735109100850547,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999994440001,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        true
+      ],
+      [
+        2,
+        "color is not yellow or red",
+        true
+      ],
+      [
+        3,
+        "color is blue or green",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 14,
+    "truth": false,
+    "bayes_p_yes": 0.005158208347738204,
+    "fitted_3p_p_yes": 0.051757053933465434,
+    "fitted_1p_p_yes": 0.0839839595854818,
+    "base_correct": true,
+    "base_p_yes": 1.7892149081846244e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 4.255595199145993e-08,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.578488229254409e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        false
+      ],
+      [
+        2,
+        "color is blue or red and shape is circle",
+        false
+      ],
+      [
+        3,
+        "color is green and shape is circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 15,
+    "truth": false,
+    "bayes_p_yes": 0.005157361881062302,
+    "fitted_3p_p_yes": 0.047630168552394055,
+    "fitted_1p_p_yes": 0.08381884622703095,
+    "base_correct": true,
+    "base_p_yes": 1.4758664665035973e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.6619049378925457e-07,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.6095500102706533e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        false
+      ],
+      [
+        2,
+        "color is red or blue",
+        false
+      ],
+      [
+        3,
+        "color is green and shape is circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "circle-000",
+    "concept": "circle",
+    "trial": 16,
+    "truth": false,
+    "bayes_p_yes": 0.005157386770629993,
+    "fitted_3p_p_yes": 0.04894882730330646,
+    "fitted_1p_p_yes": 0.0838186394633785,
+    "base_correct": true,
+    "base_p_yes": 2.685593929754226e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.8609236036085923e-06,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 3.5627399652928407e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is circle",
+        false
+      ],
+      [
+        2,
+        "color is blue or red and shape is circle",
+        false
+      ],
+      [
+        3,
+        "color is green or blue and shape is circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 1,
+    "truth": false,
+    "bayes_p_yes": 0.35362731867102615,
+    "fitted_3p_p_yes": 0.45708365882919755,
+    "fitted_1p_p_yes": 0.37685545168924955,
+    "base_correct": true,
+    "base_p_yes": 0.3903843424284579,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.17259824641492533,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.9953924479011625,
+    "m2_tok_p_yes": 0.9953924479011625,
+    "m2_n_rules": 1,
+    "m2_items": [
+      [
+        1,
+        "guessing",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 2,
+    "truth": false,
+    "bayes_p_yes": 0.3664871127558356,
+    "fitted_3p_p_yes": 0.4254325187979905,
+    "fitted_1p_p_yes": 0.3862968980626961,
+    "base_correct": true,
+    "base_p_yes": 0.04873605675459434,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.875,
+    "m1_rb_p_yes": 0.8978964656371679,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9974500079427417,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue or square",
+        true
+      ],
+      [
+        2,
+        "not green or not diamond",
+        true
+      ],
+      [
+        3,
+        "blue or not diamond",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 3,
+    "truth": false,
+    "bayes_p_yes": 0.23143582825393866,
+    "fitted_3p_p_yes": 0.2458780829418358,
+    "fitted_1p_p_yes": 0.28472607307742814,
+    "base_correct": true,
+    "base_p_yes": 0.0005877357005901119,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.625,
+    "m1_rb_p_yes": 0.540885958980508,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.2794883584348957e-05,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red or triangle",
+        false
+      ],
+      [
+        2,
+        "green or square",
+        false
+      ],
+      [
+        3,
+        "blue or diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 4,
+    "truth": false,
+    "bayes_p_yes": 0.2863294549756545,
+    "fitted_3p_p_yes": 0.185126264075847,
+    "fitted_1p_p_yes": 0.3021137953688875,
+    "base_correct": true,
+    "base_p_yes": 0.004183309855902474,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.03639923292353158,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.784822073113915e-06,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is triangle",
+        false
+      ],
+      [
+        2,
+        "color is red",
+        false
+      ],
+      [
+        3,
+        "shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 5,
+    "truth": false,
+    "bayes_p_yes": 0.020084062840471366,
+    "fitted_3p_p_yes": 0.13539159509273996,
+    "fitted_1p_p_yes": 0.14859014964281364,
+    "base_correct": true,
+    "base_p_yes": 0.0004138837990357734,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.00037856037629185093,
+    "m1_unique_rules": 2,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.8181818181818182,
+    "m2_tok_p_yes": 0.9999923666983256,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is square",
+        true
+      ],
+      [
+        2,
+        "color is green",
+        true
+      ],
+      [
+        3,
+        "color is blue or shape is triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 6,
+    "truth": false,
+    "bayes_p_yes": 0.014795761444799774,
+    "fitted_3p_p_yes": 0.07202880887089042,
+    "fitted_1p_p_yes": 0.11694551027377191,
+    "base_correct": true,
+    "base_p_yes": 0.001868614569129896,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.25,
+    "m1_rb_p_yes": 0.5801846757786566,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 8.977594396141534e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is diamond",
+        false
+      ],
+      [
+        2,
+        "color is green",
+        false
+      ],
+      [
+        3,
+        "shape is square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 7,
+    "truth": false,
+    "bayes_p_yes": 0.40807335919219406,
+    "fitted_3p_p_yes": 0.3058273863884985,
+    "fitted_1p_p_yes": 0.42414610178490403,
+    "base_correct": true,
+    "base_p_yes": 0.2791369740142147,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.00143823504949833,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 7.633003307222257e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is green or blue",
+        false
+      ],
+      [
+        2,
+        "shape is square",
+        false
+      ],
+      [
+        3,
+        "color is yellow",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 8,
+    "truth": true,
+    "bayes_p_yes": 0.021600461975452432,
+    "fitted_3p_p_yes": 0.10312150308665345,
+    "fitted_1p_p_yes": 0.14158597994072877,
+    "base_correct": false,
+    "base_p_yes": 0.00012197179125807351,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.05678358195616993,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.2953347386519472e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is green",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 9,
+    "truth": false,
+    "bayes_p_yes": 0.2721102748382092,
+    "fitted_3p_p_yes": 0.3000498918160075,
+    "fitted_1p_p_yes": 0.4103623224336186,
+    "base_correct": false,
+    "base_p_yes": 0.9630466636753988,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.5,
+    "m1_rb_p_yes": 0.5005257633386022,
+    "m1_unique_rules": 4,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.655608266350123e-06,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red and shape is square",
+        false
+      ],
+      [
+        2,
+        "color is red and shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is red and shape is diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 10,
+    "truth": false,
+    "bayes_p_yes": 0.008454666772099606,
+    "fitted_3p_p_yes": 0.05641217170057936,
+    "fitted_1p_p_yes": 0.09905869954743539,
+    "base_correct": true,
+    "base_p_yes": 3.289465477279963e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 4.069813257973955e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.5593311142379315e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red and shape is square",
+        false
+      ],
+      [
+        2,
+        "color is red and shape is not triangle",
+        false
+      ],
+      [
+        3,
+        "shape is square and color is not blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 11,
+    "truth": false,
+    "bayes_p_yes": 0.008416792049683961,
+    "fitted_3p_p_yes": 0.04935047564984951,
+    "fitted_1p_p_yes": 0.09543064513879107,
+    "base_correct": true,
+    "base_p_yes": 1.6859327238356403e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 4.716703940936498e-06,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.26076573964822e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red and shape is square",
+        false
+      ],
+      [
+        2,
+        "color is red and shape is not triangle",
+        false
+      ],
+      [
+        3,
+        "shape is square and color is not blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 12,
+    "truth": false,
+    "bayes_p_yes": 0.22001078969618804,
+    "fitted_3p_p_yes": 0.23416541408851696,
+    "fitted_1p_p_yes": 0.5411359620365834,
+    "base_correct": true,
+    "base_p_yes": 3.841273970059772e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.0015847851130054e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 4.3491807716896094e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red and shape is square",
+        false
+      ],
+      [
+        2,
+        "color is red and shape is not triangle",
+        false
+      ],
+      [
+        3,
+        "shape is square and color is not blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 13,
+    "truth": false,
+    "bayes_p_yes": 0.02425352048668482,
+    "fitted_3p_p_yes": 0.20143032288026266,
+    "fitted_1p_p_yes": 0.2721840277845978,
+    "base_correct": true,
+    "base_p_yes": 0.004914160030041542,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.5,
+    "m1_rb_p_yes": 0.5609684308028552,
+    "m1_unique_rules": 3,
+    "m2_correct": false,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999992543526204,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red and shape is circle",
+        true
+      ],
+      [
+        2,
+        "color is red and shape is square",
+        true
+      ],
+      [
+        3,
+        "shape is square and color is red",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 14,
+    "truth": false,
+    "bayes_p_yes": 0.00948184068268884,
+    "fitted_3p_p_yes": 0.07657587822189334,
+    "fitted_1p_p_yes": 0.12251126335483266,
+    "base_correct": true,
+    "base_p_yes": 1.2518567585549122e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.1346516251308881e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.3427265133516439e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red and shape is square",
+        false
+      ],
+      [
+        2,
+        "color is red and shape is not triangle",
+        false
+      ],
+      [
+        3,
+        "shape is square and color is not blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 15,
+    "truth": false,
+    "bayes_p_yes": 0.009372778733937492,
+    "fitted_3p_p_yes": 0.05440009034141645,
+    "fitted_1p_p_yes": 0.10482863809017795,
+    "base_correct": true,
+    "base_p_yes": 4.7244125786736764e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 5.5499272118373365e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 3.342482722041485e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red and shape is not triangle",
+        false
+      ],
+      [
+        2,
+        "color is red and shape is not diamond",
+        false
+      ],
+      [
+        3,
+        "color is red and shape is not square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_square-000",
+    "concept": "red and square",
+    "trial": 16,
+    "truth": false,
+    "bayes_p_yes": 0.022322349762662896,
+    "fitted_3p_p_yes": 0.19161961813199455,
+    "fitted_1p_p_yes": 0.223688637076363,
+    "base_correct": true,
+    "base_p_yes": 7.497693616315096e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.0140119872823108e-05,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 5.656787617906954e-07,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red and shape is square or circle",
+        false
+      ],
+      [
+        2,
+        "color is red and shape is not triangle or diamond",
+        false
+      ],
+      [
+        3,
+        "color is red and shape is not triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 1,
+    "truth": false,
+    "bayes_p_yes": 0.35362731867102615,
+    "fitted_3p_p_yes": 0.45708365882919755,
+    "fitted_1p_p_yes": 0.3768554516892495,
+    "base_correct": false,
+    "base_p_yes": 0.9875661463603324,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.125,
+    "m1_rb_p_yes": 0.2410922156019214,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.7462560527564679,
+    "m2_tok_p_yes": 0.7462560527564679,
+    "m2_n_rules": 1,
+    "m2_items": [
+      [
+        1,
+        "guessing",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 2,
+    "truth": true,
+    "bayes_p_yes": 0.3664871127558356,
+    "fitted_3p_p_yes": 0.4254325187979905,
+    "fitted_1p_p_yes": 0.38629689806269607,
+    "base_correct": false,
+    "base_p_yes": 0.14024276831121746,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.053282952196922334,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.98708814923005e-06,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red or square",
+        false
+      ],
+      [
+        2,
+        "blue or green or diamond",
+        false
+      ],
+      [
+        3,
+        "red or blue or green",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 3,
+    "truth": false,
+    "bayes_p_yes": 0.1210388010392386,
+    "fitted_3p_p_yes": 0.2767262367445639,
+    "fitted_1p_p_yes": 0.21409137799712652,
+    "base_correct": true,
+    "base_p_yes": 5.358316619064129e-06,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.08472374946096e-05,
+    "m1_unique_rules": 5,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.18181818181818182,
+    "m2_tok_p_yes": 3.542670398113684e-05,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red or square",
+        false
+      ],
+      [
+        2,
+        "not yellow",
+        false
+      ],
+      [
+        3,
+        "not triangle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 4,
+    "truth": true,
+    "bayes_p_yes": 0.5614902420099613,
+    "fitted_3p_p_yes": 0.6178082771250722,
+    "fitted_1p_p_yes": 0.5292967431773128,
+    "base_correct": true,
+    "base_p_yes": 0.9976890434557832,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999759915435691,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.8181818181818182,
+    "m2_tok_p_yes": 0.9999999689199978,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red or square",
+        true
+      ],
+      [
+        2,
+        "red",
+        true
+      ],
+      [
+        3,
+        "square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 5,
+    "truth": false,
+    "bayes_p_yes": 0.045228805329184996,
+    "fitted_3p_p_yes": 0.261962618420154,
+    "fitted_1p_p_yes": 0.18367301259327334,
+    "base_correct": false,
+    "base_p_yes": 0.9990318331621366,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.3292487392295687e-08,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 7.979990895211992e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red",
+        false
+      ],
+      [
+        2,
+        "square",
+        false
+      ],
+      [
+        3,
+        "red or square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 6,
+    "truth": true,
+    "bayes_p_yes": 0.22968013859679712,
+    "fitted_3p_p_yes": 0.555581746205828,
+    "fitted_1p_p_yes": 0.3154898190124811,
+    "base_correct": true,
+    "base_p_yes": 0.9999995381756708,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.00011345499576134309,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999987981294,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red or circle",
+        true
+      ],
+      [
+        2,
+        "red or square",
+        true
+      ],
+      [
+        3,
+        "red",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 7,
+    "truth": true,
+    "bayes_p_yes": 0.8961705499168157,
+    "fitted_3p_p_yes": 0.7840046684576817,
+    "fitted_1p_p_yes": 0.7047996384121106,
+    "base_correct": true,
+    "base_p_yes": 0.9999999859791964,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.985368935540783e-06,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.8181818181818182,
+    "m2_tok_p_yes": 0.999999998102183,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "square",
+        true
+      ],
+      [
+        2,
+        "red or square",
+        true
+      ],
+      [
+        3,
+        "red or blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 8,
+    "truth": true,
+    "bayes_p_yes": 0.09731952855237734,
+    "fitted_3p_p_yes": 0.40416719218129,
+    "fitted_1p_p_yes": 0.34460349868045886,
+    "base_correct": true,
+    "base_p_yes": 0.9999998854189976,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.375,
+    "m1_rb_p_yes": 0.3530966319489466,
+    "m1_unique_rules": 4,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.8181818181818182,
+    "m2_tok_p_yes": 0.999999997896349,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "square",
+        true
+      ],
+      [
+        2,
+        "red or square",
+        true
+      ],
+      [
+        3,
+        "red or blue or green",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 9,
+    "truth": false,
+    "bayes_p_yes": 0.21804447570555338,
+    "fitted_3p_p_yes": 0.3633957420787681,
+    "fitted_1p_p_yes": 0.26508489893550524,
+    "base_correct": true,
+    "base_p_yes": 4.061343183924475e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.00017182575930535903,
+    "m1_unique_rules": 4,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.18181818181818182,
+    "m2_tok_p_yes": 1.783399448555001e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "square",
+        false
+      ],
+      [
+        2,
+        "red or square",
+        false
+      ],
+      [
+        3,
+        "red or blue",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 10,
+    "truth": false,
+    "bayes_p_yes": 0.054513790747861376,
+    "fitted_3p_p_yes": 0.36630262645239914,
+    "fitted_1p_p_yes": 0.15441892211836475,
+    "base_correct": true,
+    "base_p_yes": 8.635545299585347e-07,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.75,
+    "m1_rb_p_yes": 0.7495844052858942,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 8.34218899622376e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "square",
+        false
+      ],
+      [
+        2,
+        "red or square",
+        false
+      ],
+      [
+        3,
+        "red or blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 11,
+    "truth": false,
+    "bayes_p_yes": 0.00526089362871659,
+    "fitted_3p_p_yes": 0.05988898114966486,
+    "fitted_1p_p_yes": 0.08770683490321068,
+    "base_correct": true,
+    "base_p_yes": 5.32730520934654e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.1103283985403014,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.960517207213455e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "square",
+        false
+      ],
+      [
+        2,
+        "red or square",
+        false
+      ],
+      [
+        3,
+        "red or blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 12,
+    "truth": true,
+    "bayes_p_yes": 0.7398889079599025,
+    "fitted_3p_p_yes": 0.4884181689782537,
+    "fitted_1p_p_yes": 0.20704500813972584,
+    "base_correct": true,
+    "base_p_yes": 0.9997877236045031,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9992915232114667,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999996367339,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red or square",
+        true
+      ],
+      [
+        2,
+        "red or blue or green square",
+        true
+      ],
+      [
+        3,
+        "red or square or blue square",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 13,
+    "truth": false,
+    "bayes_p_yes": 0.005493660549438003,
+    "fitted_3p_p_yes": 0.0703847591536406,
+    "fitted_1p_p_yes": 0.09164036903891414,
+    "base_correct": true,
+    "base_p_yes": 2.3710505805931436e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.00034939378749846334,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 3.708832789551517e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red or square",
+        false
+      ],
+      [
+        2,
+        "red or blue square",
+        false
+      ],
+      [
+        3,
+        "red or square or blue triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 14,
+    "truth": true,
+    "bayes_p_yes": 0.9900516242854974,
+    "fitted_3p_p_yes": 0.8302884716685116,
+    "fitted_1p_p_yes": 0.6272229468163968,
+    "base_correct": true,
+    "base_p_yes": 0.9999851868790727,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999964954698465,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.8181818181818182,
+    "m2_tok_p_yes": 0.9999999991745878,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red or square",
+        true
+      ],
+      [
+        2,
+        "red",
+        true
+      ],
+      [
+        3,
+        "square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 15,
+    "truth": false,
+    "bayes_p_yes": 0.005002495046469903,
+    "fitted_3p_p_yes": 0.033088822225104605,
+    "fitted_1p_p_yes": 0.08459739298868611,
+    "base_correct": true,
+    "base_p_yes": 7.3594640598183064e-06,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.128639287132973e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": false,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999998920051771,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red or square",
+        true
+      ],
+      [
+        2,
+        "red or blue square",
+        true
+      ],
+      [
+        3,
+        "red or square or blue circle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_or_square-000",
+    "concept": "red or square",
+    "trial": 16,
+    "truth": false,
+    "bayes_p_yes": 0.005002493882014619,
+    "fitted_3p_p_yes": 0.03232157012013629,
+    "fitted_1p_p_yes": 0.08441753893323124,
+    "base_correct": true,
+    "base_p_yes": 1.6833687977431734e-05,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.75,
+    "m1_rb_p_yes": 0.9057723180197974,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 8.320954207746864e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "red or square",
+        false
+      ],
+      [
+        2,
+        "red or blue square",
+        false
+      ],
+      [
+        3,
+        "red or square or blue triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 1,
+    "truth": true,
+    "bayes_p_yes": 0.35362731867102615,
+    "fitted_3p_p_yes": 0.45708365882919755,
+    "fitted_1p_p_yes": 0.37685545168924955,
+    "base_correct": true,
+    "base_p_yes": 0.9626917912695878,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.024386646936692243,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.9996342969615599,
+    "m2_tok_p_yes": 0.9996342969615599,
+    "m2_n_rules": 1,
+    "m2_items": [
+      [
+        1,
+        "guessing",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 2,
+    "truth": false,
+    "bayes_p_yes": 0.6509258722206128,
+    "fitted_3p_p_yes": 0.6826081779285699,
+    "fitted_1p_p_yes": 0.5743131749452017,
+    "base_correct": false,
+    "base_p_yes": 0.9999997353660671,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.625,
+    "m1_rb_p_yes": 0.6254794155509413,
+    "m1_unique_rules": 4,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.7272727272727273,
+    "m2_tok_p_yes": 0.999963265864794,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is diamond",
+        true
+      ],
+      [
+        2,
+        "color is blue",
+        false
+      ],
+      [
+        3,
+        "color is blue and shape is diamond",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 3,
+    "truth": false,
+    "bayes_p_yes": 0.034928779908467544,
+    "fitted_3p_p_yes": 0.24858747886705163,
+    "fitted_1p_p_yes": 0.19110972906991386,
+    "base_correct": true,
+    "base_p_yes": 1.0373927860858181e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 9.45271873658504e-06,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 8.293072267329145e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue",
+        false
+      ],
+      [
+        2,
+        "shape is diamond and color is blue",
+        false
+      ],
+      [
+        3,
+        "color is blue or shape is diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 4,
+    "truth": true,
+    "bayes_p_yes": 0.9529034455977823,
+    "fitted_3p_p_yes": 0.6061435848025465,
+    "fitted_1p_p_yes": 0.6681657907162436,
+    "base_correct": true,
+    "base_p_yes": 0.9999979209606752,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999668132913394,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.7272727272727273,
+    "m2_tok_p_yes": 0.999998882479006,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue",
+        true
+      ],
+      [
+        2,
+        "shape is diamond",
+        false
+      ],
+      [
+        3,
+        "color is blue and shape is diamond",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 5,
+    "truth": true,
+    "bayes_p_yes": 0.22424411823906448,
+    "fitted_3p_p_yes": 0.44447713714692205,
+    "fitted_1p_p_yes": 0.275691692745455,
+    "base_correct": false,
+    "base_p_yes": 3.436581675533144e-07,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 9.159761213791385e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.8477743038127803e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue",
+        false
+      ],
+      [
+        2,
+        "shape is diamond or color is blue",
+        false
+      ],
+      [
+        3,
+        "color is blue or shape is diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 6,
+    "truth": true,
+    "bayes_p_yes": 0.892592717278371,
+    "fitted_3p_p_yes": 0.7181985097129209,
+    "fitted_1p_p_yes": 0.6559944610332159,
+    "base_correct": false,
+    "base_p_yes": 0.0035716878650970487,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.622565389625177e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 5.16151846719816e-07,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or yellow",
+        false
+      ],
+      [
+        2,
+        "shape is diamond or circle or square",
+        false
+      ],
+      [
+        3,
+        "color is blue or square",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 7,
+    "truth": true,
+    "bayes_p_yes": 0.982042650683194,
+    "fitted_3p_p_yes": 0.8701495323070326,
+    "fitted_1p_p_yes": 0.8706525689117621,
+    "base_correct": true,
+    "base_p_yes": 0.9997958616884128,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.625,
+    "m1_rb_p_yes": 0.6368718686984304,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999977296239,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or yellow or green",
+        true
+      ],
+      [
+        2,
+        "shape is diamond or circle or square",
+        true
+      ],
+      [
+        3,
+        "color is not red",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 8,
+    "truth": false,
+    "bayes_p_yes": 0.02226013869903864,
+    "fitted_3p_p_yes": 0.17964427507876862,
+    "fitted_1p_p_yes": 0.11953396398612642,
+    "base_correct": true,
+    "base_p_yes": 0.00040631447257742165,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.074834849437768e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 7.298087683962671e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or yellow or green",
+        false
+      ],
+      [
+        2,
+        "shape is not square",
+        false
+      ],
+      [
+        3,
+        "color is not red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 9,
+    "truth": true,
+    "bayes_p_yes": 0.9949063529159985,
+    "fitted_3p_p_yes": 0.9623367995297387,
+    "fitted_1p_p_yes": 0.9155541003546702,
+    "base_correct": true,
+    "base_p_yes": 0.9999990909646352,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999999995200468,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999991469135,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or yellow or green",
+        true
+      ],
+      [
+        2,
+        "shape is not triangle",
+        true
+      ],
+      [
+        3,
+        "color is not red",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 10,
+    "truth": false,
+    "bayes_p_yes": 0.9351151760208163,
+    "fitted_3p_p_yes": 0.7319403101810232,
+    "fitted_1p_p_yes": 0.83344669426644,
+    "base_correct": false,
+    "base_p_yes": 0.9999336908448564,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.625,
+    "m1_rb_p_yes": 0.6249531547366064,
+    "m1_unique_rules": 4,
+    "m2_correct": false,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999976224854,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or yellow or green",
+        true
+      ],
+      [
+        2,
+        "shape is not red",
+        true
+      ],
+      [
+        3,
+        "color is not red",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 11,
+    "truth": false,
+    "bayes_p_yes": 0.08134486706032065,
+    "fitted_3p_p_yes": 0.32260707482043327,
+    "fitted_1p_p_yes": 0.4702466588671548,
+    "base_correct": true,
+    "base_p_yes": 0.00022794214920677882,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.5,
+    "m1_rb_p_yes": 0.358451706461452,
+    "m1_unique_rules": 7,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.45454545454545453,
+    "m2_tok_p_yes": 0.0001249676852234699,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or green",
+        false
+      ],
+      [
+        2,
+        "shape is not triangle",
+        true
+      ],
+      [
+        3,
+        "color is not red",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 12,
+    "truth": false,
+    "bayes_p_yes": 0.0595562114287723,
+    "fitted_3p_p_yes": 0.2815477485657362,
+    "fitted_1p_p_yes": 0.23071654869541808,
+    "base_correct": false,
+    "base_p_yes": 0.9999479580840169,
+    "m1_correct": false,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9992695916536918,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.18181818181818182,
+    "m2_tok_p_yes": 2.1136851304604e-06,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or green or yellow",
+        false
+      ],
+      [
+        2,
+        "shape is diamond or circle or square",
+        false
+      ],
+      [
+        3,
+        "color is blue or green",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 13,
+    "truth": false,
+    "bayes_p_yes": 0.005563098804380513,
+    "fitted_3p_p_yes": 0.10490212577920835,
+    "fitted_1p_p_yes": 0.10476209457403202,
+    "base_correct": false,
+    "base_p_yes": 0.5013280411514159,
+    "m1_correct": false,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9956619362572708,
+    "m1_unique_rules": 3,
+    "m2_correct": false,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999892819128,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or green",
+        true
+      ],
+      [
+        2,
+        "shape is not triangle",
+        true
+      ],
+      [
+        3,
+        "color is not red or yellow",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 14,
+    "truth": false,
+    "bayes_p_yes": 0.005003134929605582,
+    "fitted_3p_p_yes": 0.03760093251994869,
+    "fitted_1p_p_yes": 0.08559217428599503,
+    "base_correct": true,
+    "base_p_yes": 0.00037149652839203853,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.015768041817204228,
+    "m1_unique_rules": 4,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 5.8136122202447496e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or green",
+        false
+      ],
+      [
+        2,
+        "shape is circle or square",
+        false
+      ],
+      [
+        3,
+        "color is blue or green or yellow",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 15,
+    "truth": false,
+    "bayes_p_yes": 0.005003035321305434,
+    "fitted_3p_p_yes": 0.03542437715958223,
+    "fitted_1p_p_yes": 0.08490521988455771,
+    "base_correct": true,
+    "base_p_yes": 0.0027704699643604385,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.875,
+    "m1_rb_p_yes": 0.8392519480892876,
+    "m1_unique_rules": 3,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.5454545454545455,
+    "m2_tok_p_yes": 0.9993511627075764,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or green",
+        true
+      ],
+      [
+        2,
+        "shape is square or triangle",
+        false
+      ],
+      [
+        3,
+        "color is blue or yellow or green",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "blue_or_square-000",
+    "concept": "blue or square",
+    "trial": 16,
+    "truth": true,
+    "bayes_p_yes": 0.9900524112148462,
+    "fitted_3p_p_yes": 0.8366264536217127,
+    "fitted_1p_p_yes": 0.6273863943647631,
+    "base_correct": true,
+    "base_p_yes": 0.9997616462397345,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 5.732271983447328e-05,
+    "m1_unique_rules": 4,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 9.234688489386143e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or green or yellow",
+        false
+      ],
+      [
+        2,
+        "shape is square or triangle",
+        false
+      ],
+      [
+        3,
+        "color is blue or green",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 1,
+    "truth": true,
+    "bayes_p_yes": 0.35362731867102615,
+    "fitted_3p_p_yes": 0.45708365882919755,
+    "fitted_1p_p_yes": 0.37685545168924944,
+    "base_correct": true,
+    "base_p_yes": 0.7916060070968135,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.04933904067658938,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.984122420543059,
+    "m2_tok_p_yes": 0.984122420543059,
+    "m2_n_rules": 1,
+    "m2_items": [
+      [
+        1,
+        "guessing",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 2,
+    "truth": true,
+    "bayes_p_yes": 0.33012172635658765,
+    "fitted_3p_p_yes": 0.491919717684198,
+    "fitted_1p_p_yes": 0.3612436678888312,
+    "base_correct": false,
+    "base_p_yes": 0.002157693901204386,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.0009981096769590395,
+    "m1_unique_rules": 3,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.18181818181818182,
+    "m2_tok_p_yes": 4.672300036473337e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue color",
+        false
+      ],
+      [
+        2,
+        "triangle shape",
+        false
+      ],
+      [
+        3,
+        "blue triangle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 3,
+    "truth": true,
+    "bayes_p_yes": 0.536532540213167,
+    "fitted_3p_p_yes": 0.5360509936773974,
+    "fitted_1p_p_yes": 0.4633950679063972,
+    "base_correct": true,
+    "base_p_yes": 0.9922413380916046,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 5.57868998330215e-06,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.45454545454545453,
+    "m2_tok_p_yes": 0.9700383418964625,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "blue color",
+        false
+      ],
+      [
+        2,
+        "triangle shape",
+        true
+      ],
+      [
+        3,
+        "not yellow color",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 4,
+    "truth": false,
+    "bayes_p_yes": 0.6324406497413612,
+    "fitted_3p_p_yes": 0.7238477600684579,
+    "fitted_1p_p_yes": 0.6078638198619268,
+    "base_correct": true,
+    "base_p_yes": 0.00707630194926911,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.875,
+    "m1_rb_p_yes": 0.8713036464029037,
+    "m1_unique_rules": 5,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.45454545454545453,
+    "m2_tok_p_yes": 0.9980199174367623,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "not blue color",
+        false
+      ],
+      [
+        2,
+        "not yellow color",
+        true
+      ],
+      [
+        3,
+        "not square",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 5,
+    "truth": false,
+    "bayes_p_yes": 0.055398700639999764,
+    "fitted_3p_p_yes": 0.3079173971917101,
+    "fitted_1p_p_yes": 0.21818851736758338,
+    "base_correct": true,
+    "base_p_yes": 1.1031046584644042e-05,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.875,
+    "m1_rb_p_yes": 0.8537195073601724,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 4.888318673902376e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is triangle or diamond",
+        false
+      ],
+      [
+        2,
+        "color is blue or green",
+        false
+      ],
+      [
+        3,
+        "shape is not circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 6,
+    "truth": false,
+    "bayes_p_yes": 0.03196282116194739,
+    "fitted_3p_p_yes": 0.2850830654109777,
+    "fitted_1p_p_yes": 0.19953105642381042,
+    "base_correct": false,
+    "base_p_yes": 0.9895080224801719,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.125,
+    "m1_rb_p_yes": 0.12595670475654153,
+    "m1_unique_rules": 3,
+    "m2_correct": false,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999997203748281,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is triangle or diamond",
+        true
+      ],
+      [
+        2,
+        "color is not red",
+        true
+      ],
+      [
+        3,
+        "shape is not square or circle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 7,
+    "truth": true,
+    "bayes_p_yes": 0.9939467743311005,
+    "fitted_3p_p_yes": 0.8765067044063565,
+    "fitted_1p_p_yes": 0.8543979504829462,
+    "base_correct": true,
+    "base_p_yes": 0.9999954883950879,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999999914712618,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.7272727272727273,
+    "m2_tok_p_yes": 0.9999981491375938,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is triangle or diamond",
+        true
+      ],
+      [
+        2,
+        "color is blue or green",
+        false
+      ],
+      [
+        3,
+        "shape is circle or diamond",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 8,
+    "truth": true,
+    "bayes_p_yes": 0.9904430564348561,
+    "fitted_3p_p_yes": 0.8069045599067227,
+    "fitted_1p_p_yes": 0.8444522433658544,
+    "base_correct": false,
+    "base_p_yes": 0.01767764730734674,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9994299013094492,
+    "m1_unique_rules": 3,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 4.208991680745875e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is diamond or triangle",
+        false
+      ],
+      [
+        2,
+        "color is blue or green",
+        false
+      ],
+      [
+        3,
+        "shape is circle or diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 9,
+    "truth": true,
+    "bayes_p_yes": 0.9943848356034019,
+    "fitted_3p_p_yes": 0.9291196352403117,
+    "fitted_1p_p_yes": 0.9028902785264444,
+    "base_correct": true,
+    "base_p_yes": 0.9999999257132143,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999634551018957,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999732899759,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is diamond or triangle",
+        true
+      ],
+      [
+        2,
+        "color is blue or green",
+        true
+      ],
+      [
+        3,
+        "shape is not circle or square",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 10,
+    "truth": true,
+    "bayes_p_yes": 0.9812228574819175,
+    "fitted_3p_p_yes": 0.8148300961783244,
+    "fitted_1p_p_yes": 0.8928032214768596,
+    "base_correct": false,
+    "base_p_yes": 0.00014685653964944617,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9956915369570376,
+    "m1_unique_rules": 3,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.18181818181818182,
+    "m2_tok_p_yes": 0.00011487757666078177,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is diamond or triangle",
+        false
+      ],
+      [
+        2,
+        "color is blue or green",
+        false
+      ],
+      [
+        3,
+        "color is not red",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 11,
+    "truth": true,
+    "bayes_p_yes": 0.9946545323892942,
+    "fitted_3p_p_yes": 0.9150522503866414,
+    "fitted_1p_p_yes": 0.9122347750002168,
+    "base_correct": true,
+    "base_p_yes": 0.9998202444401391,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.75,
+    "m1_rb_p_yes": 0.8859191061783654,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999960608266,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or yellow",
+        true
+      ],
+      [
+        2,
+        "shape is circle or diamond or square",
+        true
+      ],
+      [
+        3,
+        "color is not red",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 12,
+    "truth": true,
+    "bayes_p_yes": 0.9946883640808413,
+    "fitted_3p_p_yes": 0.9311082756471388,
+    "fitted_1p_p_yes": 0.9142422896397849,
+    "base_correct": true,
+    "base_p_yes": 0.9867677957026239,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9997976340966777,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999985049355,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or yellow",
+        true
+      ],
+      [
+        2,
+        "shape is not square",
+        true
+      ],
+      [
+        3,
+        "color is not red",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 13,
+    "truth": false,
+    "bayes_p_yes": 0.01986968117346535,
+    "fitted_3p_p_yes": 0.1426338279162532,
+    "fitted_1p_p_yes": 0.09730594339987408,
+    "base_correct": false,
+    "base_p_yes": 0.9962602044572625,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.0003259225043537849,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 8.031572567916945e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or yellow",
+        false
+      ],
+      [
+        2,
+        "shape is not square",
+        false
+      ],
+      [
+        3,
+        "color is not red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 14,
+    "truth": true,
+    "bayes_p_yes": 0.9948997768670377,
+    "fitted_3p_p_yes": 0.9545663852269809,
+    "fitted_1p_p_yes": 0.9161418036426677,
+    "base_correct": false,
+    "base_p_yes": 0.0013252711541065188,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999976635979237,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999997995521,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or yellow",
+        true
+      ],
+      [
+        2,
+        "shape is not square",
+        true
+      ],
+      [
+        3,
+        "color is not red",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 15,
+    "truth": true,
+    "bayes_p_yes": 0.9948970668895765,
+    "fitted_3p_p_yes": 0.9487583872831064,
+    "fitted_1p_p_yes": 0.915483735399581,
+    "base_correct": true,
+    "base_p_yes": 0.9994786462281797,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9983282911715067,
+    "m1_unique_rules": 3,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.143121755042143e-07,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue or yellow or green",
+        false
+      ],
+      [
+        2,
+        "shape is triangle or diamond or square",
+        false
+      ],
+      [
+        3,
+        "color is not red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_red-000",
+    "concept": "not red",
+    "trial": 16,
+    "truth": true,
+    "bayes_p_yes": 0.9948997590634775,
+    "fitted_3p_p_yes": 0.9529722009238757,
+    "fitted_1p_p_yes": 0.9161688458343633,
+    "base_correct": true,
+    "base_p_yes": 0.9991630895315697,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.875,
+    "m1_rb_p_yes": 0.9367130264558257,
+    "m1_unique_rules": 3,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.2447398673240934e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is blue, yellow, or green",
+        false
+      ],
+      [
+        2,
+        "shape is not square",
+        false
+      ],
+      [
+        3,
+        "color is not red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 1,
+    "truth": false,
+    "bayes_p_yes": 0.35362731867102615,
+    "fitted_3p_p_yes": 0.45708365882919755,
+    "fitted_1p_p_yes": 0.3768554516892495,
+    "base_correct": false,
+    "base_p_yes": 0.6812744711882632,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.125,
+    "m1_rb_p_yes": 0.07424797817119425,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.9494232572714112,
+    "m2_tok_p_yes": 0.9494232572714112,
+    "m2_n_rules": 1,
+    "m2_items": [
+      [
+        1,
+        "guessing",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 2,
+    "truth": true,
+    "bayes_p_yes": 0.36648711275583545,
+    "fitted_3p_p_yes": 0.4254325187979905,
+    "fitted_1p_p_yes": 0.386296898062696,
+    "base_correct": false,
+    "base_p_yes": 0.01916000114996203,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.125,
+    "m1_rb_p_yes": 0.2108329500856155,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.996198742880113e-06,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is blue or green",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 3,
+    "truth": false,
+    "bayes_p_yes": 0.599937965986333,
+    "fitted_3p_p_yes": 0.6519149855726556,
+    "fitted_1p_p_yes": 0.5476606850162045,
+    "base_correct": false,
+    "base_p_yes": 0.9915533047376689,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.875,
+    "m1_rb_p_yes": 0.8763959852555965,
+    "m1_unique_rules": 3,
+    "m2_correct": false,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.99999993358477,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is triangle",
+        true
+      ],
+      [
+        2,
+        "color is not yellow",
+        true
+      ],
+      [
+        3,
+        "color is not red or yellow",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 4,
+    "truth": false,
+    "bayes_p_yes": 0.03081805494360617,
+    "fitted_3p_p_yes": 0.24132481810160103,
+    "fitted_1p_p_yes": 0.17967868430307232,
+    "base_correct": true,
+    "base_p_yes": 1.3505587750125747e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.912524979603235e-05,
+    "m1_unique_rules": 5,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 3.7698663258324295e-06,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is triangle",
+        false
+      ],
+      [
+        2,
+        "color is red",
+        false
+      ],
+      [
+        3,
+        "color is blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 5,
+    "truth": true,
+    "bayes_p_yes": 0.9605732044315799,
+    "fitted_3p_p_yes": 0.6720822321987227,
+    "fitted_1p_p_yes": 0.7519982988302749,
+    "base_correct": true,
+    "base_p_yes": 0.9967466974035614,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9996709028382235,
+    "m1_unique_rules": 4,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.5454545454545455,
+    "m2_tok_p_yes": 0.9999999989184047,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        true
+      ],
+      [
+        2,
+        "shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is yellow",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 6,
+    "truth": false,
+    "bayes_p_yes": 0.031110491474999537,
+    "fitted_3p_p_yes": 0.22733940028587268,
+    "fitted_1p_p_yes": 0.13032700300277356,
+    "base_correct": true,
+    "base_p_yes": 4.40078023343962e-06,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 7.808177751067882e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 4.332724949901223e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is diamond",
+        false
+      ],
+      [
+        3,
+        "color is blue or red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 7,
+    "truth": true,
+    "bayes_p_yes": 0.9855930258058622,
+    "fitted_3p_p_yes": 0.714737098372294,
+    "fitted_1p_p_yes": 0.8289769126119116,
+    "base_correct": true,
+    "base_p_yes": 0.9991590783461675,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.997110299215494,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.5454545454545455,
+    "m2_tok_p_yes": 0.9999999945618303,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        true
+      ],
+      [
+        2,
+        "shape is diamond",
+        false
+      ],
+      [
+        3,
+        "color is red and shape is diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 8,
+    "truth": false,
+    "bayes_p_yes": 0.005439165959990577,
+    "fitted_3p_p_yes": 0.09083752536894128,
+    "fitted_1p_p_yes": 0.08914978831041916,
+    "base_correct": true,
+    "base_p_yes": 1.2105214898121045e-06,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.2802998749870666e-07,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.9355167827972593e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is diamond or circle",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 9,
+    "truth": false,
+    "bayes_p_yes": 0.005305335580606186,
+    "fitted_3p_p_yes": 0.063656286751877,
+    "fitted_1p_p_yes": 0.08618597603432274,
+    "base_correct": true,
+    "base_p_yes": 4.3727454823003156e-08,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 7.859373606170302e-08,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.3059347327989738e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is diamond or circle and red",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 10,
+    "truth": false,
+    "bayes_p_yes": 0.005156122943987877,
+    "fitted_3p_p_yes": 0.048392815033794855,
+    "fitted_1p_p_yes": 0.08431634398528383,
+    "base_correct": true,
+    "base_p_yes": 1.774907629177946e-06,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 8.510594341795653e-07,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.8774741713417922e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is diamond or circle and red",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 11,
+    "truth": false,
+    "bayes_p_yes": 0.019919541787451884,
+    "fitted_3p_p_yes": 0.17996878113218928,
+    "fitted_1p_p_yes": 0.10321181484027,
+    "base_correct": true,
+    "base_p_yes": 2.3160740965650254e-07,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.10224782792501e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.4362546974026172e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is diamond",
+        false
+      ],
+      [
+        3,
+        "color is red and shape is diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 12,
+    "truth": false,
+    "bayes_p_yes": 0.005278988330357026,
+    "fitted_3p_p_yes": 0.06568342903470303,
+    "fitted_1p_p_yes": 0.08557314161811415,
+    "base_correct": false,
+    "base_p_yes": 0.999983080906993,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 7.173009116020758e-08,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 1.6768545278459686e-08,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is diamond or circle and color is red",
+        false
+      ],
+      [
+        3,
+        "shape is diamond and color is red",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 13,
+    "truth": false,
+    "bayes_p_yes": 0.005158294564304461,
+    "fitted_3p_p_yes": 0.05117254143150337,
+    "fitted_1p_p_yes": 0.08406839176945646,
+    "base_correct": true,
+    "base_p_yes": 0.00036609655053402044,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 3.4767329251237203e-05,
+    "m1_unique_rules": 3,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 4.84909080188056e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        false
+      ],
+      [
+        2,
+        "shape is diamond or red circle",
+        false
+      ],
+      [
+        3,
+        "color is red or shape is diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 14,
+    "truth": false,
+    "bayes_p_yes": 0.9914289370887304,
+    "fitted_3p_p_yes": 0.9028891840571615,
+    "fitted_1p_p_yes": 0.9121359703522096,
+    "base_correct": false,
+    "base_p_yes": 0.9999235936253601,
+    "m1_correct": false,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9979034938246396,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999994874791,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red",
+        true
+      ],
+      [
+        2,
+        "shape is diamond or circle and color is red",
+        true
+      ],
+      [
+        3,
+        "color is red and shape is not triangle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 15,
+    "truth": false,
+    "bayes_p_yes": 0.005217622057579199,
+    "fitted_3p_p_yes": 0.06785990764322299,
+    "fitted_1p_p_yes": 0.09183301188586883,
+    "base_correct": true,
+    "base_p_yes": 1.8450571093479796e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.728096783696758e-05,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.8181818181818182,
+    "m2_tok_p_yes": 0.020385661558390052,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red and shape is diamond",
+        true
+      ],
+      [
+        2,
+        "color is red and shape is circle",
+        true
+      ],
+      [
+        3,
+        "color is red and shape is triangle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "red_and_not_square-000",
+    "concept": "red and not square",
+    "trial": 16,
+    "truth": false,
+    "bayes_p_yes": 0.005092955320765181,
+    "fitted_3p_p_yes": 0.04264362896429989,
+    "fitted_1p_p_yes": 0.08459286355494579,
+    "base_correct": true,
+    "base_p_yes": 2.0548204455000995e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 4.855492357796053e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 4.950452650842201e-07,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red and shape is diamond",
+        false
+      ],
+      [
+        2,
+        "color is red and shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is red and shape is circle",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 1,
+    "truth": true,
+    "bayes_p_yes": 0.35362731867102615,
+    "fitted_3p_p_yes": 0.45708365882919755,
+    "fitted_1p_p_yes": 0.3768554516892495,
+    "base_correct": false,
+    "base_p_yes": 0.17218904541233554,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.029346220656967268,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.614618695897582,
+    "m2_tok_p_yes": 0.614618695897582,
+    "m2_n_rules": 1,
+    "m2_items": [
+      [
+        1,
+        "guessing",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 2,
+    "truth": true,
+    "bayes_p_yes": 0.33012172635658765,
+    "fitted_3p_p_yes": 0.491919717684198,
+    "fitted_1p_p_yes": 0.36124366788883117,
+    "base_correct": false,
+    "base_p_yes": 0.08904873055408712,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.00013099703181991413,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.18181818181818182,
+    "m2_tok_p_yes": 8.942100843965036e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is yellow",
+        false
+      ],
+      [
+        2,
+        "shape is triangle",
+        false
+      ],
+      [
+        3,
+        "color is yellow or shape is triangle",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 3,
+    "truth": true,
+    "bayes_p_yes": 0.7543898004566635,
+    "fitted_3p_p_yes": 0.7126609370505476,
+    "fitted_1p_p_yes": 0.621440497088092,
+    "base_correct": true,
+    "base_p_yes": 0.9799927231388351,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9700129159243336,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999997441237573,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red or yellow",
+        true
+      ],
+      [
+        2,
+        "shape is triangle or square",
+        true
+      ],
+      [
+        3,
+        "color is not blue or green",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 4,
+    "truth": true,
+    "bayes_p_yes": 0.7075887054720948,
+    "fitted_3p_p_yes": 0.723438953657979,
+    "fitted_1p_p_yes": 0.6220932408617724,
+    "base_correct": false,
+    "base_p_yes": 5.5034025728484944e-05,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 2.367665325984554e-06,
+    "m1_unique_rules": 2,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.27272727272727276,
+    "m2_tok_p_yes": 0.0017100863123947151,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red or yellow",
+        false
+      ],
+      [
+        2,
+        "shape is triangle or circle",
+        true
+      ],
+      [
+        3,
+        "color is not blue or green",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 5,
+    "truth": true,
+    "bayes_p_yes": 0.951353720443037,
+    "fitted_3p_p_yes": 0.8370535180141301,
+    "fitted_1p_p_yes": 0.8196214479674901,
+    "base_correct": true,
+    "base_p_yes": 0.9998891310502244,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9976262649302582,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999596169166,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is triangle or circle",
+        true
+      ],
+      [
+        2,
+        "color is red, yellow, or blue",
+        true
+      ],
+      [
+        3,
+        "shape is not square or diamond",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 6,
+    "truth": true,
+    "bayes_p_yes": 0.6179542573285631,
+    "fitted_3p_p_yes": 0.6993232156199118,
+    "fitted_1p_p_yes": 0.5926740791721307,
+    "base_correct": true,
+    "base_p_yes": 0.9983125811923099,
+    "m1_correct": false,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 1.112206656179837e-05,
+    "m1_unique_rules": 1,
+    "m2_correct": false,
+    "m2_rank_p_yes": 0.27272727272727276,
+    "m2_tok_p_yes": 9.339321388216836e-06,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "shape is triangle or circle",
+        false
+      ],
+      [
+        2,
+        "color is red, yellow, or blue",
+        true
+      ],
+      [
+        3,
+        "shape is not diamond",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 7,
+    "truth": false,
+    "bayes_p_yes": 0.4113536770762603,
+    "fitted_3p_p_yes": 0.7291772402240468,
+    "fitted_1p_p_yes": 0.47865697846650285,
+    "base_correct": false,
+    "base_p_yes": 0.9995561942983565,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.25,
+    "m1_rb_p_yes": 0.25102202795596795,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 3.026248908217016e-06,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is red, yellow, or blue",
+        false
+      ],
+      [
+        2,
+        "shape is triangle, circle, or diamond",
+        false
+      ],
+      [
+        3,
+        "color is not green",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 8,
+    "truth": true,
+    "bayes_p_yes": 0.9945110648412251,
+    "fitted_3p_p_yes": 0.9263390089047348,
+    "fitted_1p_p_yes": 0.9042561766509357,
+    "base_correct": true,
+    "base_p_yes": 0.9997989595703789,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999999546176337,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999995003943,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is not green",
+        true
+      ],
+      [
+        2,
+        "shape is not diamond",
+        true
+      ],
+      [
+        3,
+        "color is red, yellow, or blue",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 9,
+    "truth": false,
+    "bayes_p_yes": 0.03772209804005836,
+    "fitted_3p_p_yes": 0.3549922959137162,
+    "fitted_1p_p_yes": 0.1613587766281595,
+    "base_correct": true,
+    "base_p_yes": 0.0015411411452926859,
+    "m1_correct": false,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9952508658165068,
+    "m1_unique_rules": 1,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.9934517945255276e-09,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is not green",
+        false
+      ],
+      [
+        2,
+        "shape is triangle or circle or square",
+        false
+      ],
+      [
+        3,
+        "color is red, yellow, or blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 10,
+    "truth": true,
+    "bayes_p_yes": 0.9948521515414678,
+    "fitted_3p_p_yes": 0.9395807725411973,
+    "fitted_1p_p_yes": 0.9133828032789043,
+    "base_correct": true,
+    "base_p_yes": 0.9999997236621687,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999998894163927,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999996282767,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is not green",
+        true
+      ],
+      [
+        2,
+        "shape is not diamond",
+        true
+      ],
+      [
+        3,
+        "color is red, yellow, or blue",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 11,
+    "truth": true,
+    "bayes_p_yes": 0.9948997135149584,
+    "fitted_3p_p_yes": 0.9557414774893798,
+    "fitted_1p_p_yes": 0.9151845417125731,
+    "base_correct": true,
+    "base_p_yes": 0.9999999920091144,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999999889198004,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999998970996,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is not green",
+        true
+      ],
+      [
+        2,
+        "shape is not diamond",
+        true
+      ],
+      [
+        3,
+        "color is red, yellow, or blue",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 12,
+    "truth": true,
+    "bayes_p_yes": 0.9949023644669831,
+    "fitted_3p_p_yes": 0.9598680903633174,
+    "fitted_1p_p_yes": 0.915960959801776,
+    "base_correct": true,
+    "base_p_yes": 0.9999999915959096,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.999999513373952,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999999041549,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is not green",
+        true
+      ],
+      [
+        2,
+        "color is red, yellow, or blue",
+        true
+      ],
+      [
+        3,
+        "shape is triangle, circle, or square",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 13,
+    "truth": false,
+    "bayes_p_yes": 0.020407427973012645,
+    "fitted_3p_p_yes": 0.21145331216474847,
+    "fitted_1p_p_yes": 0.11036892190620626,
+    "base_correct": true,
+    "base_p_yes": 0.0003176427175314418,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.0,
+    "m1_rb_p_yes": 0.00018358774175590388,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 7.081810921130875e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is not green",
+        false
+      ],
+      [
+        2,
+        "shape is triangle or circle",
+        false
+      ],
+      [
+        3,
+        "color is red, yellow, or blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 14,
+    "truth": true,
+    "bayes_p_yes": 0.9946883826001848,
+    "fitted_3p_p_yes": 0.9285076857860503,
+    "fitted_1p_p_yes": 0.9143555843412916,
+    "base_correct": true,
+    "base_p_yes": 0.9999999949623546,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999999879663917,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.7272727272727273,
+    "m2_tok_p_yes": 0.999999999239731,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is not green",
+        true
+      ],
+      [
+        2,
+        "shape is not diamond",
+        false
+      ],
+      [
+        3,
+        "color is red, yellow, or blue",
+        true
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 15,
+    "truth": false,
+    "bayes_p_yes": 0.019857863616457246,
+    "fitted_3p_p_yes": 0.14108500460029072,
+    "fitted_1p_p_yes": 0.09688378071789745,
+    "base_correct": true,
+    "base_p_yes": 3.44703967343704e-05,
+    "m1_correct": true,
+    "m1_vote_p_yes": 0.125,
+    "m1_rb_p_yes": 0.10035645545178157,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 0.0,
+    "m2_tok_p_yes": 2.3789422603999795e-10,
+    "m2_n_rules": 3,
+    "m2_items": [
+      [
+        1,
+        "color is not green",
+        false
+      ],
+      [
+        2,
+        "shape is triangle or circle",
+        false
+      ],
+      [
+        3,
+        "color is red, yellow, or blue",
+        false
+      ]
+    ]
+  },
+  {
+    "block_id": "not_green-000",
+    "concept": "not green",
+    "trial": 16,
+    "truth": true,
+    "bayes_p_yes": 0.9948997590634775,
+    "fitted_3p_p_yes": 0.9529722009238755,
+    "fitted_1p_p_yes": 0.9161688458343628,
+    "base_correct": true,
+    "base_p_yes": 0.9999999997764879,
+    "m1_correct": true,
+    "m1_vote_p_yes": 1.0,
+    "m1_rb_p_yes": 0.9999999996552512,
+    "m1_unique_rules": 2,
+    "m2_correct": true,
+    "m2_rank_p_yes": 1.0,
+    "m2_tok_p_yes": 0.9999999999586358,
+    "m2_n_rules": 2,
+    "m2_items": [
+      [
+        1,
+        "color is not green",
+        true
+      ],
+      [
+        2,
+        "color is red, blue, or yellow",
+        true
+      ]
+    ]
+  }
+]

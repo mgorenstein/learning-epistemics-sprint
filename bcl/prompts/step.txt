@@ -1,0 +1,4 @@
+$feedback That object $truth_verb a $word.
+
+Trial $trial of $n_trials: $object
+Is this object a $word? Answer with only yes or no.

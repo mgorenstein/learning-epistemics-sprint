@@ -1,0 +1,104 @@
+# Hidden Hypotheses: every setting of the experiment.
+#
+# Nothing is optional. A setting that does not apply is written as null, and a
+# misspelled or missing setting is an error. A copy of this file is saved beside
+# every output. Paths are relative to the folder that holds this file.
+
+seed: 20261113
+
+# --- The learning problem: rules, internal likelihood and simplicity prior -----
+
+rules_file: example_rules.py   # a Python file that defines FEATURES and RULES
+
+alpha: 0.99                    # internal likelihood parameter of the ideal learner: mismatch weight
+                               #   is (1 - alpha) / 2 = 0.005. Generated labels are never flipped.
+
+prior:
+  kind: pcfg                   # uniform | pcfg | rational_rules (used internally; not shown in prompt)
+                               #   pcfg: simpler rules are more probable; a rule's weight is the
+                               #   probability of writing it down with the grammar in rule_learner.py.
+                               #   With a uniform prior no puzzle can have a single runner-up that is
+                               #   strictly behind the leader (see README, "Puzzle design").
+  grammar_weights: null        # pcfg only: weights of the grammar's productions, any of
+                               #   {pred: 1.0, and: 1.0, or: 1.0, not: 1.0}; null means all 1.0.
+                               #   {pred: 5.0} is LOTlib3's default Boolean grammar.
+  dirichlet: null              # rational_rules only: the Dirichlet parameter; null means 1.0
+  temperature: 3.0             # pcfg and rational_rules: above 1 flattens the prior; null means 1.0.
+                               #   3.0 leaves the least probable rule with about 2% instead of 0.06%.
+
+# --- Puzzles (python -m hh.puzzles) -------------------------------------------
+
+puzzles:
+  file: data/puzzles/puzzles.jsonl
+  n_confident: 50              # each count is spread evenly over the lengths, so the two
+  n_contested: 50              #   kinds have the same distribution of sequence lengths
+  lengths: [6, 8, 10, 12, 14]  # number of labeled examples in a puzzle
+  query_steps: 3               # beliefs are queried at this many steps; the last is the full sequence
+  confident:
+    leader_min: 0.95           # the leading rule's posterior is at least this
+  contested:                   # exactly one other rule is a strong alternative:
+    runner_up_min: 0.20        #   the runner-up's posterior is between these two,
+    runner_up_max: 0.40
+    lead_min: 0.05             #   the leading rule is ahead of the runner-up by at least this,
+    others_max: 0.10           #   and no third rule's posterior is above this
+  max_attempts: 100000         # random sequences to try per kind and length before stopping
+                               #   with an error; thresholds are never loosened automatically
+                               # made-up words from UniPseudo (tools/make_nonce_words.py); the
+                               #   reply they came from is reference/unipseudo_words.json
+  nonce_words: [lanch, sowdy, twnia, holky, betie, rores, molil, blira, volil, veail,
+                agrve, sange, camby, longo, relal, buits, pluic, rosth, tajok, crale,
+                edapt, busee, widge, cooax, cloul, kinge, liste, enjon, nouts, houte,
+                gomby, yaved, patse, sland, admpe, yexts, bineu, pargy, evinc, doody]
+
+# --- Elicitation and follow-ups -----------------------------------------------
+
+elicitation: [choice]          # choice: the model is asked which letter the word is, and the
+                               #   probabilities are those it gives to the ten letters as the first
+                               #   token of its answer
+                               # stated: the model returns a probability for every letter as JSON
+                               # Each listed mode is run for the first turn and for every follow-up.
+followups: [neutral, leading, pushback, evidence]
+
+# --- Models and run settings (python -m hh.run) --------------------------------
+
+models:
+  - name: gemma4:26b           # the name the backend knows the model by
+    backend: ollama            # ollama | openai
+    think: false               # thinking mode: true, false, or null for the model's own default.
+                               #   Choice mode with token probabilities needs false, because a
+                               #   thinking model's first tokens are its thinking, not its answer.
+    extra_body: null           # extra fields added to every request for this model, or null
+
+run:
+  results_file: data/results/results.jsonl
+  timeout_seconds: 300         # give up on one request after this long
+  choice:
+    max_tokens: 8              # tokens generated per answer. Only the first is used with token
+                               #   probabilities; sampled answers must fit, thinking included.
+    top_logprobs: 20           # token alternatives requested (1 to 20). 0 means: do not use token
+                               #   probabilities, sample the answer instead
+    samples: 20                # answers sampled at temperature 1 when token probabilities are
+                               #   not used or the backend does not return them
+  stated:
+    temperature: 0.0           # sampling temperature of the answer
+    max_tokens: 400            # longest answer, in tokens; thinking counts toward it
+    structured_output: true    # send a JSON schema with the question
+
+backends:
+  ollama:
+    base_url: http://localhost:11435   # a second Ollama started for this experiment (see README);
+                                       #   the usual one is at http://localhost:11434
+    options: {num_ctx: 8192}   # Ollama options sent with every request
+    fresh: true                # compute every answer from scratch. Ollama otherwise reuses its work
+                               #   for prompts that start alike, which changes the token probabilities
+                               #   a little and makes results depend on the order of the queries.
+                               #   Needs a server started with LLAMA_ARG_CACHE_RAM=0.
+  openai:                      # any server with an OpenAI-compatible chat completions API
+    base_url_env: OPENAI_BASE_URL    # names of the environment variables that hold
+    api_key_env: OPENAI_API_KEY      #   the base URL and the API key
+
+# --- Scores (python -m hh.score) -----------------------------------------------
+
+scores:
+  bootstrap_samples: 2000      # times the puzzles are resampled to get each interval
+  interval: 0.95               # coverage of the intervals

@@ -1,0 +1,1015 @@
+{
+ "source": {
+  "tool": "UniPseudo",
+  "url": "https://www.lexique.org/django/unipseudo/",
+  "date": "2026-11-12",
+  "language": "English",
+  "length": 5,
+  "algorithm": "bigram",
+  "constraints": {
+   "filterConsonants": "3",
+   "filterSameLetter": "2"
+  },
+  "requested": 100,
+  "word_database": {
+   "name": "English_Lexicon_Project",
+   "info": "The English Lexicon Project affords access to a large set of lexical characteristics, along with behavioral data from visual lexical decision and naming studies of 40,481 words and 40,481 nonwords.",
+   "website": "https://elexicon.wustl.edu"
+  },
+  "n_source_words": 2664,
+  "generated_by": "tools/make_nonce_words.py"
+ },
+ "screen": {
+  "real_word_list": "/usr/share/dict/words",
+  "hints_excluded": [
+   "blu",
+   "cir",
+   "gre",
+   "red",
+   "squ",
+   "tri"
+  ],
+  "kept_first": 40
+ },
+ "reply": {
+  "rows": [
+   {
+    "p": "lanch",
+    "s": [
+     "laser",
+     "canon",
+     "lance",
+     "perch"
+    ]
+   },
+   {
+    "p": "sowdy",
+    "s": [
+     "souls",
+     "lower",
+     "howdy",
+     "goody"
+    ]
+   },
+   {
+    "p": "twnia",
+    "s": [
+     "twirl",
+     "owned",
+     "genie",
+     "media"
+    ]
+   },
+   {
+    "p": "gheed",
+    "s": [
+     "ghoul",
+     "their",
+     "trees",
+     "paved"
+    ]
+   },
+   {
+    "p": "holky",
+    "s": [
+     "holed",
+     "jolly",
+     "folks",
+     "bulky"
+    ]
+   },
+   {
+    "p": "betie",
+    "s": [
+     "bench",
+     "metro",
+     "ratio",
+     "aggie"
+    ]
+   },
+   {
+    "p": "rores",
+    "s": [
+     "roars",
+     "forth",
+     "karen",
+     "bones"
+    ]
+   },
+   {
+    "p": "molil",
+    "s": [
+     "moors",
+     "poles",
+     "valid",
+     "spoil"
+    ]
+   },
+   {
+    "p": "blira",
+    "s": [
+     "bloom",
+     "bliss",
+     "fairy",
+     "flora"
+    ]
+   },
+   {
+    "p": "volil",
+    "s": [
+     "voter",
+     "colts",
+     "solid",
+     "pupil"
+    ]
+   },
+   {
+    "p": "veail",
+    "s": [
+     "vents",
+     "heavy",
+     "braid",
+     "grail"
+    ]
+   },
+   {
+    "p": "agrve",
+    "s": [
+     "agent",
+     "agree",
+     "curve",
+     "leave"
+    ]
+   },
+   {
+    "p": "sange",
+    "s": [
+     "sadly",
+     "ranch",
+     "rings",
+     "siege"
+    ]
+   },
+   {
+    "p": "nazes",
+    "s": [
+     "nancy",
+     "razor",
+     "sized",
+     "spies"
+    ]
+   },
+   {
+    "p": "camby",
+    "s": [
+     "cater",
+     "sammy",
+     "tombs",
+     "hobby"
+    ]
+   },
+   {
+    "p": "longo",
+    "s": [
+     "loose",
+     "donor",
+     "lingo",
+     "bongo"
+    ]
+   },
+   {
+    "p": "relal",
+    "s": [
+     "react",
+     "cello",
+     "relax",
+     "local"
+    ]
+   },
+   {
+    "p": "buits",
+    "s": [
+     "bulky",
+     "ruins",
+     "amity",
+     "seats"
+    ]
+   },
+   {
+    "p": "pluic",
+    "s": [
+     "pluck",
+     "fluid",
+     "louis",
+     "tunic"
+    ]
+   },
+   {
+    "p": "rosth",
+    "s": [
+     "roman",
+     "bossy",
+     "pasta",
+     "fifth"
+    ]
+   },
+   {
+    "p": "tajok",
+    "s": [
+     "talks",
+     "major",
+     "enjoy",
+     "crook"
+    ]
+   },
+   {
+    "p": "crale",
+    "s": [
+     "creek",
+     "trade",
+     "stalk",
+     "bugle"
+    ]
+   },
+   {
+    "p": "edapt",
+    "s": [
+     "edges",
+     "adage",
+     "grape",
+     "adopt"
+    ]
+   },
+   {
+    "p": "busee",
+    "s": [
+     "butch",
+     "rusty",
+     "based",
+     "emcee"
+    ]
+   },
+   {
+    "p": "skils",
+    "s": [
+     "skies",
+     "skies",
+     "wails",
+     "reels"
+    ]
+   },
+   {
+    "p": "widge",
+    "s": [
+     "wings",
+     "video",
+     "dodge",
+     "stage"
+    ]
+   },
+   {
+    "p": "cooax",
+    "s": [
+     "colts",
+     "goose",
+     "croak",
+     "relax"
+    ]
+   },
+   {
+    "p": "cloul",
+    "s": [
+     "clare",
+     "glory",
+     "proud",
+     "mogul"
+    ]
+   },
+   {
+    "p": "wites",
+    "s": [
+     "widow",
+     "witch",
+     "rates",
+     "rides"
+    ]
+   },
+   {
+    "p": "kinge",
+    "s": [
+     "kinky",
+     "rings",
+     "songs",
+     "marge"
+    ]
+   },
+   {
+    "p": "lased",
+    "s": [
+     "label",
+     "vases",
+     "moses",
+     "armed"
+    ]
+   },
+   {
+    "p": "liste",
+    "s": [
+     "linda",
+     "risen",
+     "casts",
+     "haste"
+    ]
+   },
+   {
+    "p": "enjon",
+    "s": [
+     "envoy",
+     "enjoy",
+     "enjoy",
+     "salon"
+    ]
+   },
+   {
+    "p": "nouts",
+    "s": [
+     "notes",
+     "sound",
+     "youth",
+     "vents"
+    ]
+   },
+   {
+    "p": "houte",
+    "s": [
+     "hover",
+     "mouse",
+     "mouth",
+     "brute"
+    ]
+   },
+   {
+    "p": "bumes",
+    "s": [
+     "butte",
+     "lumpy",
+     "comet",
+     "flies"
+    ]
+   },
+   {
+    "p": "gomby",
+    "s": [
+     "golly",
+     "romeo",
+     "combs",
+     "bobby"
+    ]
+   },
+   {
+    "p": "yaved",
+    "s": [
+     "yacht",
+     "waves",
+     "liver",
+     "asked"
+    ]
+   },
+   {
+    "p": "patse",
+    "s": [
+     "pains",
+     "dates",
+     "gutsy",
+     "arise"
+    ]
+   },
+   {
+    "p": "teges",
+    "s": [
+     "terry",
+     "degas",
+     "wager",
+     "cages"
+    ]
+   },
+   {
+    "p": "sland",
+    "s": [
+     "slaps",
+     "slaps",
+     "chant",
+     "mound"
+    ]
+   },
+   {
+    "p": "admpe",
+    "s": [
+     "adolf",
+     "admit",
+     "nymph",
+     "grope"
+    ]
+   },
+   {
+    "p": "yexts",
+    "s": [
+     "years",
+     "texan",
+     "texts",
+     "scots"
+    ]
+   },
+   {
+    "p": "bineu",
+    "s": [
+     "bigot",
+     "minor",
+     "vines",
+     "adieu"
+    ]
+   },
+   {
+    "p": "pargy",
+    "s": [
+     "pasty",
+     "harem",
+     "purge",
+     "buggy"
+    ]
+   },
+   {
+    "p": "evinc",
+    "s": [
+     "evils",
+     "evils",
+     "being",
+     "franc"
+    ]
+   },
+   {
+    "p": "doody",
+    "s": [
+     "dowry",
+     "hoops",
+     "goody",
+     "toddy"
+    ]
+   },
+   {
+    "p": "hammy",
+    "s": [
+     "happy",
+     "games",
+     "comma",
+     "slimy"
+    ]
+   },
+   {
+    "p": "boord",
+    "s": [
+     "bolts",
+     "loony",
+     "flora",
+     "heard"
+    ]
+   },
+   {
+    "p": "souge",
+    "s": [
+     "socks",
+     "douse",
+     "rouge",
+     "dodge"
+    ]
+   },
+   {
+    "p": "vined",
+    "s": [
+     "viola",
+     "linda",
+     "dunes",
+     "tried"
+    ]
+   },
+   {
+    "p": "haves",
+    "s": [
+     "handy",
+     "raven",
+     "lived",
+     "noses"
+    ]
+   },
+   {
+    "p": "ceped",
+    "s": [
+     "cells",
+     "depot",
+     "taped",
+     "cried"
+    ]
+   },
+   {
+    "p": "wrowl",
+    "s": [
+     "wrong",
+     "broke",
+     "crows",
+     "prowl"
+    ]
+   },
+   {
+    "p": "ushel",
+    "s": [
+     "users",
+     "ashes",
+     "ether",
+     "ethel"
+    ]
+   },
+   {
+    "p": "profs",
+    "s": [
+     "prowl",
+     "bronx",
+     "roofs",
+     "puffs"
+    ]
+   },
+   {
+    "p": "capps",
+    "s": [
+     "carts",
+     "japan",
+     "nappy",
+     "jumps"
+    ]
+   },
+   {
+    "p": "reeah",
+    "s": [
+     "rebel",
+     "feeds",
+     "plead",
+     "judah"
+    ]
+   },
+   {
+    "p": "triny",
+    "s": [
+     "trump",
+     "fries",
+     "spine",
+     "teeny"
+    ]
+   },
+   {
+    "p": "qumby",
+    "s": [
+     "quilt",
+     "lumps",
+     "limbs",
+     "cabby"
+    ]
+   },
+   {
+    "p": "hosic",
+    "s": [
+     "horns",
+     "posts",
+     "basis",
+     "optic"
+    ]
+   },
+   {
+    "p": "dores",
+    "s": [
+     "doors",
+     "borne",
+     "korea",
+     "tunes"
+    ]
+   },
+   {
+    "p": "greel",
+    "s": [
+     "gripe",
+     "dread",
+     "queer",
+     "level"
+    ]
+   },
+   {
+    "p": "dethy",
+    "s": [
+     "decay",
+     "getup",
+     "cathy",
+     "cushy"
+    ]
+   },
+   {
+    "p": "speve",
+    "s": [
+     "spoil",
+     "speed",
+     "steve",
+     "clove"
+    ]
+   },
+   {
+    "p": "kisty",
+    "s": [
+     "kitty",
+     "missy",
+     "costs",
+     "potty"
+    ]
+   },
+   {
+    "p": "blumi",
+    "s": [
+     "blond",
+     "plush",
+     "chump",
+     "swami"
+    ]
+   },
+   {
+    "p": "froma",
+    "s": [
+     "frisk",
+     "irons",
+     "rooms",
+     "aroma"
+    ]
+   },
+   {
+    "p": "byppe",
+    "s": [
+     "byron",
+     "types",
+     "nappy",
+     "grope"
+    ]
+   },
+   {
+    "p": "peech",
+    "s": [
+     "pence",
+     "meets",
+     "czech",
+     "patch"
+    ]
+   },
+   {
+    "p": "anies",
+    "s": [
+     "angst",
+     "knife",
+     "thief",
+     "acres"
+    ]
+   },
+   {
+    "p": "imine",
+    "s": [
+     "image",
+     "smile",
+     "wring",
+     "atone"
+    ]
+   },
+   {
+    "p": "dimit",
+    "s": [
+     "digit",
+     "dimes",
+     "humid",
+     "digit"
+    ]
+   },
+   {
+    "p": "roter",
+    "s": [
+     "rogue",
+     "lotto",
+     "hated",
+     "ether"
+    ]
+   },
+   {
+    "p": "fowed",
+    "s": [
+     "forks",
+     "lower",
+     "fewer",
+     "lived"
+    ]
+   },
+   {
+    "p": "ciler",
+    "s": [
+     "cited",
+     "piled",
+     "rules",
+     "fewer"
+    ]
+   },
+   {
+    "p": "stilo",
+    "s": [
+     "steal",
+     "stiff",
+     "still",
+     "jello"
+    ]
+   },
+   {
+    "p": "aboux",
+    "s": [
+     "abuse",
+     "abort",
+     "cloud",
+     "sioux"
+    ]
+   },
+   {
+    "p": "pelke",
+    "s": [
+     "pearl",
+     "helps",
+     "milky",
+     "quake"
+    ]
+   },
+   {
+    "p": "chich",
+    "s": [
+     "cheat",
+     "chimp",
+     "alice",
+     "belch"
+    ]
+   },
+   {
+    "p": "syclo",
+    "s": [
+     "syrup",
+     "cycle",
+     "uncle",
+     "cello"
+    ]
+   },
+   {
+    "p": "milts",
+    "s": [
+     "miner",
+     "milky",
+     "cults",
+     "meats"
+    ]
+   },
+   {
+    "p": "pucks",
+    "s": [
+     "putty",
+     "lucid",
+     "cocky",
+     "masks"
+    ]
+   },
+   {
+    "p": "barms",
+    "s": [
+     "badge",
+     "cared",
+     "germs",
+     "seems"
+    ]
+   },
+   {
+    "p": "reaks",
+    "s": [
+     "realm",
+     "beast",
+     "drake",
+     "disks"
+    ]
+   },
+   {
+    "p": "bazel",
+    "s": [
+     "baggy",
+     "nazis",
+     "dazed",
+     "label"
+    ]
+   },
+   {
+    "p": "gacet",
+    "s": [
+     "gases",
+     "sacks",
+     "vices",
+     "fleet"
+    ]
+   },
+   {
+    "p": "lurus",
+    "s": [
+     "lunar",
+     "cures",
+     "strut",
+     "claus"
+    ]
+   },
+   {
+    "p": "inown",
+    "s": [
+     "incur",
+     "known",
+     "snows",
+     "shown"
+    ]
+   },
+   {
+    "p": "sabel",
+    "s": [
+     "samba",
+     "saber",
+     "libel",
+     "gavel"
+    ]
+   },
+   {
+    "p": "spois",
+    "s": [
+     "spade",
+     "sport",
+     "avoid",
+     "louis"
+    ]
+   },
+   {
+    "p": "reges",
+    "s": [
+     "refer",
+     "negro",
+     "wager",
+     "blues"
+    ]
+   },
+   {
+    "p": "bogmp",
+    "s": [
+     "booty",
+     "roger",
+     "sigma",
+     "clamp"
+    ]
+   },
+   {
+    "p": "crapo",
+    "s": [
+     "craft",
+     "prawn",
+     "chaps",
+     "hippo"
+    ]
+   },
+   {
+    "p": "wheng",
+    "s": [
+     "whims",
+     "cheat",
+     "scent",
+     "slang"
+    ]
+   },
+   {
+    "p": "himit",
+    "s": [
+     "hindu",
+     "mimic",
+     "humid",
+     "limit"
+    ]
+   },
+   {
+    "p": "pened",
+    "s": [
+     "petty",
+     "venus",
+     "money",
+     "posed"
+    ]
+   },
+   {
+    "p": "leals",
+    "s": [
+     "lenin",
+     "teach",
+     "small",
+     "evils"
+    ]
+   },
+   {
+    "p": "paily",
+    "s": [
+     "pasty",
+     "hairy",
+     "spill",
+     "molly"
+    ]
+   },
+   {
+    "p": "meved",
+    "s": [
+     "medic",
+     "lever",
+     "cover",
+     "asked"
+    ]
+   }
+  ],
+  "subLen": 2,
+  "info": "100 pseudowords generated from 2664 source words !",
+  "warning": ""
+ },
+ "dropped": {
+  "gheed": "'ghee' is in /usr/share/dict/words",
+  "nazes": "'naze' is in /usr/share/dict/words",
+  "skils": "'skil' is in /usr/share/dict/words",
+  "wites": "'wite' is in /usr/share/dict/words",
+  "lased": "'las' is in /usr/share/dict/words",
+  "bumes": "'bum' is in /usr/share/dict/words",
+  "teges": "'teg' is in /usr/share/dict/words",
+  "hammy": "'hammy' is in /usr/share/dict/words",
+  "boord": "'boor' is in /usr/share/dict/words",
+  "vined": "'vined' is in /usr/share/dict/words",
+  "haves": "'have' is in /usr/share/dict/words",
+  "ceped": "'cepe' is in /usr/share/dict/words",
+  "profs": "'prof' is in /usr/share/dict/words",
+  "triny": "contains 'tri'",
+  "dores": "'dor' is in /usr/share/dict/words",
+  "greel": "contains 'gre'",
+  "blumi": "contains 'blu'",
+  "anies": "'ani' is in /usr/share/dict/words",
+  "imine": "'imine' is in /usr/share/dict/words",
+  "dimit": "'dimit' is in /usr/share/dict/words",
+  "roter": "'roter' is in /usr/share/dict/words",
+  "fowed": "'fow' is in /usr/share/dict/words",
+  "milts": "'milt' is in /usr/share/dict/words",
+  "pucks": "'puck' is in /usr/share/dict/words",
+  "barms": "'barm' is in /usr/share/dict/words",
+  "reaks": "'reak' is in /usr/share/dict/words",
+  "reges": "'reges' is in /usr/share/dict/words",
+  "pened": "'pen' is in /usr/share/dict/words",
+  "leals": "'leal' is in /usr/share/dict/words",
+  "meved": "'mev' is in /usr/share/dict/words"
+ },
+ "kept": [
+  "lanch",
+  "sowdy",
+  "twnia",
+  "holky",
+  "betie",
+  "rores",
+  "molil",
+  "blira",
+  "volil",
+  "veail",
+  "agrve",
+  "sange",
+  "camby",
+  "longo",
+  "relal",
+  "buits",
+  "pluic",
+  "rosth",
+  "tajok",
+  "crale",
+  "edapt",
+  "busee",
+  "widge",
+  "cooax",
+  "cloul",
+  "kinge",
+  "liste",
+  "enjon",
+  "nouts",
+  "houte",
+  "gomby",
+  "yaved",
+  "patse",
+  "sland",
+  "admpe",
+  "yexts",
+  "bineu",
+  "pargy",
+  "evinc",
+  "doody"
+ ]
+}

@@ -1,0 +1,6903 @@
+{
+ "source": {
+  "project": "LOTlib3",
+  "url": "https://github.com/thelogicalgrammar/LOTlib3",
+  "commit": "55112e11980480737dce76a5bb72ba3442cb7103",
+  "grammar": "LOTlib3.DefaultGrammars.SimpleBoolean_noTF (predicate weight 5.0) with the is_color_/is_shape_ predicates of Examples/RationalRules/Model.py",
+  "rational_rules_alpha": 2.0,
+  "seed": 20261112,
+  "generated_by": "tools/make_lotlib3_reference.py"
+ },
+ "features": {
+  "color": [
+   "red",
+   "blue",
+   "green",
+   "mauve"
+  ],
+  "shape": [
+   "square",
+   "circle",
+   "triangle",
+   "diamond"
+  ]
+ },
+ "objects": [
+  {
+   "color": "red",
+   "shape": "square"
+  },
+  {
+   "color": "red",
+   "shape": "circle"
+  },
+  {
+   "color": "red",
+   "shape": "triangle"
+  },
+  {
+   "color": "red",
+   "shape": "diamond"
+  },
+  {
+   "color": "blue",
+   "shape": "square"
+  },
+  {
+   "color": "blue",
+   "shape": "circle"
+  },
+  {
+   "color": "blue",
+   "shape": "triangle"
+  },
+  {
+   "color": "blue",
+   "shape": "diamond"
+  },
+  {
+   "color": "green",
+   "shape": "square"
+  },
+  {
+   "color": "green",
+   "shape": "circle"
+  },
+  {
+   "color": "green",
+   "shape": "triangle"
+  },
+  {
+   "color": "green",
+   "shape": "diamond"
+  },
+  {
+   "color": "mauve",
+   "shape": "square"
+  },
+  {
+   "color": "mauve",
+   "shape": "circle"
+  },
+  {
+   "color": "mauve",
+   "shape": "triangle"
+  },
+  {
+   "color": "mauve",
+   "shape": "diamond"
+  }
+ ],
+ "datasets": [
+  {
+   "name": "LOTlib3 Rational Rules example, make_data()",
+   "alpha": 0.999,
+   "trials": [
+    {
+     "color": "red",
+     "shape": "square",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "square",
+     "label": false
+    },
+    {
+     "color": "blue",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "triangle",
+     "label": false
+    }
+   ]
+  },
+  {
+   "name": "random labels, alpha=0.6, n=3",
+   "alpha": 0.6,
+   "trials": [
+    {
+     "color": "blue",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "blue",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "diamond",
+     "label": false
+    }
+   ]
+  },
+  {
+   "name": "random labels, alpha=0.6, n=8",
+   "alpha": 0.6,
+   "trials": [
+    {
+     "color": "red",
+     "shape": "diamond",
+     "label": false
+    },
+    {
+     "color": "blue",
+     "shape": "diamond",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "circle",
+     "label": false
+    },
+    {
+     "color": "blue",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "mauve",
+     "shape": "diamond",
+     "label": true
+    },
+    {
+     "color": "red",
+     "shape": "square",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "blue",
+     "shape": "diamond",
+     "label": false
+    }
+   ]
+  },
+  {
+   "name": "random labels, alpha=0.6, n=15",
+   "alpha": 0.6,
+   "trials": [
+    {
+     "color": "green",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "square",
+     "label": true
+    },
+    {
+     "color": "green",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "blue",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "green",
+     "shape": "circle",
+     "label": true
+    },
+    {
+     "color": "mauve",
+     "shape": "circle",
+     "label": false
+    },
+    {
+     "color": "green",
+     "shape": "square",
+     "label": true
+    },
+    {
+     "color": "red",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "red",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "mauve",
+     "shape": "circle",
+     "label": true
+    },
+    {
+     "color": "green",
+     "shape": "circle",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "square",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "square",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "diamond",
+     "label": false
+    },
+    {
+     "color": "mauve",
+     "shape": "triangle",
+     "label": true
+    }
+   ]
+  },
+  {
+   "name": "random labels, alpha=0.8, n=3",
+   "alpha": 0.8,
+   "trials": [
+    {
+     "color": "red",
+     "shape": "circle",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "square",
+     "label": false
+    },
+    {
+     "color": "green",
+     "shape": "square",
+     "label": false
+    }
+   ]
+  },
+  {
+   "name": "random labels, alpha=0.8, n=8",
+   "alpha": 0.8,
+   "trials": [
+    {
+     "color": "red",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "mauve",
+     "shape": "diamond",
+     "label": true
+    },
+    {
+     "color": "mauve",
+     "shape": "diamond",
+     "label": false
+    },
+    {
+     "color": "blue",
+     "shape": "square",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "blue",
+     "shape": "square",
+     "label": false
+    },
+    {
+     "color": "blue",
+     "shape": "diamond",
+     "label": true
+    },
+    {
+     "color": "green",
+     "shape": "circle",
+     "label": true
+    }
+   ]
+  },
+  {
+   "name": "random labels, alpha=0.8, n=15",
+   "alpha": 0.8,
+   "trials": [
+    {
+     "color": "blue",
+     "shape": "square",
+     "label": true
+    },
+    {
+     "color": "mauve",
+     "shape": "diamond",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "diamond",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "circle",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "mauve",
+     "shape": "circle",
+     "label": true
+    },
+    {
+     "color": "green",
+     "shape": "circle",
+     "label": true
+    },
+    {
+     "color": "mauve",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "red",
+     "shape": "square",
+     "label": false
+    },
+    {
+     "color": "green",
+     "shape": "square",
+     "label": true
+    },
+    {
+     "color": "green",
+     "shape": "diamond",
+     "label": false
+    },
+    {
+     "color": "green",
+     "shape": "diamond",
+     "label": false
+    },
+    {
+     "color": "green",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "red",
+     "shape": "circle",
+     "label": false
+    }
+   ]
+  },
+  {
+   "name": "random labels, alpha=0.95, n=3",
+   "alpha": 0.95,
+   "trials": [
+    {
+     "color": "mauve",
+     "shape": "diamond",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "circle",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "circle",
+     "label": false
+    }
+   ]
+  },
+  {
+   "name": "random labels, alpha=0.95, n=8",
+   "alpha": 0.95,
+   "trials": [
+    {
+     "color": "mauve",
+     "shape": "diamond",
+     "label": false
+    },
+    {
+     "color": "blue",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "mauve",
+     "shape": "circle",
+     "label": true
+    },
+    {
+     "color": "green",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "green",
+     "shape": "circle",
+     "label": false
+    },
+    {
+     "color": "green",
+     "shape": "diamond",
+     "label": false
+    },
+    {
+     "color": "green",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "red",
+     "shape": "circle",
+     "label": true
+    }
+   ]
+  },
+  {
+   "name": "random labels, alpha=0.95, n=15",
+   "alpha": 0.95,
+   "trials": [
+    {
+     "color": "green",
+     "shape": "diamond",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "diamond",
+     "label": true
+    },
+    {
+     "color": "mauve",
+     "shape": "circle",
+     "label": false
+    },
+    {
+     "color": "mauve",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "diamond",
+     "label": false
+    },
+    {
+     "color": "mauve",
+     "shape": "circle",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "circle",
+     "label": true
+    },
+    {
+     "color": "red",
+     "shape": "circle",
+     "label": true
+    },
+    {
+     "color": "blue",
+     "shape": "square",
+     "label": true
+    },
+    {
+     "color": "red",
+     "shape": "square",
+     "label": true
+    },
+    {
+     "color": "green",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "mauve",
+     "shape": "diamond",
+     "label": true
+    },
+    {
+     "color": "mauve",
+     "shape": "triangle",
+     "label": false
+    },
+    {
+     "color": "red",
+     "shape": "triangle",
+     "label": true
+    },
+    {
+     "color": "red",
+     "shape": "diamond",
+     "label": true
+    }
+   ]
+  }
+ ],
+ "hypotheses": [
+  {
+   "lotlib3": "lambda x: not_(is_color_(x, 'mauve'))",
+   "python": "lambda t: (not t['color'] == 'mauve')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -4.628886712605407,
+   "rational_rules_log_prior": -4.969813299575995,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -11.48920893835291,
+    -11.664919436432488,
+    -4.710530701645919,
+    -9.63178243460749,
+    -21.35542893089337,
+    -11.066638362341806,
+    -14.856789048392903,
+    -11.370452058153285
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(or_(is_color_(x, 'blue'), is_color_(x, 'green')), is_shape_(x, 'diamond'))",
+   "python": "lambda t: ((t['color'] == 'blue' or t['color'] == 'green') and t['shape'] == 'diamond')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.476956155138732,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -4.557737132753459,
+    -18.596391242031938,
+    -2.5133061243096986,
+    -7.434557857271267,
+    -23.55265350822959,
+    -3.7395150700825153,
+    -18.520350694522545,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: is_shape_(x, 'square')",
+   "python": "lambda t: t['shape'] == 'square'",
+   "truth_table": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -2.549445170925571,
+   "rational_rules_log_prior": -3.4657359027997225,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.94403149387335,
+    -14.43750815867227,
+    -6.907755278982138,
+    -14.026231589279927,
+    -14.763755198884715,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'circle'), or_(is_shape_(x, 'diamond'), is_color_(x, 'mauve')))",
+   "python": "lambda t: (t['shape'] == 'circle' or (t['shape'] == 'diamond' or t['color'] == 'mauve'))",
+   "truth_table": [
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.071491047030568,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -5.94403149387335,
+    -14.437508158672266,
+    -0.31608154697347884,
+    -5.237333279935048,
+    -23.552653508229593,
+    -7.40307671621216,
+    -18.520350694522545,
+    -29.688260288801512
+   ]
+  },
+  {
+   "lotlib3": "lambda x: is_color_(x, 'mauve')",
+   "python": "lambda t: t['color'] == 'mauve'",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -2.549445170925571,
+   "rational_rules_log_prior": -3.4657359027997225,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -3.1714427716335685,
+    -15.823802519792157,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -14.763755198884715,
+    -0.07595342395286969,
+    -14.8567890483929,
+    -44.3425068733201
+   ]
+  },
+  {
+   "lotlib3": "lambda x: is_color_(x, 'red')",
+   "python": "lambda t: t['color'] == 'red'",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -2.549445170925571,
+   "rational_rules_log_prior": -3.4657359027997225,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -8.716620216113132,
+    -11.664919436432488,
+    -0.31608154697347884,
+    -9.631782434607487,
+    -23.552653508229593,
+    -7.40307671621216,
+    -11.193227402263254,
+    -22.361136996542225
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(and_(is_shape_(x, 'circle'), or_(or_(is_shape_(x, 'circle'), is_color_(x, 'red')), is_shape_(x, 'diamond'))), or_(is_shape_(x, 'diamond'), is_color_(x, 'red')))",
+   "python": "lambda t: ((t['shape'] == 'circle' and ((t['shape'] == 'circle' or t['color'] == 'red') or t['shape'] == 'diamond')) or (t['shape'] == 'diamond' or t['color'] == 'red'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true
+   ],
+   "pcfg_log_prior": -25.69387873395261,
+   "rational_rules_log_prior": -26.1738345575439,
+   "log_likelihood": [
+    -7.602402834667128,
+    -3.4420193761824103,
+    -8.71662021611313,
+    -10.278625075312599,
+    -0.31608154697347884,
+    -5.237333279935048,
+    -23.552653508229596,
+    -7.40307671621216,
+    -18.520350694522545,
+    -22.361136996542225
+   ]
+  },
+  {
+   "lotlib3": "lambda x: is_color_(x, 'blue')",
+   "python": "lambda t: t['color'] == 'blue'",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -2.549445170925571,
+   "rational_rules_log_prior": -3.4657359027997225,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -7.330325854993241,
+    -18.596391242031938,
+    -4.710530701645918,
+    -11.829007011943709,
+    -16.96097977622093,
+    -7.40307671621216,
+    -11.193227402263256,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'circle'), is_color_(x, 'blue'))",
+   "python": "lambda t: (t['shape'] == 'circle' or t['color'] == 'blue')",
+   "truth_table": [
+    false,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -7.330325854993241,
+    -15.823802519792157,
+    -2.5133061243096986,
+    -9.631782434607489,
+    -16.960979776220935,
+    -11.066638362341806,
+    -7.5296657561336096,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'mauve'), is_shape_(x, 'circle'))",
+   "python": "lambda t: (t['color'] == 'mauve' and t['shape'] == 'circle')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -14.763755198884711,
+    -3.7395150700825153,
+    -11.193227402263256,
+    -48.00606851944974
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(or_(not_(and_(and_(not_(is_shape_(x, 'diamond')), is_shape_(x, 'triangle')), is_color_(x, 'green'))), is_color_(x, 'red')), not_(is_shape_(x, 'diamond')))",
+   "python": "lambda t: (((not (((not t['shape'] == 'diamond') and t['shape'] == 'triangle') and t['color'] == 'green')) or t['color'] == 'red') and (not t['shape'] == 'diamond'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -27.303316646386705,
+   "rational_rules_log_prior": -28.0139632269276,
+   "log_likelihood": [
+    -22.803207503667927,
+    -2.05572501506252,
+    -10.102914577233019,
+    -6.119741991952927,
+    -4.710530701645919,
+    -11.82900701194371,
+    -16.96097977622093,
+    -11.066638362341806,
+    -7.5296657561336096,
+    -29.688260288801512
+   ]
+  },
+  {
+   "lotlib3": "lambda x: is_color_(x, 'green')",
+   "python": "lambda t: t['color'] == 'green'",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -2.549445170925571,
+   "rational_rules_log_prior": -3.4657359027997225,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -15.823802519792157,
+    -4.710530701645919,
+    -7.434557857271267,
+    -14.763755198884713,
+    -3.7395150700825153,
+    -22.183912340652192,
+    -33.35182193493115
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'circle'), is_color_(x, 'red'))",
+   "python": "lambda t: (t['shape'] == 'circle' or t['color'] == 'red')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -10.102914577233019,
+    -8.892330714192708,
+    -0.31608154697347884,
+    -7.434557857271268,
+    -19.158204353557156,
+    -11.066638362341806,
+    -11.193227402263256,
+    -29.688260288801512
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(is_shape_(x, 'triangle'))",
+   "python": "lambda t: (not t['shape'] == 'triangle')",
+   "truth_table": [
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true
+   ],
+   "pcfg_log_prior": -4.628886712605407,
+   "rational_rules_log_prior": -4.969813299575995,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -7.33032585499324,
+    -13.051213797552379,
+    -4.710530701645919,
+    -9.63178243460749,
+    -19.158204353557153,
+    -7.40307671621216,
+    -18.520350694522545,
+    -22.361136996542225
+   ]
+  },
+  {
+   "lotlib3": "lambda x: is_shape_(x, 'triangle')",
+   "python": "lambda t: t['shape'] == 'triangle'",
+   "truth_table": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -2.549445170925571,
+   "rational_rules_log_prior": -3.4657359027997225,
+   "log_likelihood": [
+    -22.803207503667927,
+    -2.05572501506252,
+    -7.330325854993241,
+    -14.437508158672266,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.960979776220928,
+    -3.7395150700825153,
+    -11.193227402263254,
+    -33.35182193493115
+   ]
+  },
+  {
+   "lotlib3": "lambda x: is_shape_(x, 'circle')",
+   "python": "lambda t: t['shape'] == 'circle'",
+   "truth_table": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -2.549445170925571,
+   "rational_rules_log_prior": -3.4657359027997225,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.944031493873349,
+    -14.437508158672266,
+    -0.31608154697347884,
+    -7.434557857271267,
+    -16.96097977622093,
+    -11.066638362341806,
+    -11.193227402263256,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(and_(and_(is_color_(x, 'mauve'), is_shape_(x, 'triangle')), or_(is_shape_(x, 'triangle'), is_shape_(x, 'square'))), is_color_(x, 'blue'))",
+   "python": "lambda t: (((t['color'] == 'mauve' and t['shape'] == 'triangle') and (t['shape'] == 'triangle' or t['shape'] == 'square')) and t['color'] == 'blue')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -21.0649920213472,
+   "rational_rules_log_prior": -22.52399297615672,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(not_(is_color_(x, 'red')))",
+   "python": "lambda t: (not (not t['color'] == 'red'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -6.708328254285243,
+   "rational_rules_log_prior": -6.173786103901933,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -8.716620216113132,
+    -11.664919436432488,
+    -0.31608154697347884,
+    -9.631782434607487,
+    -23.552653508229593,
+    -7.40307671621216,
+    -11.193227402263254,
+    -22.361136996542225
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'blue'), is_shape_(x, 'triangle'))",
+   "python": "lambda t: (t['color'] == 'blue' and t['shape'] == 'triangle')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -15.202805169167528,
+    -2.05572501506252,
+    -5.94403149387335,
+    -15.823802519792157,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -11.193227402263256,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(is_shape_(x, 'circle'))",
+   "python": "lambda t: (not t['shape'] == 'circle')",
+   "truth_table": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -4.628886712605407,
+   "rational_rules_log_prior": -4.969813299575995,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -8.716620216113132,
+    -13.051213797552379,
+    -6.907755278982138,
+    -11.829007011943709,
+    -19.15820435355715,
+    -0.07595342395286969,
+    -18.52035069452255,
+    -15.034013704282934
+   ]
+  },
+  {
+   "lotlib3": "lambda x: is_shape_(x, 'diamond')",
+   "python": "lambda t: t['shape'] == 'diamond'",
+   "truth_table": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true
+   ],
+   "pcfg_log_prior": -2.549445170925571,
+   "rational_rules_log_prior": -3.4657359027997225,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -4.557737132753459,
+    -18.596391242031938,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -21.35542893089337,
+    -0.07595342395286969,
+    -22.183912340652192,
+    -29.68826028880151
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(or_(is_shape_(x, 'square'), not_(is_shape_(x, 'square'))), is_shape_(x, 'diamond'))",
+   "python": "lambda t: ((t['shape'] == 'square' or (not t['shape'] == 'square')) and t['shape'] == 'diamond')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true
+   ],
+   "pcfg_log_prior": -13.886660137816222,
+   "rational_rules_log_prior": -14.473289594686428,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -4.557737132753459,
+    -18.596391242031938,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -21.35542893089337,
+    -0.07595342395286969,
+    -22.183912340652192,
+    -29.68826028880151
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'blue'), or_(is_shape_(x, 'circle'), is_shape_(x, 'triangle')))",
+   "python": "lambda t: (t['color'] == 'blue' and (t['shape'] == 'circle' or t['shape'] == 'triangle'))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.476956155138732,
+   "log_likelihood": [
+    -15.202805169167528,
+    -2.05572501506252,
+    -7.33032585499324,
+    -15.823802519792157,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -7.40307671621216,
+    -11.193227402263256,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'square'), is_color_(x, 'blue'))",
+   "python": "lambda t: (t['shape'] == 'square' or t['color'] == 'blue')",
+   "truth_table": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -15.202805169167528,
+    -3.4420193761824103,
+    -8.716620216113132,
+    -14.43750815867227,
+    -6.907755278982138,
+    -11.829007011943709,
+    -16.96097977622093,
+    -7.40307671621216,
+    -11.193227402263256,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(and_(is_shape_(x, 'diamond'), or_(is_color_(x, 'green'), is_color_(x, 'mauve'))), is_color_(x, 'green'))",
+   "python": "lambda t: ((t['shape'] == 'diamond' and (t['color'] == 'green' or t['color'] == 'mauve')) or t['color'] == 'green')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true
+   ],
+   "pcfg_log_prior": -16.436105308741794,
+   "rational_rules_log_prior": -17.736501233374682,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -3.1714427716335685,
+    -15.823802519792157,
+    -4.710530701645919,
+    -7.434557857271268,
+    -12.566530621548491,
+    -0.07595342395286969,
+    -25.847473986781836,
+    -29.68826028880151
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'circle'), is_color_(x, 'blue'))",
+   "python": "lambda t: (t['shape'] == 'circle' and t['color'] == 'blue')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.944031493873349,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -7.40307671621216,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(and_(and_(is_color_(x, 'blue'), is_shape_(x, 'triangle')), and_(is_shape_(x, 'diamond'), is_color_(x, 'green'))))",
+   "python": "lambda t: (not ((t['color'] == 'blue' and t['shape'] == 'triangle') and (t['shape'] == 'diamond' and t['color'] == 'green')))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -18.51554685042163,
+   "rational_rules_log_prior": -19.64604373825911,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -10.10291457723302,
+    -10.278625075312597,
+    -4.710530701645919,
+    -9.63178243460749,
+    -19.15820435355715,
+    -7.40307671621216,
+    -14.856789048392903,
+    -15.034013704282936
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'circle'), is_shape_(x, 'square'))",
+   "python": "lambda t: (t['shape'] == 'circle' and t['shape'] == 'square')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'square'), not_(and_(not_(is_shape_(x, 'triangle')), is_shape_(x, 'diamond'))))",
+   "python": "lambda t: (t['shape'] == 'square' and (not ((not t['shape'] == 'triangle') and t['shape'] == 'diamond')))",
+   "truth_table": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -15.966101679496058,
+   "rational_rules_log_prior": -16.013734635633583,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.94403149387335,
+    -14.43750815867227,
+    -6.907755278982138,
+    -14.026231589279927,
+    -14.763755198884715,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(or_(is_color_(x, 'green'), is_shape_(x, 'square')))",
+   "python": "lambda t: (not (t['color'] == 'green' or t['shape'] == 'square'))",
+   "truth_table": [
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -9.257773425210814,
+   "rational_rules_log_prior": -10.181119289134406,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -8.71662021611313,
+    -13.051213797552379,
+    -0.31608154697347884,
+    -7.434557857271268,
+    -21.355428930893375,
+    -7.40307671621216,
+    -7.5296657561336096,
+    -29.68826028880151
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'triangle'), is_color_(x, 'green'))",
+   "python": "lambda t: (t['shape'] == 'triangle' and t['color'] == 'green')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -19.982685603151825,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -14.763755198884713,
+    -3.7395150700825153,
+    -14.856789048392903,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_color_(x, 'blue'), is_shape_(x, 'triangle'))",
+   "python": "lambda t: (t['color'] == 'blue' or t['shape'] == 'triangle')",
+   "truth_table": [
+    false,
+    false,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -30.403609838168325,
+    -3.4420193761824103,
+    -8.716620216113132,
+    -17.210096880912047,
+    -4.710530701645918,
+    -11.829007011943709,
+    -16.96097977622093,
+    -7.40307671621216,
+    -11.193227402263254,
+    -29.68826028880151
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_color_(x, 'red'), is_color_(x, 'red'))",
+   "python": "lambda t: (t['color'] == 'red' or t['color'] == 'red')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -7.783224016336034,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -8.716620216113132,
+    -11.664919436432488,
+    -0.31608154697347884,
+    -9.631782434607487,
+    -23.552653508229593,
+    -7.40307671621216,
+    -11.193227402263254,
+    -22.361136996542225
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(or_(is_shape_(x, 'diamond'), is_color_(x, 'blue')))",
+   "python": "lambda t: (not (t['shape'] == 'diamond' or t['color'] == 'blue'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -9.257773425210814,
+   "rational_rules_log_prior": -10.181119289134406,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -7.330325854993241,
+    -8.892330714192706,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -16.960979776220935,
+    -7.40307671621216,
+    -11.193227402263258,
+    -29.688260288801512
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(and_(is_color_(x, 'red'), or_(not_(is_color_(x, 'green')), is_shape_(x, 'square'))))",
+   "python": "lambda t: (not (t['color'] == 'red' and ((not t['color'] == 'green') or t['shape'] == 'square')))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -15.966101679496058,
+   "rational_rules_log_prior": -16.889203372987474,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -5.94403149387335,
+    -15.823802519792157,
+    -6.907755278982138,
+    -9.63178243460749,
+    -12.566530621548495,
+    -3.7395150700825153,
+    -18.52035069452255,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'circle'), not_(is_shape_(x, 'circle')))",
+   "python": "lambda t: (t['shape'] == 'circle' and (not t['shape'] == 'circle'))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -9.257773425210814,
+   "rational_rules_log_prior": -9.48797210857446,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(or_(is_shape_(x, 'triangle'), is_shape_(x, 'diamond')))",
+   "python": "lambda t: (not (t['shape'] == 'triangle' or t['shape'] == 'diamond'))",
+   "truth_table": [
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -9.257773425210814,
+   "rational_rules_log_prior": -9.893437216682624,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -7.33032585499324,
+    -11.664919436432488,
+    -4.710530701645919,
+    -11.829007011943707,
+    -14.763755198884713,
+    -11.066638362341806,
+    -11.193227402263256,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(and_(not_(is_shape_(x, 'diamond')), is_shape_(x, 'circle')), is_color_(x, 'green'))",
+   "python": "lambda t: (((not t['shape'] == 'diamond') and t['shape'] == 'circle') or t['color'] == 'green')",
+   "truth_table": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -13.886660137816222,
+   "rational_rules_log_prior": -15.348758332040324,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.944031493873349,
+    -15.823802519792153,
+    -2.5133061243096986,
+    -7.434557857271267,
+    -16.96097977622093,
+    -11.066638362341806,
+    -14.856789048392903,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(and_(is_color_(x, 'red'), not_(not_(or_(is_shape_(x, 'circle'), not_(or_(is_color_(x, 'mauve'), is_shape_(x, 'circle'))))))), not_(is_color_(x, 'mauve')))",
+   "python": "lambda t: ((t['color'] == 'red' and (not (not (t['shape'] == 'circle' or (not (t['color'] == 'mauve' or t['shape'] == 'circle')))))) and (not t['color'] == 'mauve'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -29.382758188066543,
+   "rational_rules_log_prior": -29.282474552391104,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -8.716620216113132,
+    -11.664919436432488,
+    -0.31608154697347884,
+    -9.631782434607487,
+    -23.552653508229593,
+    -7.40307671621216,
+    -11.193227402263254,
+    -22.361136996542225
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'circle'), is_color_(x, 'mauve'))",
+   "python": "lambda t: (t['shape'] == 'circle' and t['color'] == 'mauve')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -14.763755198884711,
+    -3.7395150700825153,
+    -11.193227402263256,
+    -48.00606851944974
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'square'), is_color_(x, 'mauve'))",
+   "python": "lambda t: (t['shape'] == 'square' or t['color'] == 'mauve')",
+   "truth_table": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -13.051213797552375,
+    -6.907755278982138,
+    -14.02623158927993,
+    -12.566530621548493,
+    -0.07595342395286969,
+    -14.8567890483929,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(is_color_(x, 'green'))",
+   "python": "lambda t: (not t['color'] == 'green')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -4.628886712605407,
+   "rational_rules_log_prior": -4.969813299575995,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -10.10291457723302,
+    -11.664919436432488,
+    -2.5133061243096986,
+    -11.829007011943709,
+    -21.35542893089337,
+    -7.40307671621216,
+    -7.5296657561336096,
+    -22.36113699654222
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'triangle'), or_(is_shape_(x, 'diamond'), is_color_(x, 'mauve')))",
+   "python": "lambda t: (t['shape'] == 'triangle' and (t['shape'] == 'diamond' or t['color'] == 'mauve'))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.476956155138732,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -15.823802519792157,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -19.15820435355715,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(is_shape_(x, 'diamond'))",
+   "python": "lambda t: (not t['shape'] == 'diamond')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -4.628886712605407,
+   "rational_rules_log_prior": -4.969813299575995,
+   "log_likelihood": [
+    -22.803207503667927,
+    -2.05572501506252,
+    -10.102914577233019,
+    -8.892330714192706,
+    -4.710530701645919,
+    -11.82900701194371,
+    -14.763755198884713,
+    -11.066638362341806,
+    -7.5296657561336096,
+    -26.02469864267187
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'triangle'), or_(and_(is_color_(x, 'red'), is_color_(x, 'mauve')), not_(and_(is_shape_(x, 'triangle'), is_shape_(x, 'circle')))))",
+   "python": "lambda t: (t['shape'] == 'triangle' and ((t['color'] == 'red' and t['color'] == 'mauve') or (not (t['shape'] == 'triangle' and t['shape'] == 'circle'))))",
+   "truth_table": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -23.144433563027036,
+   "rational_rules_log_prior": -24.664059139653,
+   "log_likelihood": [
+    -22.803207503667927,
+    -2.05572501506252,
+    -7.330325854993241,
+    -14.437508158672266,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.960979776220928,
+    -3.7395150700825153,
+    -11.193227402263254,
+    -33.35182193493115
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(and_(is_shape_(x, 'square'), is_shape_(x, 'triangle')))",
+   "python": "lambda t: (not (t['shape'] == 'square' and t['shape'] == 'triangle'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -9.257773425210814,
+   "rational_rules_log_prior": -9.893437216682624,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -10.10291457723302,
+    -10.278625075312597,
+    -4.710530701645919,
+    -9.63178243460749,
+    -19.15820435355715,
+    -7.40307671621216,
+    -14.856789048392903,
+    -15.034013704282936
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(or_(is_shape_(x, 'circle'), or_(is_color_(x, 'mauve'), and_(is_color_(x, 'green'), is_shape_(x, 'diamond')))), is_shape_(x, 'square'))",
+   "python": "lambda t: ((t['shape'] == 'circle' or (t['color'] == 'mauve' or (t['color'] == 'green' and t['shape'] == 'diamond'))) and t['shape'] == 'square')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -21.0649920213472,
+   "rational_rules_log_prior": -23.217140156716667,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(is_color_(x, 'red'))",
+   "python": "lambda t: (not t['color'] == 'red')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -4.628886712605407,
+   "rational_rules_log_prior": -4.969813299575995,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -5.94403149387335,
+    -15.823802519792157,
+    -6.907755278982138,
+    -9.63178243460749,
+    -12.566530621548495,
+    -3.7395150700825153,
+    -18.52035069452255,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'mauve'), is_color_(x, 'mauve'))",
+   "python": "lambda t: (t['color'] == 'mauve' and t['color'] == 'mauve')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -7.783224016336034,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -3.1714427716335685,
+    -15.823802519792157,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -14.763755198884715,
+    -0.07595342395286969,
+    -14.8567890483929,
+    -44.3425068733201
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'circle'), is_shape_(x, 'square'))",
+   "python": "lambda t: (t['shape'] == 'circle' or t['shape'] == 'square')",
+   "truth_table": [
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -7.33032585499324,
+    -11.664919436432488,
+    -4.710530701645919,
+    -11.829007011943707,
+    -14.763755198884713,
+    -11.066638362341806,
+    -11.193227402263256,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(not_(is_shape_(x, 'circle')))",
+   "python": "lambda t: (not (not t['shape'] == 'circle'))",
+   "truth_table": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -6.708328254285243,
+   "rational_rules_log_prior": -6.173786103901933,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.944031493873349,
+    -14.437508158672266,
+    -0.31608154697347884,
+    -7.434557857271267,
+    -16.96097977622093,
+    -11.066638362341806,
+    -11.193227402263256,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'square'), is_color_(x, 'red'))",
+   "python": "lambda t: (t['shape'] == 'square' or t['color'] == 'red')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -15.202805169167528,
+    -2.05572501506252,
+    -8.716620216113132,
+    -11.664919436432488,
+    -4.710530701645919,
+    -14.02623158927993,
+    -19.158204353557156,
+    -7.40307671621216,
+    -11.193227402263254,
+    -18.69757535041258
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(is_color_(x, 'blue'))",
+   "python": "lambda t: (not t['color'] == 'blue')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -4.628886712605407,
+   "rational_rules_log_prior": -4.969813299575995,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -7.33032585499324,
+    -8.892330714192706,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -19.15820435355715,
+    -3.7395150700825153,
+    -18.52035069452255,
+    -18.697575350412578
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'diamond'), is_color_(x, 'blue'))",
+   "python": "lambda t: (t['shape'] == 'diamond' and t['color'] == 'blue')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -4.557737132753459,
+    -18.596391242031938,
+    -2.5133061243096986,
+    -7.434557857271267,
+    -19.158204353557146,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'green'), is_shape_(x, 'diamond'))",
+   "python": "lambda t: (t['color'] == 'green' and t['shape'] == 'diamond')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -21.35542893089337,
+    -3.7395150700825153,
+    -18.520350694522545,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_color_(x, 'mauve'), is_shape_(x, 'square'))",
+   "python": "lambda t: (t['color'] == 'mauve' or t['shape'] == 'square')",
+   "truth_table": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -13.051213797552375,
+    -6.907755278982138,
+    -14.02623158927993,
+    -12.566530621548493,
+    -0.07595342395286969,
+    -14.8567890483929,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'diamond'), and_(is_color_(x, 'blue'), is_shape_(x, 'triangle')))",
+   "python": "lambda t: (t['shape'] == 'diamond' and (t['color'] == 'blue' and t['shape'] == 'triangle'))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.071491047030568,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'triangle'), and_(or_(not_(is_color_(x, 'blue')), is_color_(x, 'mauve')), or_(is_shape_(x, 'circle'), is_shape_(x, 'square'))))",
+   "python": "lambda t: (t['shape'] == 'triangle' or (((not t['color'] == 'blue') or t['color'] == 'mauve') and (t['shape'] == 'circle' or t['shape'] == 'square')))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -23.144433563027036,
+   "rational_rules_log_prior": -25.069524247761162,
+   "log_likelihood": [
+    -15.202805169167526,
+    -2.05572501506252,
+    -8.716620216113132,
+    -7.506036353072817,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -16.960979776220935,
+    -7.40307671621216,
+    -7.5296657561336096,
+    -29.688260288801512
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_color_(x, 'blue'), is_color_(x, 'green'))",
+   "python": "lambda t: (t['color'] == 'blue' or t['color'] == 'green')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -7.330325854993241,
+    -17.210096880912047,
+    -6.907755278982138,
+    -9.631782434607489,
+    -14.763755198884713,
+    -7.40307671621216,
+    -18.52035069452255,
+    -29.68826028880151
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(not_(is_color_(x, 'green')), is_color_(x, 'red'))",
+   "python": "lambda t: ((not t['color'] == 'green') or t['color'] == 'red')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -9.257773425210814,
+   "rational_rules_log_prior": -9.893437216682624,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -10.10291457723302,
+    -11.664919436432488,
+    -2.5133061243096986,
+    -11.829007011943709,
+    -21.35542893089337,
+    -7.40307671621216,
+    -7.5296657561336096,
+    -22.36113699654222
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(or_(is_shape_(x, 'square'), or_(is_color_(x, 'red'), is_color_(x, 'mauve'))), is_shape_(x, 'diamond'))",
+   "python": "lambda t: ((t['shape'] == 'square' or (t['color'] == 'red' or t['color'] == 'mauve')) or t['shape'] == 'diamond')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -16.436105308741794,
+   "rational_rules_log_prior": -17.63114071771685,
+   "log_likelihood": [
+    -15.202805169167528,
+    -3.4420193761824103,
+    -7.330325854993241,
+    -11.664919436432488,
+    -4.710530701645919,
+    -11.829007011943709,
+    -23.552653508229593,
+    -3.7395150700825153,
+    -14.856789048392901,
+    -18.69757535041258
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(and_(or_(or_(is_color_(x, 'mauve'), is_color_(x, 'blue')), is_color_(x, 'red')), not_(is_shape_(x, 'triangle'))), is_shape_(x, 'diamond'))",
+   "python": "lambda t: ((((t['color'] == 'mauve' or t['color'] == 'blue') or t['color'] == 'red') and (not t['shape'] == 'triangle')) and t['shape'] == 'diamond')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+   ],
+   "pcfg_log_prior": -23.144433563027036,
+   "rational_rules_log_prior": -25.357206320212942,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -4.557737132753459,
+    -18.596391242031938,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -16.96097977622093,
+    -0.07595342395286969,
+    -18.52035069452255,
+    -33.35182193493115
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(and_(is_color_(x, 'blue'), not_(not_(and_(not_(is_color_(x, 'red')), is_shape_(x, 'circle'))))), is_color_(x, 'green'))",
+   "python": "lambda t: ((t['color'] == 'blue' and (not (not ((not t['color'] == 'red') and t['shape'] == 'circle')))) or t['color'] == 'green')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -22.674429933781298,
+   "rational_rules_log_prior": -23.277764778533104,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.944031493873349,
+    -15.823802519792157,
+    -4.710530701645919,
+    -7.434557857271267,
+    -14.763755198884713,
+    -7.40307671621216,
+    -22.183912340652192,
+    -33.35182193493115
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(or_(and_(not_(is_shape_(x, 'triangle')), is_color_(x, 'mauve')), is_shape_(x, 'diamond')), is_shape_(x, 'diamond'))",
+   "python": "lambda t: ((((not t['shape'] == 'triangle') and t['color'] == 'mauve') or t['shape'] == 'diamond') or t['shape'] == 'diamond')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true
+   ],
+   "pcfg_log_prior": -18.51554685042163,
+   "rational_rules_log_prior": -19.751404253916938,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -4.557737132753459,
+    -18.596391242031938,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -19.158204353557153,
+    -0.07595342395286969,
+    -18.520350694522545,
+    -37.015383581060796
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(is_shape_(x, 'square'))",
+   "python": "lambda t: (not t['shape'] == 'square')",
+   "truth_table": [
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -4.628886712605407,
+   "rational_rules_log_prior": -4.969813299575995,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -8.71662021611313,
+    -13.051213797552375,
+    -0.31608154697347884,
+    -5.237333279935048,
+    -21.355428930893375,
+    -7.40307671621216,
+    -14.856789048392903,
+    -22.361136996542225
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'red'), is_shape_(x, 'square'))",
+   "python": "lambda t: (t['color'] == 'red' and t['shape'] == 'square')",
+   "truth_table": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -0.0020005001667289714,
+    -2.05572501506252,
+    -5.94403149387335,
+    -14.437508158672266,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -19.15820435355715,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'red'), is_color_(x, 'red'))",
+   "python": "lambda t: (t['color'] == 'red' and t['color'] == 'red')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -7.783224016336034,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -8.716620216113132,
+    -11.664919436432488,
+    -0.31608154697347884,
+    -9.631782434607487,
+    -23.552653508229593,
+    -7.40307671621216,
+    -11.193227402263254,
+    -22.361136996542225
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(not_(is_color_(x, 'blue')), not_(is_shape_(x, 'diamond')))",
+   "python": "lambda t: ((not t['color'] == 'blue') and (not t['shape'] == 'diamond'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -11.33721496689065,
+   "rational_rules_log_prior": -11.567413650254293,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -7.330325854993241,
+    -8.892330714192706,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -16.960979776220935,
+    -7.40307671621216,
+    -11.193227402263258,
+    -29.688260288801512
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'square'), is_color_(x, 'blue'))",
+   "python": "lambda t: (t['shape'] == 'square' and t['color'] == 'blue')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -15.202805169167528,
+    -2.05572501506252,
+    -4.557737132753459,
+    -18.596391242031938,
+    -4.710530701645918,
+    -14.026231589279927,
+    -14.763755198884715,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'triangle'), is_color_(x, 'red'))",
+   "python": "lambda t: (t['shape'] == 'triangle' and t['color'] == 'red')",
+   "truth_table": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -15.202805169167528,
+    -2.05572501506252,
+    -5.94403149387335,
+    -14.43750815867227,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -37.015383581060796
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(and_(is_shape_(x, 'circle'), is_shape_(x, 'diamond')), is_color_(x, 'blue'))",
+   "python": "lambda t: ((t['shape'] == 'circle' and t['shape'] == 'diamond') or t['color'] == 'blue')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.476956155138732,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -7.330325854993241,
+    -18.596391242031938,
+    -4.710530701645918,
+    -11.829007011943709,
+    -16.96097977622093,
+    -7.40307671621216,
+    -11.193227402263256,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'red'), and_(is_color_(x, 'red'), is_color_(x, 'red')))",
+   "python": "lambda t: (t['color'] == 'red' and (t['color'] == 'red' and t['color'] == 'red'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -11.502875129116726,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -8.716620216113132,
+    -11.664919436432488,
+    -0.31608154697347884,
+    -9.631782434607487,
+    -23.552653508229593,
+    -7.40307671621216,
+    -11.193227402263254,
+    -22.361136996542225
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(or_(is_shape_(x, 'square'), or_(is_shape_(x, 'circle'), or_(is_color_(x, 'red'), is_shape_(x, 'square')))))",
+   "python": "lambda t: (not (t['shape'] == 'square' or (t['shape'] == 'circle' or (t['color'] == 'red' or t['shape'] == 'square'))))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -18.51554685042163,
+   "rational_rules_log_prior": -19.058257073356998,
+   "log_likelihood": [
+    -15.202805169167528,
+    -3.4420193761824103,
+    -4.557737132753459,
+    -18.596391242031938,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -21.35542893089337,
+    -0.07595342395286969,
+    -18.52035069452255,
+    -29.68826028880151
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(not_(or_(is_shape_(x, 'square'), is_color_(x, 'green'))), is_shape_(x, 'square'))",
+   "python": "lambda t: ((not (t['shape'] == 'square' or t['color'] == 'green')) and t['shape'] == 'square')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -13.886660137816222,
+   "rational_rules_log_prior": -14.94329322393216,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'diamond'), is_color_(x, 'red'))",
+   "python": "lambda t: (t['shape'] == 'diamond' and t['color'] == 'red')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.944031493873349,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -37.015383581060796
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'circle'), is_shape_(x, 'triangle'))",
+   "python": "lambda t: (t['shape'] == 'circle' and t['shape'] == 'triangle')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(or_(or_(is_color_(x, 'mauve'), is_color_(x, 'mauve')), is_color_(x, 'blue')))",
+   "python": "lambda t: (not ((t['color'] == 'mauve' or t['color'] == 'mauve') or t['color'] == 'blue'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -13.886660137816222,
+   "rational_rules_log_prior": -14.06782448657826,
+   "log_likelihood": [
+    -7.602402834667128,
+    -2.05572501506252,
+    -8.716620216113132,
+    -10.278625075312597,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -21.35542893089337,
+    -7.40307671621216,
+    -18.52035069452255,
+    -15.034013704282932
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(and_(is_shape_(x, 'circle'), is_color_(x, 'red')), and_(and_(is_color_(x, 'blue'), is_color_(x, 'red')), is_color_(x, 'mauve')))",
+   "python": "lambda t: ((t['shape'] == 'circle' and t['color'] == 'red') and ((t['color'] == 'blue' and t['color'] == 'red') and t['color'] == 'mauve'))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -21.0649920213472,
+   "rational_rules_log_prior": -21.297547315978726,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'circle'), is_shape_(x, 'diamond'))",
+   "python": "lambda t: (t['shape'] == 'circle' or t['shape'] == 'diamond')",
+   "truth_table": [
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -5.94403149387335,
+    -15.823802519792157,
+    -0.31608154697347884,
+    -5.237333279935048,
+    -21.355428930893375,
+    -7.40307671621216,
+    -18.520350694522545,
+    -29.688260288801512
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'triangle'), is_shape_(x, 'diamond'))",
+   "python": "lambda t: (t['shape'] == 'triangle' and t['shape'] == 'diamond')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'red'), is_shape_(x, 'triangle'))",
+   "python": "lambda t: (t['color'] == 'red' and t['shape'] == 'triangle')",
+   "truth_table": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -15.202805169167528,
+    -2.05572501506252,
+    -5.94403149387335,
+    -14.43750815867227,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -37.015383581060796
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(and_(not_(and_(or_(is_color_(x, 'blue'), is_color_(x, 'blue')), is_color_(x, 'green'))), or_(is_color_(x, 'mauve'), is_color_(x, 'red'))))",
+   "python": "lambda t: (not ((not ((t['color'] == 'blue' or t['color'] == 'blue') and t['color'] == 'green')) and (t['color'] == 'mauve' or t['color'] == 'red')))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -25.22387510470687,
+   "rational_rules_log_prior": -25.74019857246904,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -7.330325854993241,
+    -17.210096880912047,
+    -6.907755278982138,
+    -9.631782434607489,
+    -14.763755198884713,
+    -7.40307671621216,
+    -18.52035069452255,
+    -29.68826028880151
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(or_(is_shape_(x, 'diamond'), is_shape_(x, 'triangle')), and_(is_shape_(x, 'square'), is_shape_(x, 'square')))",
+   "python": "lambda t: ((t['shape'] == 'diamond' or t['shape'] == 'triangle') or (t['shape'] == 'square' and t['shape'] == 'square'))",
+   "truth_table": [
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -16.436105308741794,
+   "rational_rules_log_prior": -17.13866423261906,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -8.716620216113132,
+    -13.051213797552379,
+    -6.907755278982138,
+    -11.829007011943709,
+    -19.15820435355715,
+    -0.07595342395286969,
+    -18.52035069452255,
+    -15.034013704282934
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'triangle'), is_shape_(x, 'square'))",
+   "python": "lambda t: (t['shape'] == 'triangle' and t['shape'] == 'square')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(and_(and_(is_shape_(x, 'diamond'), is_color_(x, 'mauve')), is_color_(x, 'green')), and_(is_shape_(x, 'circle'), or_(is_shape_(x, 'diamond'), is_shape_(x, 'circle'))))",
+   "python": "lambda t: (((t['shape'] == 'diamond' and t['color'] == 'mauve') and t['color'] == 'green') or (t['shape'] == 'circle' and (t['shape'] == 'diamond' or t['shape'] == 'circle')))",
+   "truth_table": [
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -25.69387873395261,
+   "rational_rules_log_prior": -27.090125289418054,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.944031493873349,
+    -14.437508158672266,
+    -0.31608154697347884,
+    -7.434557857271267,
+    -16.96097977622093,
+    -11.066638362341806,
+    -11.193227402263256,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(not_(is_color_(x, 'red')), is_color_(x, 'mauve'))",
+   "python": "lambda t: ((not t['color'] == 'red') or t['color'] == 'mauve')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -9.257773425210814,
+   "rational_rules_log_prior": -9.893437216682624,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -5.94403149387335,
+    -15.823802519792157,
+    -6.907755278982138,
+    -9.63178243460749,
+    -12.566530621548495,
+    -3.7395150700825153,
+    -18.52035069452255,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(or_(not_(not_(and_(is_color_(x, 'mauve'), is_shape_(x, 'square')))), and_(is_color_(x, 'green'), is_color_(x, 'mauve'))), is_color_(x, 'blue'))",
+   "python": "lambda t: (((not (not (t['color'] == 'mauve' and t['shape'] == 'square'))) or (t['color'] == 'green' and t['color'] == 'mauve')) or t['color'] == 'blue')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -25.22387510470687,
+   "rational_rules_log_prior": -26.433345753028988,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -7.330325854993241,
+    -18.596391242031938,
+    -4.710530701645918,
+    -11.829007011943709,
+    -16.96097977622093,
+    -7.40307671621216,
+    -11.193227402263256,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'blue'), is_color_(x, 'red'))",
+   "python": "lambda t: (t['color'] == 'blue' and t['color'] == 'red')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(not_(and_(is_shape_(x, 'square'), not_(is_shape_(x, 'diamond')))))",
+   "python": "lambda t: (not (not (t['shape'] == 'square' and (not t['shape'] == 'diamond'))))",
+   "truth_table": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -13.416656508570487,
+   "rational_rules_log_prior": -12.458386574144157,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.94403149387335,
+    -14.43750815867227,
+    -6.907755278982138,
+    -14.026231589279927,
+    -14.763755198884715,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_color_(x, 'mauve'), is_color_(x, 'green'))",
+   "python": "lambda t: (t['color'] == 'mauve' or t['color'] == 'green')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -3.1714427716335685,
+    -14.437508158672262,
+    -4.710530701645919,
+    -7.434557857271268,
+    -12.566530621548495,
+    -0.07595342395286969,
+    -22.183912340652192,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'triangle'), or_(is_color_(x, 'red'), and_(is_shape_(x, 'circle'), is_color_(x, 'red'))))",
+   "python": "lambda t: (t['shape'] == 'triangle' or (t['color'] == 'red' or (t['shape'] == 'circle' and t['color'] == 'red')))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -16.436105308741794,
+   "rational_rules_log_prior": -17.91882279016863,
+   "log_likelihood": [
+    -15.202805169167526,
+    -2.05572501506252,
+    -10.102914577233019,
+    -11.664919436432484,
+    -0.31608154697347884,
+    -9.631782434607487,
+    -23.55265350822959,
+    -7.40307671621216,
+    -7.529665756133609,
+    -18.697575350412574
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'square'), is_shape_(x, 'square'))",
+   "python": "lambda t: (t['shape'] == 'square' and t['shape'] == 'square')",
+   "truth_table": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -7.783224016336034,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.94403149387335,
+    -14.43750815867227,
+    -6.907755278982138,
+    -14.026231589279927,
+    -14.763755198884715,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(not_(is_color_(x, 'red')), not_(is_color_(x, 'mauve')))",
+   "python": "lambda t: ((not t['color'] == 'red') or (not t['color'] == 'mauve'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -11.33721496689065,
+   "rational_rules_log_prior": -11.279731577802512,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -10.10291457723302,
+    -10.278625075312597,
+    -4.710530701645919,
+    -9.63178243460749,
+    -19.15820435355715,
+    -7.40307671621216,
+    -14.856789048392903,
+    -15.034013704282936
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(or_(not_(is_color_(x, 'green')), is_shape_(x, 'diamond')))",
+   "python": "lambda t: (not ((not t['color'] == 'green') or t['shape'] == 'diamond'))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -11.33721496689065,
+   "rational_rules_log_prior": -11.567413650254293,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -15.823802519792157,
+    -4.710530701645919,
+    -7.434557857271267,
+    -10.369306044212273,
+    -3.7395150700825153,
+    -18.52035069452255,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(or_(is_color_(x, 'red'), and_(is_shape_(x, 'triangle'), or_(not_(not_(is_color_(x, 'blue'))), is_shape_(x, 'diamond')))))",
+   "python": "lambda t: (not (t['color'] == 'red' or (t['shape'] == 'triangle' and ((not (not t['color'] == 'blue')) or t['shape'] == 'diamond'))))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -22.674429933781298,
+   "rational_rules_log_prior": -23.460086335327055,
+   "log_likelihood": [
+    -15.202805169167528,
+    -3.4420193761824103,
+    -4.557737132753459,
+    -17.210096880912044,
+    -6.907755278982138,
+    -9.63178243460749,
+    -12.566530621548495,
+    -3.7395150700825153,
+    -22.183912340652192,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(or_(is_shape_(x, 'triangle'), and_(is_shape_(x, 'circle'), not_(is_color_(x, 'blue')))), or_(is_color_(x, 'green'), is_shape_(x, 'triangle')))",
+   "python": "lambda t: ((t['shape'] == 'triangle' or (t['shape'] == 'circle' and (not t['color'] == 'blue'))) or (t['color'] == 'green' or t['shape'] == 'triangle'))",
+   "truth_table": [
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -23.144433563027036,
+   "rational_rules_log_prior": -24.664059139653,
+   "log_likelihood": [
+    -22.803207503667927,
+    -2.05572501506252,
+    -7.330325854993241,
+    -10.278625075312597,
+    -2.5133061243096986,
+    -7.434557857271268,
+    -19.158204353557153,
+    -7.40307671621216,
+    -11.193227402263258,
+    -29.68826028880151
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(and_(not_(is_shape_(x, 'triangle')), not_(is_shape_(x, 'triangle'))), is_color_(x, 'green'))",
+   "python": "lambda t: (((not t['shape'] == 'triangle') and (not t['shape'] == 'triangle')) and t['color'] == 'green')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -15.966101679496058,
+   "rational_rules_log_prior": -16.078273156771147,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -13.051213797552379,
+    -4.710530701645919,
+    -7.434557857271267,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -22.18391234065219,
+    -37.0153835810608
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(or_(is_color_(x, 'green'), is_color_(x, 'green')), not_(is_color_(x, 'mauve')))",
+   "python": "lambda t: ((t['color'] == 'green' or t['color'] == 'green') and (not t['color'] == 'mauve'))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -13.886660137816222,
+   "rational_rules_log_prior": -14.473289594686428,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -15.823802519792157,
+    -4.710530701645919,
+    -7.434557857271267,
+    -14.763755198884713,
+    -3.7395150700825153,
+    -22.183912340652192,
+    -33.35182193493115
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(and_(not_(and_(is_color_(x, 'green'), and_(is_color_(x, 'red'), is_color_(x, 'blue')))), not_(is_color_(x, 'blue'))), is_shape_(x, 'triangle'))",
+   "python": "lambda t: (((not (t['color'] == 'green' and (t['color'] == 'red' and t['color'] == 'blue'))) and (not t['color'] == 'blue')) and t['shape'] == 'triangle')",
+   "truth_table": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -25.22387510470687,
+   "rational_rules_log_prior": -25.229372948703052,
+   "log_likelihood": [
+    -15.202805169167528,
+    -2.05572501506252,
+    -5.94403149387335,
+    -15.823802519792153,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.960979776220928,
+    -3.7395150700825153,
+    -14.856789048392903,
+    -33.35182193493115
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(not_(and_(is_shape_(x, 'diamond'), is_shape_(x, 'diamond'))), or_(is_color_(x, 'green'), is_shape_(x, 'triangle')))",
+   "python": "lambda t: ((not (t['shape'] == 'diamond' and t['shape'] == 'diamond')) or (t['color'] == 'green' or t['shape'] == 'triangle'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -18.51554685042163,
+   "rational_rules_log_prior": -19.751404253916938,
+   "log_likelihood": [
+    -22.803207503667927,
+    -2.05572501506252,
+    -10.102914577233019,
+    -8.892330714192706,
+    -4.710530701645919,
+    -11.82900701194371,
+    -19.15820435355715,
+    -11.066638362341806,
+    -11.193227402263258,
+    -22.36113699654222
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(not_(is_color_(x, 'mauve')), not_(is_color_(x, 'blue')))",
+   "python": "lambda t: ((not t['color'] == 'mauve') or (not t['color'] == 'blue'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -11.33721496689065,
+   "rational_rules_log_prior": -11.279731577802512,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -10.10291457723302,
+    -10.278625075312597,
+    -4.710530701645919,
+    -9.63178243460749,
+    -19.15820435355715,
+    -7.40307671621216,
+    -14.856789048392903,
+    -15.034013704282936
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_color_(x, 'blue'), or_(is_color_(x, 'mauve'), not_(and_(is_color_(x, 'blue'), and_(is_shape_(x, 'triangle'), is_shape_(x, 'triangle'))))))",
+   "python": "lambda t: (t['color'] == 'blue' or (t['color'] == 'mauve' or (not (t['color'] == 'blue' and (t['shape'] == 'triangle' and t['shape'] == 'triangle')))))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -23.144433563027036,
+   "rational_rules_log_prior": -24.546276103996615,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -10.10291457723302,
+    -10.278625075312597,
+    -4.710530701645919,
+    -9.63178243460749,
+    -19.15820435355715,
+    -7.40307671621216,
+    -14.856789048392903,
+    -15.034013704282936
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(not_(not_(is_shape_(x, 'diamond'))), is_color_(x, 'blue'))",
+   "python": "lambda t: ((not (not t['shape'] == 'diamond')) or t['color'] == 'blue')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true
+   ],
+   "pcfg_log_prior": -11.33721496689065,
+   "rational_rules_log_prior": -11.567413650254293,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -7.33032585499324,
+    -18.596391242031938,
+    -4.710530701645918,
+    -11.829007011943709,
+    -19.158204353557153,
+    -3.7395150700825153,
+    -18.520350694522545,
+    -26.024698642671865
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'diamond'), and_(is_color_(x, 'green'), is_shape_(x, 'circle')))",
+   "python": "lambda t: (t['shape'] == 'diamond' or (t['color'] == 'green' and t['shape'] == 'circle'))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.476956155138732,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -4.557737132753459,
+    -15.823802519792157,
+    -2.5133061243096986,
+    -5.237333279935048,
+    -19.158204353557153,
+    -0.07595342395286969,
+    -25.847473986781836,
+    -29.68826028880151
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_color_(x, 'green'), not_(not_(is_shape_(x, 'square'))))",
+   "python": "lambda t: (t['color'] == 'green' or (not (not t['shape'] == 'square')))",
+   "truth_table": [
+    true,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -11.33721496689065,
+   "rational_rules_log_prior": -11.567413650254293,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -5.94403149387335,
+    -14.437508158672266,
+    -6.907755278982138,
+    -11.829007011943707,
+    -14.763755198884713,
+    -3.7395150700825153,
+    -22.183912340652192,
+    -26.024698642671865
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(or_(is_color_(x, 'red'), is_shape_(x, 'square')), is_shape_(x, 'triangle'))",
+   "python": "lambda t: ((t['color'] == 'red' or t['shape'] == 'square') and t['shape'] == 'triangle')",
+   "truth_table": [
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.476956155138732,
+   "log_likelihood": [
+    -15.202805169167528,
+    -2.05572501506252,
+    -5.94403149387335,
+    -14.43750815867227,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -37.015383581060796
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(or_(is_shape_(x, 'triangle'), not_(is_shape_(x, 'square'))), not_(and_(is_shape_(x, 'triangle'), is_shape_(x, 'circle'))))",
+   "python": "lambda t: ((t['shape'] == 'triangle' or (not t['shape'] == 'square')) or (not (t['shape'] == 'triangle' and t['shape'] == 'circle')))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -20.594988392101463,
+   "rational_rules_log_prior": -20.827543686732994,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -10.10291457723302,
+    -10.278625075312597,
+    -4.710530701645919,
+    -9.63178243460749,
+    -19.15820435355715,
+    -7.40307671621216,
+    -14.856789048392903,
+    -15.034013704282936
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(and_(is_color_(x, 'mauve'), is_shape_(x, 'square')), not_(is_shape_(x, 'square')))",
+   "python": "lambda t: ((t['color'] == 'mauve' and t['shape'] == 'square') or (not t['shape'] == 'square'))",
+   "truth_table": [
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -13.886660137816222,
+   "rational_rules_log_prior": -14.94329322393216,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -8.71662021611313,
+    -13.051213797552375,
+    -0.31608154697347884,
+    -5.237333279935048,
+    -21.355428930893375,
+    -7.40307671621216,
+    -14.856789048392903,
+    -22.361136996542225
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_color_(x, 'red'), and_(is_shape_(x, 'triangle'), and_(is_shape_(x, 'diamond'), is_color_(x, 'blue'))))",
+   "python": "lambda t: (t['color'] == 'red' and (t['shape'] == 'triangle' and (t['shape'] == 'diamond' and t['color'] == 'blue')))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -16.436105308741794,
+   "rational_rules_log_prior": -17.63114071771685,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'triangle'), is_shape_(x, 'circle'))",
+   "python": "lambda t: (t['shape'] == 'triangle' and t['shape'] == 'circle')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(not_(is_shape_(x, 'diamond')), not_(or_(and_(is_color_(x, 'mauve'), is_color_(x, 'blue')), and_(is_color_(x, 'red'), is_shape_(x, 'diamond')))))",
+   "python": "lambda t: ((not t['shape'] == 'diamond') and (not ((t['color'] == 'mauve' and t['color'] == 'blue') or (t['color'] == 'red' and t['shape'] == 'diamond'))))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    false
+   ],
+   "pcfg_log_prior": -25.22387510470687,
+   "rational_rules_log_prior": -26.45581860888105,
+   "log_likelihood": [
+    -22.803207503667927,
+    -2.05572501506252,
+    -10.102914577233019,
+    -8.892330714192706,
+    -4.710530701645919,
+    -11.82900701194371,
+    -14.763755198884713,
+    -11.066638362341806,
+    -7.5296657561336096,
+    -26.02469864267187
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(and_(or_(is_color_(x, 'green'), is_color_(x, 'green')), is_shape_(x, 'square')))",
+   "python": "lambda t: (not ((t['color'] == 'green' or t['color'] == 'green') and t['shape'] == 'square'))",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -13.886660137816222,
+   "rational_rules_log_prior": -14.94329322393216,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -10.10291457723302,
+    -11.664919436432488,
+    -2.5133061243096986,
+    -9.63178243460749,
+    -21.35542893089337,
+    -7.40307671621216,
+    -14.856789048392903,
+    -15.034013704282936
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(or_(is_shape_(x, 'circle'), is_color_(x, 'mauve')), is_shape_(x, 'diamond'))",
+   "python": "lambda t: ((t['shape'] == 'circle' or t['color'] == 'mauve') or t['shape'] == 'diamond')",
+   "truth_table": [
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.071491047030568,
+   "log_likelihood": [
+    -7.602402834667129,
+    -3.4420193761824103,
+    -5.94403149387335,
+    -14.437508158672266,
+    -0.31608154697347884,
+    -5.237333279935048,
+    -23.552653508229593,
+    -7.40307671621216,
+    -18.520350694522545,
+    -29.688260288801512
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_color_(x, 'red'), is_color_(x, 'blue'))",
+   "python": "lambda t: (t['color'] == 'red' or t['color'] == 'blue')",
+   "truth_table": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.188689124444197,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -11.48920893835291,
+    -13.051213797552379,
+    -2.5133061243096986,
+    -11.829007011943709,
+    -23.552653508229593,
+    -11.066638362341806,
+    -7.5296657561336096,
+    -18.69757535041258
+   ]
+  },
+  {
+   "lotlib3": "lambda x: not_(or_(and_(is_shape_(x, 'diamond'), not_(not_(is_shape_(x, 'diamond')))), is_shape_(x, 'triangle')))",
+   "python": "lambda t: (not ((t['shape'] == 'diamond' and (not (not t['shape'] == 'diamond'))) or t['shape'] == 'triangle'))",
+   "truth_table": [
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -18.045543221175894,
+   "rational_rules_log_prior": -17.3354904756159,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -7.33032585499324,
+    -11.664919436432488,
+    -4.710530701645919,
+    -11.829007011943707,
+    -14.763755198884713,
+    -11.066638362341806,
+    -11.193227402263256,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(or_(is_color_(x, 'blue'), is_shape_(x, 'diamond')), is_shape_(x, 'triangle'))",
+   "python": "lambda t: ((t['color'] == 'blue' or t['shape'] == 'diamond') or t['shape'] == 'triangle')",
+   "truth_table": [
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.071491047030568,
+   "log_likelihood": [
+    -30.403609838168325,
+    -3.4420193761824103,
+    -8.71662021611313,
+    -17.210096880912047,
+    -4.710530701645918,
+    -11.829007011943709,
+    -19.158204353557153,
+    -3.7395150700825153,
+    -18.52035069452255,
+    -18.697575350412578
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(and_(not_(not_(is_shape_(x, 'square'))), is_color_(x, 'red')), is_color_(x, 'blue'))",
+   "python": "lambda t: (((not (not t['shape'] == 'square')) and t['color'] == 'red') and t['color'] == 'blue')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -15.966101679496058,
+   "rational_rules_log_prior": -16.483738264879314,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -4.557737132753459,
+    -17.210096880912047,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -14.8567890483929,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: and_(is_shape_(x, 'triangle'), is_color_(x, 'blue'))",
+   "python": "lambda t: (t['shape'] == 'triangle' and t['color'] == 'blue')",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -7.178331883530978,
+   "rational_rules_log_prior": -8.476371196895979,
+   "log_likelihood": [
+    -15.202805169167528,
+    -2.05572501506252,
+    -5.94403149387335,
+    -15.823802519792157,
+    -2.5133061243096986,
+    -9.631782434607487,
+    -16.96097977622093,
+    -3.7395150700825153,
+    -11.193227402263256,
+    -40.67894522719045
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_color_(x, 'green'), or_(is_color_(x, 'mauve'), is_color_(x, 'blue')))",
+   "python": "lambda t: (t['color'] == 'green' or (t['color'] == 'mauve' or t['color'] == 'blue'))",
+   "truth_table": [
+    false,
+    false,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -12.601487417784837,
+   "log_likelihood": [
+    -22.803207503667927,
+    -3.4420193761824103,
+    -5.94403149387335,
+    -15.823802519792157,
+    -6.907755278982138,
+    -9.63178243460749,
+    -12.566530621548495,
+    -3.7395150700825153,
+    -18.52035069452255,
+    -33.35182193493116
+   ]
+  },
+  {
+   "lotlib3": "lambda x: or_(is_shape_(x, 'square'), or_(is_color_(x, 'green'), is_shape_(x, 'circle')))",
+   "python": "lambda t: (t['shape'] == 'square' or (t['color'] == 'green' or t['shape'] == 'circle'))",
+   "truth_table": [
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false
+   ],
+   "pcfg_log_prior": -11.807218596136385,
+   "rational_rules_log_prior": -13.071491047030568,
+   "log_likelihood": [
+    -7.602402834667129,
+    -2.05572501506252,
+    -7.33032585499324,
+    -14.437508158672266,
+    -4.710530701645919,
+    -11.829007011943707,
+    -16.96097977622093,
+    -11.066638362341806,
+    -14.856789048392903,
+    -26.02469864267187
+   ]
+  }
+ ],
+ "posterior_cases": [
+  {
+   "hypotheses": [
+    93,
+    43,
+    87,
+    67,
+    83,
+    75,
+    110,
+    71,
+    26,
+    72
+   ],
+   "prior": "pcfg",
+   "dataset": 5,
+   "posterior": [
+    0.02983542266493019,
+    0.3017429413223548,
+    0.21216300561728096,
+    0.02983542266493019,
+    0.21216300561728096,
+    0.21216300561728096,
+    3.4304200803757743e-10,
+    0.00207190435173126,
+    2.529180116859444e-06,
+    2.2762621051735047e-05
+   ]
+  },
+  {
+   "hypotheses": [
+    93,
+    43,
+    87,
+    67,
+    83,
+    75,
+    110,
+    71,
+    26,
+    72
+   ],
+   "prior": "pcfg",
+   "dataset": 4,
+   "posterior": [
+    0.00038346019156721935,
+    0.31413058893186663,
+    0.22087307034271897,
+    0.003451141724104982,
+    0.22087307034271897,
+    0.22087307034271897,
+    3.571251328729288e-10,
+    0.019412672198090553,
+    2.9255690884950276e-07,
+    2.633012179645522e-06
+   ]
+  },
+  {
+   "hypotheses": [
+    93,
+    43,
+    87,
+    67,
+    83,
+    75,
+    110,
+    71,
+    26,
+    72
+   ],
+   "prior": "pcfg",
+   "dataset": 7,
+   "posterior": [
+    0.005165021563498058,
+    0.002781844618552017,
+    0.33056138006387586,
+    0.00013243645034610418,
+    0.33056138006387586,
+    0.33056138006387586,
+    3.1625911771607416e-12,
+    8.277278146631517e-05,
+    1.0104099300087283e-07,
+    0.00015368335035432725
+   ]
+  },
+  {
+   "hypotheses": [
+    93,
+    43,
+    87,
+    67,
+    83,
+    75,
+    110,
+    71,
+    26,
+    72
+   ],
+   "prior": "rational_rules",
+   "dataset": 0,
+   "posterior": [
+    0.01098094416264868,
+    2.0151877804691194e-06,
+    0.32210769543769435,
+    0.01098094416264872,
+    0.32210769543769435,
+    0.32210769543769435,
+    9.398574257064641e-16,
+    0.011713007106825216,
+    8.521373993072028e-13,
+    3.066160790187158e-09
+   ]
+  },
+  {
+   "hypotheses": [
+    93,
+    43,
+    87,
+    67,
+    83,
+    75,
+    110,
+    71,
+    26,
+    72
+   ],
+   "prior": "rational_rules",
+   "dataset": 3,
+   "posterior": [
+    1.329701157518694e-06,
+    0.9985169225526995,
+    9.751141821803745e-06,
+    0.001361613985299139,
+    9.751141821803745e-06,
+    9.751141821803745e-06,
+    4.656953329362972e-10,
+    9.077426568660857e-05,
+    1.055576087988947e-07,
+    4.6387621054201376e-11
+   ]
+  },
+  {
+   "hypotheses": [
+    93,
+    43,
+    87,
+    67,
+    83,
+    75,
+    110,
+    71,
+    26,
+    72
+   ],
+   "prior": "rational_rules",
+   "dataset": 9,
+   "posterior": [
+    2.1249043285194836e-08,
+    0.9243461323319432,
+    1.5982186402539796e-08,
+    3.2319794836781394e-05,
+    1.5982186402539796e-08,
+    1.5982186402539796e-08,
+    4.311030390393649e-10,
+    0.052435635143193465,
+    0.023185825063317022,
+    1.804000409518583e-08
+   ]
+  },
+  {
+   "hypotheses": [
+    6,
+    92,
+    40,
+    115,
+    20,
+    85,
+    93,
+    66,
+    88,
+    94
+   ],
+   "prior": "pcfg",
+   "dataset": 9,
+   "posterior": [
+    3.607129039116895e-10,
+    0.942563776382117,
+    1.7143641533963944e-08,
+    0.015105188724072441,
+    0.002670129026371501,
+    8.357525247807412e-08,
+    2.678693989681874e-10,
+    0.03966080321397492,
+    1.3058633199699028e-09,
+    1.2453683089923024e-13
+   ]
+  },
+  {
+   "hypotheses": [
+    6,
+    92,
+    40,
+    115,
+    20,
+    85,
+    93,
+    66,
+    88,
+    94
+   ],
+   "prior": "pcfg",
+   "dataset": 5,
+   "posterior": [
+    7.982391748690329e-10,
+    1.6930425434313577e-05,
+    1.3377126269087262e-05,
+    1.1757239884940008e-06,
+    0.9985971251368635,
+    0.00013544340347450891,
+    0.00015237382890882312,
+    0.0010835472277960735,
+    2.6127199744311177e-08,
+    2.0182639878170172e-10
+   ]
+  },
+  {
+   "hypotheses": [
+    6,
+    92,
+    40,
+    115,
+    20,
+    85,
+    93,
+    66,
+    88,
+    94
+   ],
+   "prior": "pcfg",
+   "dataset": 4,
+   "posterior": [
+    7.346584716369728e-10,
+    1.558189683659325e-05,
+    0.00011080459972688551,
+    9.738685522870822e-06,
+    0.9190576719746801,
+    1.385057496586071e-05,
+    1.558189683659325e-05,
+    0.08077655320089969,
+    2.164152338415735e-07,
+    2.0638965019376218e-11
+   ]
+  },
+  {
+   "hypotheses": [
+    6,
+    92,
+    40,
+    115,
+    20,
+    85,
+    93,
+    66,
+    88,
+    94
+   ],
+   "prior": "rational_rules",
+   "dataset": 8,
+   "posterior": [
+    6.6738888909634005e-12,
+    0.0007653680276619037,
+    0.012628572456421381,
+    3.2708035370166697e-06,
+    0.0012454213467871231,
+    7.849928488840006e-05,
+    1.4718615916575022e-05,
+    0.9850286516008668,
+    0.00023549785466520212,
+    2.581548230350673e-12
+   ]
+  },
+  {
+   "hypotheses": [
+    6,
+    92,
+    40,
+    115,
+    20,
+    85,
+    93,
+    66,
+    88,
+    94
+   ],
+   "prior": "rational_rules",
+   "dataset": 2,
+   "posterior": [
+    2.1307040142118362e-12,
+    1.5663538170652014e-06,
+    0.0066162785232833764,
+    1.0442358780434645e-06,
+    0.9924417784925079,
+    0.00040098657716868897,
+    0.00030073993287651704,
+    0.00020675870385260578,
+    3.084512132066851e-05,
+    2.057164287092737e-09
+   ]
+  },
+  {
+   "hypotheses": [
+    6,
+    92,
+    40,
+    115,
+    20,
+    85,
+    93,
+    66,
+    88,
+    94
+   ],
+   "prior": "rational_rules",
+   "dataset": 6,
+   "posterior": [
+    2.0818637845317053e-13,
+    4.958656976559976e-05,
+    0.5964520544255154,
+    8.264428294266573e-06,
+    0.013636306685539891,
+    0.14459443743648792,
+    0.24400311317407414,
+    2.0201935830429427e-05,
+    0.0012358498926195568,
+    1.8545166455875742e-07
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    111,
+    75,
+    69,
+    91,
+    65,
+    87,
+    76,
+    26,
+    5
+   ],
+   "prior": "pcfg",
+   "dataset": 9,
+   "posterior": [
+    0.9945781915900965,
+    9.485036769772501e-05,
+    5.662089282761747e-13,
+    2.208214820277091e-11,
+    8.612037799080569e-10,
+    2.208214820277075e-11,
+    5.662089282761747e-13,
+    9.485036769772501e-05,
+    9.262731220480961e-07,
+    0.005231180494885473
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    111,
+    75,
+    69,
+    91,
+    65,
+    87,
+    76,
+    26,
+    5
+   ],
+   "prior": "pcfg",
+   "dataset": 2,
+   "posterior": [
+    0.04395581317909795,
+    1.047988252141427e-06,
+    0.21977906589548996,
+    0.054944766473872475,
+    0.054944766473872475,
+    0.054944766473872475,
+    0.21977906589548996,
+    4.191953008565708e-06,
+    1.0234260274818608e-08,
+    0.35164650543278364
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    111,
+    75,
+    69,
+    91,
+    65,
+    87,
+    76,
+    26,
+    5
+   ],
+   "prior": "pcfg",
+   "dataset": 7,
+   "posterior": [
+    0.9849539913380216,
+    6.175708904542368e-08,
+    0.0019730648864944374,
+    0.0019730648864944374,
+    0.0019730648864944374,
+    0.0019730648864944374,
+    0.0019730648864944374,
+    6.175708904542368e-08,
+    6.030965727092158e-10,
+    0.005180560112231553
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    111,
+    75,
+    69,
+    91,
+    65,
+    87,
+    76,
+    26,
+    5
+   ],
+   "prior": "rational_rules",
+   "dataset": 7,
+   "posterior": [
+    0.9919779836587304,
+    3.040503605800776e-08,
+    0.0010174133165730566,
+    0.000763059987429792,
+    0.001526119974859584,
+    0.000763059987429792,
+    0.0010174133165730566,
+    7.297208653921853e-08,
+    2.757826399819311e-10,
+    0.0029348461054992023
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    111,
+    75,
+    69,
+    91,
+    65,
+    87,
+    76,
+    26,
+    5
+   ],
+   "prior": "rational_rules",
+   "dataset": 3,
+   "posterior": [
+    0.05253968025599149,
+    9.797609371746637e-06,
+    3.283730015999483e-05,
+    0.0003940476019199357,
+    0.0007880952038398728,
+    0.0003940476019199371,
+    3.283730015999483e-05,
+    9.405704996876793e-05,
+    3.554688207436451e-07,
+    0.9457142446078475
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    111,
+    75,
+    69,
+    91,
+    65,
+    87,
+    76,
+    26,
+    5
+   ],
+   "prior": "rational_rules",
+   "dataset": 4,
+   "posterior": [
+    0.00030368249865341397,
+    1.1467730718380648e-06,
+    0.0009839312956370606,
+    0.0007379484717277949,
+    1.822094991920479e-05,
+    0.0007379484717277949,
+    0.0009839312956370606,
+    2.7522553724113516e-06,
+    1.1557299791766887e-09,
+    0.9962304368325234
+   ]
+  },
+  {
+   "hypotheses": [
+    90,
+    14,
+    59,
+    52,
+    15,
+    75,
+    105,
+    95,
+    71,
+    83
+   ],
+   "prior": "pcfg",
+   "dataset": 1,
+   "posterior": [
+    4.3417733204034666e-07,
+    0.4661943604444568,
+    0.00014227122816298142,
+    0.058274295055557084,
+    0.4661943604444568,
+    0.004552679301215403,
+    4.4459758800931643e-05,
+    5.300016260258147e-10,
+    4.4459758800931643e-05,
+    0.004552679301215403
+   ]
+  },
+  {
+   "hypotheses": [
+    90,
+    14,
+    59,
+    52,
+    15,
+    75,
+    105,
+    95,
+    71,
+    83
+   ],
+   "prior": "pcfg",
+   "dataset": 4,
+   "posterior": [
+    8.260707025822234e-07,
+    0.09855407366039988,
+    0.00012030526569873025,
+    0.012319259207549976,
+    0.8869866629435991,
+    0.0009624421255898424,
+    9.398848882713306e-06,
+    1.1204300979034076e-10,
+    8.45896399444198e-05,
+    0.0009624421255898424
+   ]
+  },
+  {
+   "hypotheses": [
+    90,
+    14,
+    59,
+    52,
+    15,
+    75,
+    105,
+    95,
+    71,
+    83
+   ],
+   "prior": "pcfg",
+   "dataset": 6,
+   "posterior": [
+    6.282346218237612e-10,
+    0.49175554398927307,
+    7.410957151651563e-06,
+    0.006829938110962095,
+    0.4917555439892696,
+    0.0048023002342702115,
+    4.6897463225295045e-05,
+    6.211792525357011e-11,
+    6.433122527475314e-08,
+    0.0048023002342702115
+   ]
+  },
+  {
+   "hypotheses": [
+    90,
+    14,
+    59,
+    52,
+    15,
+    75,
+    105,
+    95,
+    71,
+    83
+   ],
+   "prior": "rational_rules",
+   "dataset": 2,
+   "posterior": [
+    5.9988339934816196e-09,
+    0.18158614470284634,
+    1.834203481846934e-05,
+    0.04035247660063258,
+    0.7263445788113856,
+    0.025825585024404803,
+    3.260806189950098e-05,
+    1.1291922811259408e-10,
+    1.4673627854775379e-05,
+    0.025825585024404803
+   ]
+  },
+  {
+   "hypotheses": [
+    90,
+    14,
+    59,
+    52,
+    15,
+    75,
+    105,
+    95,
+    71,
+    83
+   ],
+   "prior": "rational_rules",
+   "dataset": 8,
+   "posterior": [
+    9.987661628985871e-06,
+    0.4845014656221039,
+    0.030538274196786987,
+    7.078697722581677e-05,
+    0.48450146562210217,
+    0.00011042768447227441,
+    5.577155781428006e-07,
+    3.012869269678973e-10,
+    0.00015660653434249793,
+    0.00011042768447227441
+   ]
+  },
+  {
+   "hypotheses": [
+    90,
+    14,
+    59,
+    52,
+    15,
+    75,
+    105,
+    95,
+    71,
+    83
+   ],
+   "prior": "rational_rules",
+   "dataset": 0,
+   "posterior": [
+    2.131848557657189e-10,
+    2.0176202940200248e-07,
+    3.260800475183887e-10,
+    0.1791647269449845,
+    0.8062412712524293,
+    0.007166589077799365,
+    1.810650041636822e-08,
+    1.2546558912733803e-16,
+    0.00026060323919270344,
+    0.007166589077799365
+   ]
+  },
+  {
+   "hypotheses": [
+    97,
+    26,
+    74,
+    45,
+    58,
+    87,
+    16,
+    13,
+    85,
+    60
+   ],
+   "prior": "pcfg",
+   "dataset": 0,
+   "posterior": [
+    8.247313130056217e-05,
+    2.0155191974602944e-13,
+    0.06756198916142042,
+    2.1134250579961245e-09,
+    1.690740046396897e-08,
+    0.06756198916142042,
+    6.292200569195717e-08,
+    0.8647934612661825,
+    2.1134250579961245e-09,
+    3.2232183005785022e-09
+   ]
+  },
+  {
+   "hypotheses": [
+    97,
+    26,
+    74,
+    45,
+    58,
+    87,
+    16,
+    13,
+    85,
+    60
+   ],
+   "prior": "pcfg",
+   "dataset": 7,
+   "posterior": [
+    0.0004915513267399866,
+    1.230847673126969e-07,
+    0.40267884686539707,
+    0.0012906373296967843,
+    0.010325098637574295,
+    0.40267884686539707,
+    3.750239004058732e-07,
+    0.1321612625609509,
+    0.050334855858174626,
+    3.840244740156141e-05
+   ]
+  },
+  {
+   "hypotheses": [
+    97,
+    26,
+    74,
+    45,
+    58,
+    87,
+    16,
+    13,
+    85,
+    60
+   ],
+   "prior": "pcfg",
+   "dataset": 1,
+   "posterior": [
+    0.00022139260334819858,
+    5.405092855180629e-07,
+    0.1813648206628446,
+    0.005667650645713891,
+    0.04534120516571114,
+    0.1813648206628446,
+    1.6890915172439447e-07,
+    0.5803674261211023,
+    0.005667650645713891,
+    4.324074284144497e-06
+   ]
+  },
+  {
+   "hypotheses": [
+    97,
+    26,
+    74,
+    45,
+    58,
+    87,
+    16,
+    13,
+    85,
+    60
+   ],
+   "prior": "rational_rules",
+   "dataset": 2,
+   "posterior": [
+    0.0006519066386726816,
+    1.4435999474575895e-08,
+    0.06554717531029246,
+    0.0002482847549632295,
+    0.021849058436764164,
+    0.34958493498822674,
+    2.0787839243389212e-07,
+    0.5462264609191052,
+    0.01589022431764664,
+    1.7323199369490964e-06
+   ]
+  },
+  {
+   "hypotheses": [
+    97,
+    26,
+    74,
+    45,
+    58,
+    87,
+    16,
+    13,
+    85,
+    60
+   ],
+   "prior": "rational_rules",
+   "dataset": 7,
+   "posterior": [
+    0.0007158296149644066,
+    1.0405105165480733e-07,
+    0.2878977232684981,
+    0.0017895740374110245,
+    0.009842657205760635,
+    0.3838636310246644,
+    2.2826199456773314e-07,
+    0.24606643014401638,
+    0.06979338745902977,
+    3.0434932609031014e-05
+   ]
+  },
+  {
+   "hypotheses": [
+    97,
+    26,
+    74,
+    45,
+    58,
+    87,
+    16,
+    13,
+    85,
+    60
+   ],
+   "prior": "rational_rules",
+   "dataset": 6,
+   "posterior": [
+    0.0005932134337092378,
+    4.1517135138240966e-08,
+    0.02650922531888166,
+    0.0007140532072426038,
+    0.31811070382657924,
+    0.03534563375850897,
+    2.1018049663734484e-08,
+    0.09818231599585787,
+    0.5205447880798564,
+    3.844179179466732e-09
+   ]
+  },
+  {
+   "hypotheses": [
+    29,
+    92,
+    77,
+    105,
+    4,
+    16,
+    82,
+    18,
+    95,
+    72
+   ],
+   "prior": "pcfg",
+   "dataset": 5,
+   "posterior": [
+    0.01076034908599641,
+    0.00014944929286106058,
+    8.907872012916897e-09,
+    9.340580803816328e-05,
+    0.9794308856942522,
+    8.907872012916897e-09,
+    1.013517882358542e-07,
+    0.009564754743107917,
+    1.0021356014531477e-08,
+    1.0261868558880248e-06
+   ]
+  },
+  {
+   "hypotheses": [
+    29,
+    92,
+    77,
+    105,
+    4,
+    16,
+    82,
+    18,
+    95,
+    72
+   ],
+   "prior": "pcfg",
+   "dataset": 7,
+   "posterior": [
+    8.023617177333383e-07,
+    1.0029521471666745e-07,
+    2.331443651884809e-10,
+    2.444695858718768e-06,
+    0.999745267853236,
+    2.331443651884809e-10,
+    9.310853368167144e-07,
+    0.00025033685593280183,
+    7.47257580732311e-13,
+    1.1638566710208947e-07
+   ]
+  },
+  {
+   "hypotheses": [
+    29,
+    92,
+    77,
+    105,
+    4,
+    16,
+    82,
+    18,
+    95,
+    72
+   ],
+   "prior": "pcfg",
+   "dataset": 0,
+   "posterior": [
+    3.0547967346644867e-10,
+    3.818495918330614e-11,
+    9.094901983824375e-09,
+    4.770733337964305e-08,
+    0.9999950484697901,
+    9.094901983824375e-09,
+    2.330624950152957e-13,
+    4.8852309380754465e-06,
+    2.8450011598546986e-16,
+    5.823649094194718e-11
+   ]
+  },
+  {
+   "hypotheses": [
+    29,
+    92,
+    77,
+    105,
+    4,
+    16,
+    82,
+    18,
+    95,
+    72
+   ],
+   "prior": "rational_rules",
+   "dataset": 9,
+   "posterior": [
+    1.2930771241007262e-06,
+    0.9971525450188938,
+    3.240613650353071e-16,
+    3.148701205592672e-11,
+    4.6112635999063787e-10,
+    9.505800041035679e-17,
+    0.002846161110372185,
+    1.198928535975666e-10,
+    6.633818266284591e-13,
+    1.8043985684294142e-10
+   ]
+  },
+  {
+   "hypotheses": [
+    29,
+    92,
+    77,
+    105,
+    4,
+    16,
+    82,
+    18,
+    95,
+    72
+   ],
+   "prior": "rational_rules",
+   "dataset": 0,
+   "posterior": [
+    3.0333253511352966e-10,
+    1.0111084503784345e-10,
+    1.8019437610695887e-08,
+    2.2457842136738763e-08,
+    0.9999966187581155,
+    5.285701699137463e-09,
+    2.8859952915040263e-13,
+    3.3349895573057005e-06,
+    1.5561739316933408e-16,
+    8.461353395317606e-11
+   ]
+  },
+  {
+   "hypotheses": [
+    29,
+    92,
+    77,
+    105,
+    4,
+    16,
+    82,
+    18,
+    95,
+    72
+   ],
+   "prior": "rational_rules",
+   "dataset": 7,
+   "posterior": [
+    7.967848533457477e-07,
+    2.655949511152508e-07,
+    4.61957823136451e-10,
+    1.1509114548327474e-06,
+    0.9998255535995774,
+    1.355076281200257e-10,
+    1.1530467265485708e-06,
+    0.000170910351042663,
+    4.0877112555060187e-13,
+    1.6911351989379077e-07
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    29,
+    43,
+    54,
+    88,
+    3,
+    117,
+    21,
+    77,
+    53
+   ],
+   "prior": "pcfg",
+   "dataset": 6,
+   "posterior": [
+    0.012076799374680414,
+    1.3104165988151414e-05,
+    0.9782207493491112,
+    0.0001048333279052119,
+    0.00014926464070878767,
+    1.1375144086937032e-07,
+    0.008491499560322144,
+    1.279703709780421e-07,
+    7.908325232865429e-09,
+    0.0009434999511469094
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    29,
+    43,
+    54,
+    88,
+    3,
+    117,
+    21,
+    77,
+    53
+   ],
+   "prior": "pcfg",
+   "dataset": 9,
+   "posterior": [
+    0.9999831376620232,
+    4.22118408411142e-09,
+    1.6857720758307257e-05,
+    2.2202151658705625e-11,
+    1.6911795208779585e-12,
+    3.2978000657120424e-10,
+    5.692859399668125e-13,
+    4.122250082140059e-11,
+    5.301888473022848e-19,
+    5.692859399668125e-13
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    29,
+    43,
+    54,
+    88,
+    3,
+    117,
+    21,
+    77,
+    53
+   ],
+   "prior": "pcfg",
+   "dataset": 7,
+   "posterior": [
+    0.993904703158727,
+    6.3813942253678166e-06,
+    1.6755250478914514e-05,
+    0.0019909949983147606,
+    3.888662106083514e-06,
+    4.985464238568617e-07,
+    0.0019909949983147606,
+    9.478613883578562e-05,
+    1.8542585878770446e-09,
+    0.0019909949983147606
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    29,
+    43,
+    54,
+    88,
+    3,
+    117,
+    21,
+    77,
+    53
+   ],
+   "prior": "rational_rules",
+   "dataset": 6,
+   "posterior": [
+    0.012143398944464269,
+    7.35963572391766e-06,
+    0.9836153145016034,
+    4.047799648154742e-05,
+    0.000550274301819078,
+    4.542985014764022e-08,
+    0.0032787177150053453,
+    1.0064459109630996e-07,
+    8.862127361289563e-09,
+    0.0003643019683339289
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    29,
+    43,
+    54,
+    88,
+    3,
+    117,
+    21,
+    77,
+    53
+   ],
+   "prior": "rational_rules",
+   "dataset": 4,
+   "posterior": [
+    0.04652486976351454,
+    0.18499980031419275,
+    0.41872382787163037,
+    0.11305543352534016,
+    2.6027899168399792e-05,
+    0.010277766684121848,
+    0.11305543352534016,
+    0.0002811013110187155,
+    3.0558033288502703e-07,
+    0.11305543352534016
+   ]
+  },
+  {
+   "hypotheses": [
+    19,
+    29,
+    43,
+    54,
+    88,
+    3,
+    117,
+    21,
+    77,
+    53
+   ],
+   "prior": "rational_rules",
+   "dataset": 9,
+   "posterior": [
+    0.9999831397430932,
+    2.3577231878867094e-09,
+    1.6857720793389945e-05,
+    8.525626254685656e-12,
+    6.200455457953227e-12,
+    1.30984621549262e-10,
+    2.1860580140219845e-13,
+    3.224236838135674e-11,
+    5.908750378468889e-19,
+    2.1860580140219845e-13
+   ]
+  },
+  {
+   "hypotheses": [
+    58,
+    92,
+    70,
+    117,
+    39,
+    113,
+    88,
+    53,
+    110,
+    43
+   ],
+   "prior": "pcfg",
+   "dataset": 9,
+   "posterior": [
+    1.0420279495252314e-05,
+    0.37666721587149576,
+    6.690370936609023e-11,
+    1.7566512407917073e-10,
+    1.1549317822430667e-13,
+    0.6181205593788669,
+    5.21848933055501e-10,
+    1.7566512407917073e-10,
+    5.913765930961202e-12,
+    0.005201803524029929
+   ]
+  },
+  {
+   "hypotheses": [
+    58,
+    92,
+    70,
+    117,
+    39,
+    113,
+    88,
+    53,
+    110,
+    43
+   ],
+   "prior": "pcfg",
+   "dataset": 4,
+   "posterior": [
+    0.0022705059496468754,
+    0.0003192898991690913,
+    0.00019955618698068293,
+    0.18391098192139713,
+    0.18391098192139713,
+    0.18391098192139713,
+    4.434581932904058e-06,
+    0.18391098192139713,
+    2.9736189094287587e-10,
+    0.2615622853993201
+   ]
+  },
+  {
+   "hypotheses": [
+    58,
+    92,
+    70,
+    117,
+    39,
+    113,
+    88,
+    53,
+    110,
+    43
+   ],
+   "prior": "pcfg",
+   "dataset": 5,
+   "posterior": [
+    0.0738003702743014,
+    0.001153130785535955,
+    8.007852677333035e-05,
+    0.0738003702743014,
+    0.0738003702743014,
+    0.008200041141589025,
+    1.7795228171851224e-06,
+    0.6642033324687143,
+    1.193263035615245e-10,
+    0.10496052661233966
+   ]
+  },
+  {
+   "hypotheses": [
+    58,
+    92,
+    70,
+    117,
+    39,
+    113,
+    88,
+    53,
+    110,
+    43
+   ],
+   "prior": "rational_rules",
+   "dataset": 7,
+   "posterior": [
+    0.011109552531875028,
+    0.0005049796605397758,
+    5.610885117108605e-05,
+    0.324954411557344,
+    0.324954411557344,
+    0.0002848603213301297,
+    0.006059755926477296,
+    0.324954411557344,
+    3.321378916719717e-12,
+    0.007121508033253232
+   ]
+  },
+  {
+   "hypotheses": [
+    58,
+    92,
+    70,
+    117,
+    39,
+    113,
+    88,
+    53,
+    110,
+    43
+   ],
+   "prior": "rational_rules",
+   "dataset": 4,
+   "posterior": [
+    0.002041989296968185,
+    0.000835359257850623,
+    9.281769531673601e-05,
+    0.12405084979081732,
+    0.12405084979081732,
+    0.16540113305442322,
+    2.855929086668802e-05,
+    0.12405084979081732,
+    2.1428039365762226e-10,
+    0.4594475918178421
+   ]
+  },
+  {
+   "hypotheses": [
+    58,
+    92,
+    70,
+    117,
+    39,
+    113,
+    88,
+    53,
+    110,
+    43
+   ],
+   "prior": "rational_rules",
+   "dataset": 2,
+   "posterior": [
+    0.03373596024408072,
+    9.584079614795705e-05,
+    0.00017038363759636776,
+    0.1012078807322421,
+    0.4048315229289685,
+    0.0005271243788137638,
+    0.0018873264472213035,
+    0.4048315229289685,
+    2.458439687361016e-11,
+    0.05271243788137631
+   ]
+  },
+  {
+   "hypotheses": [
+    67,
+    107,
+    115,
+    81,
+    43,
+    13,
+    19,
+    52,
+    65,
+    60
+   ],
+   "prior": "pcfg",
+   "dataset": 6,
+   "posterior": [
+    0.00013064981737964174,
+    1.2601255534301876e-07,
+    9.072903984697359e-06,
+    1.0950941186554536e-09,
+    0.9632549735766266,
+    0.011892036710822534,
+    0.011892036710822578,
+    0.011892036710822578,
+    0.0009290653680330159,
+    1.0938589873525973e-09
+   ]
+  },
+  {
+   "hypotheses": [
+    67,
+    107,
+    115,
+    81,
+    43,
+    13,
+    19,
+    52,
+    65,
+    60
+   ],
+   "prior": "pcfg",
+   "dataset": 8,
+   "posterior": [
+    3.129590779564991e-05,
+    6.269212298808083e-08,
+    1.2859922664221726e-08,
+    1.916277805599834e-14,
+    0.9998666989816622,
+    1.685575783444878e-05,
+    1.685575783444872e-05,
+    1.685575783444872e-05,
+    5.135738715183609e-05,
+    4.897822108443826e-09
+   ]
+  },
+  {
+   "hypotheses": [
+    67,
+    107,
+    115,
+    81,
+    43,
+    13,
+    19,
+    52,
+    65,
+    60
+   ],
+   "prior": "pcfg",
+   "dataset": 3,
+   "posterior": [
+    0.0006005098010802207,
+    7.330441907717576e-07,
+    9.163052384646951e-08,
+    1.3654012061129485e-13,
+    0.4919376290449176,
+    0.007686525453826834,
+    0.007686525453826834,
+    0.4919376290449176,
+    0.00015012745027005568,
+    2.2907630961617318e-07
+   ]
+  },
+  {
+   "hypotheses": [
+    67,
+    107,
+    115,
+    81,
+    43,
+    13,
+    19,
+    52,
+    65,
+    60
+   ],
+   "prior": "rational_rules",
+   "dataset": 2,
+   "posterior": [
+    0.0005602555511037632,
+    4.788508983792854e-06,
+    3.1125308394653596e-05,
+    3.9194387622445255e-10,
+    0.025678379425589253,
+    0.4108540708094275,
+    0.10271351770235668,
+    0.4108540708094275,
+    0.049302488497131175,
+    1.3029956418483956e-06
+   ]
+  },
+  {
+   "hypotheses": [
+    67,
+    107,
+    115,
+    81,
+    43,
+    13,
+    19,
+    52,
+    65,
+    60
+   ],
+   "prior": "rational_rules",
+   "dataset": 0,
+   "posterior": [
+    2.200429799462869e-05,
+    1.8825913510133148e-13,
+    6.121482632109349e-16,
+    3.852295954545428e-18,
+    4.038158447923558e-09,
+    0.016136485196061003,
+    4.038158447923558e-09,
+    0.016136485196061003,
+    0.967705017207777,
+    2.5600681025004128e-11
+   ]
+  },
+  {
+   "hypotheses": [
+    67,
+    107,
+    115,
+    81,
+    43,
+    13,
+    19,
+    52,
+    65,
+    60
+   ],
+   "prior": "rational_rules",
+   "dataset": 3,
+   "posterior": [
+    0.0006708392849473555,
+    3.5835431888213354e-07,
+    3.639536051146671e-08,
+    1.1457668543053662e-13,
+    0.49194880896139287,
+    0.00768670014002176,
+    0.00768670014002176,
+    0.49194880896139287,
+    5.7650251050163336e-05,
+    9.751137928765536e-08
+   ]
+  },
+  {
+   "hypotheses": [
+    87,
+    73,
+    52,
+    96,
+    62,
+    25,
+    78,
+    80,
+    64,
+    12
+   ],
+   "prior": "pcfg",
+   "dataset": 3,
+   "posterior": [
+    1.7431924981246135e-05,
+    2.127920529937276e-08,
+    0.9139349084567562,
+    1.7023364239498183e-07,
+    1.2987796203230534e-11,
+    1.7431924981246135e-05,
+    6.97276999249848e-05,
+    0.00027891079969993827,
+    0.01428023294463686,
+    0.07140116472318399
+   ]
+  },
+  {
+   "hypotheses": [
+    87,
+    73,
+    52,
+    96,
+    62,
+    25,
+    78,
+    80,
+    64,
+    12
+   ],
+   "prior": "pcfg",
+   "dataset": 7,
+   "posterior": [
+    0.06586956614737156,
+    8.040718523849068e-05,
+    0.8431304466863556,
+    1.0050898154811314e-05,
+    3.145939176060246e-10,
+    0.0016889632345479903,
+    0.0016889632345479903,
+    0.06586956614737156,
+    0.02161872940221427,
+    4.330674960379459e-05
+   ]
+  },
+  {
+   "hypotheses": [
+    87,
+    73,
+    52,
+    96,
+    62,
+    25,
+    78,
+    80,
+    64,
+    12
+   ],
+   "prior": "pcfg",
+   "dataset": 1,
+   "posterior": [
+    0.049379366842544944,
+    6.027754741521593e-05,
+    0.6320558955845743,
+    7.534693426902003e-06,
+    9.197623812136252e-09,
+    0.049379366842544944,
+    0.012344841710636233,
+    0.049379366842544944,
+    0.1580139738961437,
+    0.049379366842544944
+   ]
+  },
+  {
+   "hypotheses": [
+    87,
+    73,
+    52,
+    96,
+    62,
+    25,
+    78,
+    80,
+    64,
+    12
+   ],
+   "prior": "rational_rules",
+   "dataset": 5,
+   "posterior": [
+    0.000427303946240993,
+    4.980232473671242e-07,
+    0.09614338790422333,
+    1.440710108454894e-06,
+    1.076160678584422e-09,
+    0.00032047795968074395,
+    0.034611619645520356,
+    0.00032047795968074395,
+    0.8652904911380106,
+    0.0028843016371266923
+   ]
+  },
+  {
+   "hypotheses": [
+    87,
+    73,
+    52,
+    96,
+    62,
+    25,
+    78,
+    80,
+    64,
+    12
+   ],
+   "prior": "rational_rules",
+   "dataset": 3,
+   "posterior": [
+    9.337959657380882e-06,
+    1.088340286408027e-08,
+    0.9562070689157984,
+    2.23887144632507e-07,
+    1.045224764857643e-11,
+    7.003469743035643e-06,
+    3.73518386295234e-05,
+    0.00011205551588856994,
+    0.014940735451809396,
+    0.028686212067473925
+   ]
+  },
+  {
+   "hypotheses": [
+    87,
+    73,
+    52,
+    96,
+    62,
+    25,
+    78,
+    80,
+    64,
+    12
+   ],
+   "prior": "rational_rules",
+   "dataset": 0,
+   "posterior": [
+    0.0350853533756444,
+    4.089202025133375e-05,
+    0.8771338343911117,
+    1.3143863652214426e-05,
+    9.818012065146172e-09,
+    0.026314015031733324,
+    0.0350853533756444,
+    1.3163589310521904e-05,
+    2.195029066286801e-07,
+    0.026314015031733324
+   ]
+  },
+  {
+   "hypotheses": [
+    98,
+    93,
+    26,
+    11,
+    114,
+    40,
+    91,
+    113,
+    14,
+    46
+   ],
+   "prior": "pcfg",
+   "dataset": 0,
+   "posterior": [
+    6.971747967992283e-14,
+    0.00014964228901860938,
+    2.857056495937599e-14,
+    0.9806957053123587,
+    1.8266880983716996e-07,
+    0.009577106497191006,
+    0.009577106497191006,
+    2.396672697827406e-09,
+    2.454192842575263e-07,
+    8.91937548033056e-09
+   ]
+  },
+  {
+   "hypotheses": [
+    98,
+    93,
+    26,
+    11,
+    114,
+    40,
+    91,
+    113,
+    14,
+    46
+   ],
+   "prior": "pcfg",
+   "dataset": 7,
+   "posterior": [
+    5.944014428646889e-11,
+    6.3823368944976e-05,
+    1.24854785126859e-09,
+    0.41827283071779486,
+    5.1222475949480907e-11,
+    0.15930312888666004,
+    0.0040846956124784665,
+    2.685532947060136e-06,
+    0.41827283071779486,
+    3.8041692343339965e-09
+   ]
+  },
+  {
+   "hypotheses": [
+    98,
+    93,
+    26,
+    11,
+    114,
+    40,
+    91,
+    113,
+    14,
+    46
+   ],
+   "prior": "pcfg",
+   "dataset": 3,
+   "posterior": [
+    2.655362567895684e-11,
+    2.8511738470336132e-05,
+    5.568698919987524e-06,
+    0.1868545292391956,
+    2.227479567995008e-06,
+    0.029196020193624328,
+    0.007299005048406055,
+    0.029196020193624123,
+    0.74741811695678,
+    4.248580108633066e-10
+   ]
+  },
+  {
+   "hypotheses": [
+    98,
+    93,
+    26,
+    11,
+    114,
+    40,
+    91,
+    113,
+    14,
+    46
+   ],
+   "prior": "rational_rules",
+   "dataset": 5,
+   "posterior": [
+    3.531835679217322e-11,
+    0.00027261925980870183,
+    9.393113201971757e-09,
+    0.8996435573687144,
+    1.0520286786208257e-08,
+    8.227193025776951e-06,
+    1.6454386051553994e-05,
+    9.872631630932391e-05,
+    0.0999603952631906,
+    2.6418130880545546e-10
+   ]
+  },
+  {
+   "hypotheses": [
+    98,
+    93,
+    26,
+    11,
+    114,
+    40,
+    91,
+    113,
+    14,
+    46
+   ],
+   "prior": "rational_rules",
+   "dataset": 3,
+   "posterior": [
+    6.663199922467393e-11,
+    5.714738723263616e-05,
+    4.536614495123315e-06,
+    0.188586377867699,
+    1.1432268527710618e-05,
+    0.02011588030588787,
+    0.010057940152943916,
+    0.0268211737411838,
+    0.7543455114707961,
+    1.2460183855013966e-10
+   ]
+  },
+  {
+   "hypotheses": [
+    98,
+    93,
+    26,
+    11,
+    114,
+    40,
+    91,
+    113,
+    14,
+    46
+   ],
+   "prior": "rational_rules",
+   "dataset": 4,
+   "posterior": [
+    3.153883665409011e-10,
+    3.005499746718853e-05,
+    9.319920915460546e-09,
+    0.0991814916417219,
+    9.394480282784121e-08,
+    7.346777158646069e-05,
+    0.00014693554317292114,
+    0.00793451933133775,
+    0.8926334247754968,
+    2.3591049817259377e-09
+   ]
+  },
+  {
+   "hypotheses": [
+    76,
+    35,
+    15,
+    99,
+    36,
+    19,
+    82,
+    38,
+    71,
+    54
+   ],
+   "prior": "pcfg",
+   "dataset": 8,
+   "posterior": [
+    7.826320758344974e-09,
+    3.1255194580526616e-05,
+    0.9985659606143242,
+    1.1624837767033871e-07,
+    0.0012189525886405347,
+    8.206492115502336e-05,
+    6.114313092457003e-10,
+    2.2172618421619354e-12,
+    9.523067098754165e-05,
+    6.411321965236237e-06
+   ]
+  },
+  {
+   "hypotheses": [
+    76,
+    35,
+    15,
+    99,
+    36,
+    19,
+    82,
+    38,
+    71,
+    54
+   ],
+   "prior": "pcfg",
+   "dataset": 3,
+   "posterior": [
+    0.0005010964126410464,
+    5.010964126410476e-05,
+    0.6567970899768729,
+    1.957407861879088e-05,
+    0.012828068163610781,
+    0.32839854498843585,
+    2.446759827348855e-06,
+    2.3334120057572005e-11,
+    0.0010021928252820947,
+    0.00040087713011283745
+   ]
+  },
+  {
+   "hypotheses": [
+    76,
+    35,
+    15,
+    99,
+    36,
+    19,
+    82,
+    38,
+    71,
+    54
+   ],
+   "prior": "pcfg",
+   "dataset": 2,
+   "posterior": [
+    7.081831380282836e-07,
+    0.004641149013382161,
+    0.9505073179406681,
+    1.7289627393268706e-09,
+    0.00029007181333638493,
+    0.0074258384214114515,
+    5.532680765845959e-08,
+    1.3190938868155416e-13,
+    5.6654651042262805e-06,
+    0.03712919210705729
+   ]
+  },
+  {
+   "hypotheses": [
+    76,
+    35,
+    15,
+    99,
+    36,
+    19,
+    82,
+    38,
+    71,
+    54
+   ],
+   "prior": "rational_rules",
+   "dataset": 9,
+   "posterior": [
+    0.00011187490679967854,
+    7.948497702478747e-14,
+    3.278755302272494e-11,
+    2.50182047256056e-10,
+    8.059776670313439e-11,
+    0.9998819795221278,
+    5.189003098315329e-06,
+    1.8153689574500865e-14,
+    9.561957846126352e-07,
+    8.524763785908418e-12
+   ]
+  },
+  {
+   "hypotheses": [
+    76,
+    35,
+    15,
+    99,
+    36,
+    19,
+    82,
+    38,
+    71,
+    54
+   ],
+   "prior": "rational_rules",
+   "dataset": 0,
+   "posterior": [
+    2.4592153135113427e-05,
+    0.002397734930673555,
+    0.9890656589028428,
+    2.093262223185996e-14,
+    0.0015984899537823708,
+    5.500308149199087e-08,
+    2.8544484861627104e-13,
+    6.069570871550967e-12,
+    0.00031969799075647325,
+    0.006593771059352286
+   ]
+  },
+  {
+   "hypotheses": [
+    76,
+    35,
+    15,
+    99,
+    36,
+    19,
+    82,
+    38,
+    71,
+    54
+   ],
+   "prior": "rational_rules",
+   "dataset": 3,
+   "posterior": [
+    0.0008278931927951974,
+    7.882772099368341e-05,
+    0.5202629585583124,
+    1.1263852963200009e-05,
+    0.01345326438292194,
+    0.4624559631629425,
+    2.399968671136346e-06,
+    5.108292450174141e-11,
+    0.00269065287658438,
+    0.00021677623273262976
+   ]
+  }
+ ]
+}

@@ -1,0 +1,364 @@
+{
+ "n_trials": 4560,
+ "n_blocks": 285,
+ "records": [
+  "feature tally",
+  "object table"
+ ],
+ "auroc_by_rule": {
+  "feature tally": {
+   "red": 0.992653429800862,
+   "blue": 0.9993867426049061,
+   "square": 0.9979238816254576,
+   "circle": 0.9999999999999999,
+   "not red": 0.9999963278765579,
+   "not green": 0.9999939926951174,
+   "red and square": 0.9982258802011887,
+   "red or square": 0.9933958786939192,
+   "blue or square": 0.9906739509780053,
+   "red and not square": 0.9900929736320684
+  },
+  "object table": {
+   "red": 0.9927412124897584,
+   "blue": 0.9988598743091209,
+   "square": 0.9969335492973712,
+   "circle": 0.9999721375632797,
+   "not red": 0.9999742951359054,
+   "not green": 1.0,
+   "red and square": 0.9997195549458925,
+   "red or square": 0.9920165369021428,
+   "blue or square": 0.9943820509698889,
+   "red and not square": 1.0
+  }
+ },
+ "conjunction": {
+  "feature tally": {
+   "n_live": 145,
+   "mean_live": 0.8997659167998101,
+   "red square labelled no and nothing else rules the rule out": {
+    "n_dead": 36,
+    "mean_dead": 0.9009304407872908,
+    "auroc": 0.500191570881226
+   },
+   "red square labelled no (any history)": {
+    "n_dead": 695,
+    "mean_dead": 0.12223055781773576,
+    "auroc": 0.9697444802778467
+   }
+  },
+  "object table": {
+   "n_live": 145,
+   "mean_live": 0.6378185123635979,
+   "red square labelled no and nothing else rules the rule out": {
+    "n_dead": 36,
+    "mean_dead": 0.12936461084142947,
+    "auroc": 0.9457854406130268
+   },
+   "red square labelled no (any history)": {
+    "n_dead": 695,
+    "mean_dead": 0.015535515426863156,
+    "auroc": 0.9954651451252791
+   }
+  }
+ },
+ "contradicted": {
+  "feature tally": {
+   "n_stated_consistent": 2087,
+   "mean_stated_consistent": 0.9270913734173486,
+   "n_stated_contradicted": 207,
+   "mean_stated_contradicted": 0.27802024177948165,
+   "n_unstated_contradicted": 34265,
+   "mean_unstated_contradicted": 0.052514445616493134
+  },
+  "object table": {
+   "n_stated_consistent": 2087,
+   "mean_stated_consistent": 0.9311697482344939,
+   "n_stated_contradicted": 207,
+   "mean_stated_contradicted": 0.20565844222740048,
+   "n_unstated_contradicted": 34265,
+   "mean_unstated_contradicted": 0.032251864035668446
+  }
+ },
+ "ambiguity": {
+  "feature tally": {
+   "n_ambiguous": 617,
+   "ambiguous_stated": 0.8592228510058304,
+   "ambiguous_other_consistent": 0.523350888314164,
+   "ambiguous_ruled_out": 0.04527951915520313,
+   "n_unambiguous": 1470,
+   "unambiguous_stated": 0.9555776852050402,
+   "unambiguous_others": 0.0397391495559259
+  },
+  "object table": {
+   "n_ambiguous": 617,
+   "ambiguous_stated": 0.8469133606197106,
+   "ambiguous_other_consistent": 0.5030824670689173,
+   "ambiguous_ruled_out": 0.028169162893128274,
+   "n_unambiguous": 1470,
+   "unambiguous_stated": 0.9665345041245085,
+   "unambiguous_others": 0.023826142190561294
+  }
+ },
+ "counterexample": {
+  "feature tally": {
+   "0": {
+    "n": 814,
+    "before": 0.4806631269755028,
+    "after": 0.11313015248457514
+   },
+   "1": {
+    "n": 119,
+    "before": 0.6631565024340791,
+    "after": 0.1642504735688608
+   },
+   "2": {
+    "n": 12,
+    "before": 0.8925979155581003,
+    "after": 0.41131392721092785
+   }
+  },
+  "object table": {
+   "0": {
+    "n": 814,
+    "before": 0.3767950284967827,
+    "after": 0.07727148088876475
+   },
+   "1": {
+    "n": 119,
+    "before": 0.5915541749733602,
+    "after": 0.11740399552152524
+   },
+   "2": {
+    "n": 12,
+    "before": 0.8975222384044872,
+    "after": 0.3643332252848841
+   }
+  }
+ },
+ "same_stated_rule": {
+  "feature tally": {
+   "all_pairs": {
+    "n_pairs": 31,
+    "auroc": 0.9562929757842846,
+    "mean_consistent": 0.5951137477459097,
+    "mean_ruled_out": 0.07117054604507732
+   },
+   "orth_singleton_pairs": {
+    "n_pairs": 4,
+    "auroc": 0.9979504327457289,
+    "mean_consistent": 0.635392553537637,
+    "mean_ruled_out": 0.024784587518258905
+   },
+   "orth_no_cur_obj_pairs": {
+    "n_pairs": 4,
+    "auroc": 0.9971518700072621,
+    "mean_consistent": 0.6197624912964317,
+    "mean_ruled_out": 0.027421511799286126
+   }
+  },
+  "object table": {
+   "all_pairs": {
+    "n_pairs": 31,
+    "auroc": 0.9744090346062297,
+    "mean_consistent": 0.5679913852873545,
+    "mean_ruled_out": 0.046983299704983356
+   },
+   "orth_singleton_pairs": {
+    "n_pairs": 4,
+    "auroc": 0.9942922401350102,
+    "mean_consistent": 0.5630057876584134,
+    "mean_ruled_out": 0.01892684836237788
+   },
+   "orth_no_cur_obj_pairs": {
+    "n_pairs": 4,
+    "auroc": 0.9921164857881498,
+    "mean_consistent": 0.5406372968765779,
+    "mean_ruled_out": 0.021096526741838935
+   }
+  }
+ },
+ "graded": {
+  "feature tally": {
+   "ruled out": {
+    "n": 19440,
+    "mean_fitted_probability": 0.011130948466276595,
+    "mean_decoded": 0.04106892036698729,
+    "mean_above_ruled_out": -4.568819031379245e-19
+   },
+   "consistent, up to 0.08": {
+    "n": 80,
+    "mean_fitted_probability": 0.06799451763769047,
+    "mean_decoded": 0.2976466939497323,
+    "mean_above_ruled_out": 0.12578593801902377
+   },
+   "0.08 to 0.15": {
+    "n": 425,
+    "mean_fitted_probability": 0.11989235261023132,
+    "mean_decoded": 0.39935151174609607,
+    "mean_above_ruled_out": 0.19943610242642815
+   },
+   "0.15 to 0.30": {
+    "n": 337,
+    "mean_fitted_probability": 0.20008932502513369,
+    "mean_decoded": 0.6498790599699451,
+    "mean_above_ruled_out": 0.5424250313292153
+   },
+   "over 0.30": {
+    "n": 364,
+    "mean_fitted_probability": 0.569350504856647,
+    "mean_decoded": 0.7595799634820883,
+    "mean_above_ruled_out": 0.648722313427712
+   },
+   "r_decoded_vs_fitted_probability_consistent_rules": 0.5141149843105152
+  },
+  "object table": {
+   "ruled out": {
+    "n": 19440,
+    "mean_fitted_probability": 0.011130948466276595,
+    "mean_decoded": 0.025414508776464655,
+    "mean_above_ruled_out": 6.396346643930943e-19
+   },
+   "consistent, up to 0.08": {
+    "n": 80,
+    "mean_fitted_probability": 0.06799451763769047,
+    "mean_decoded": 0.3025254629875696,
+    "mean_above_ruled_out": 0.2354289023038612
+   },
+   "0.08 to 0.15": {
+    "n": 425,
+    "mean_fitted_probability": 0.11989235261023132,
+    "mean_decoded": 0.37806574367982004,
+    "mean_above_ruled_out": 0.310790230469432
+   },
+   "0.15 to 0.30": {
+    "n": 337,
+    "mean_fitted_probability": 0.20008932502513369,
+    "mean_decoded": 0.6387634255601852,
+    "mean_above_ruled_out": 0.5688897060790981
+   },
+   "over 0.30": {
+    "n": 364,
+    "mean_fitted_probability": 0.569350504856647,
+    "mean_decoded": 0.7603572296214395,
+    "mean_above_ruled_out": 0.6891169443072112
+   },
+   "r_decoded_vs_fitted_probability_consistent_rules": 0.513815810681416
+  }
+ },
+ "early_trials": {
+  "red_and_not_square_own_blocks": {
+   "feature tally": [
+    0.007911154633494987,
+    0.014334052845539257,
+    0.03234848196271953,
+    0.05227629854829319,
+    0.08833069652994467,
+    0.14643688453226855,
+    0.18442586062584468,
+    0.2434430989657972,
+    0.3454305853467502,
+    0.4270662017886424,
+    0.5028881085264951,
+    0.6263319151531213,
+    0.6975767842050347,
+    0.7300207266527329,
+    0.8028363253636123,
+    0.8761488545111736
+   ],
+   "object table": [
+    0.017009986883792124,
+    0.02717516463417611,
+    0.08732260728060219,
+    0.1283507760325633,
+    0.18180122152539355,
+    0.25095147112469857,
+    0.30116705953615536,
+    0.4044155615516612,
+    0.45775785178942985,
+    0.5469089521540518,
+    0.60850632953421,
+    0.7606818126118909,
+    0.7898938918093008,
+    0.8177115683563869,
+    0.8871075699794941,
+    0.9359732350689653
+   ]
+  },
+  "unlikely_consistent_rules": {
+   "feature tally": [
+    {
+     "trial": 1,
+     "mean_decoded": 0.29127451596583087,
+     "n": 1140
+    },
+    {
+     "trial": 2,
+     "mean_decoded": 0.31848620428078755,
+     "n": 646
+    },
+    {
+     "trial": 3,
+     "mean_decoded": 0.27586414677504056,
+     "n": 289
+    },
+    {
+     "trial": 4,
+     "mean_decoded": 0.21718772086467786,
+     "n": 124
+    }
+   ],
+   "object table": [
+    {
+     "trial": 1,
+     "mean_decoded": 0.16286837765561968,
+     "n": 1140
+    },
+    {
+     "trial": 2,
+     "mean_decoded": 0.20263469395420775,
+     "n": 646
+    },
+    {
+     "trial": 3,
+     "mean_decoded": 0.17275299102514194,
+     "n": 289
+    },
+    {
+     "trial": 4,
+     "mean_decoded": 0.12301551473320385,
+     "n": 124
+    }
+   ]
+  }
+ },
+ "p_yes": {
+  "feature tally": {
+   "top_decoder_alone": {
+    "r_vs_fitted": 0.8199854758045118,
+    "rmse_vs_fitted": 0.23831769835156275,
+    "nll_model_answers": 0.6564210978715667,
+    "agreement_model_answers": 0.7848684210526315
+   },
+   "ten_decoders_combined": {
+    "r_vs_fitted": 0.8809568581047872,
+    "rmse_vs_fitted": 0.15571438911803528,
+    "nll_model_answers": 0.4892362787385367,
+    "agreement_model_answers": 0.7850877192982456
+   }
+  },
+  "object table": {
+   "top_decoder_alone": {
+    "r_vs_fitted": 0.8074017627456325,
+    "rmse_vs_fitted": 0.24186601461384805,
+    "nll_model_answers": 0.6714942685705565,
+    "agreement_model_answers": 0.7701754385964912
+   },
+   "ten_decoders_combined": {
+    "r_vs_fitted": 0.8698182346128637,
+    "rmse_vs_fitted": 0.16774204503240794,
+    "nll_model_answers": 0.5081907388696326,
+    "agreement_model_answers": 0.7787280701754385
+   }
+  }
+ }
+}

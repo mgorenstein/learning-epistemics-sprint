@@ -1,0 +1,10 @@
+You are learning what the made-up word "$word" means by trial and error across $n_trials trials.
+
+Each object has $feature_space — $n_objects unique objects in total$pass_clause. Whether an object is a $word is determined by one simple rule over its $feature_names (a rule may match few, some, or most of the $n_objects objects).
+
+$history_block
+
+Trial $trial of $n_trials: $object
+Based on all trials above, what is your current best guess for what "$word" means, and is "$object" a $word? Reply in exactly two short lines:
+Rule: <short rule over $feature_names, or "guessing" if unsure>
+Answer: <yes or no — you must guess either yes or no, never unknown>

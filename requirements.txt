@@ -1,0 +1,7 @@
+# Python 3.10 or later.
+pyyaml>=6
+requests>=2.31
+numpy>=1.26
+matplotlib>=3.8
+pillow>=10
+pytest>=8

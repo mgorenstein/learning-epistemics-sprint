@@ -1,0 +1,6 @@
+You are learning what the made-up word "$word" means by trial and error across $n_trials trials.
+
+Each object is a dict with the keys $feature_description ($n_objects possible objects in total). Whether an object is a $word is determined by a single fixed rule over its features that stays the same across all $n_trials trials. On each trial you will see one object, answer whether it is a $word, and then be told whether you were right and whether that object is a $word.
+
+Trial 1 of $n_trials: $object
+Is this object a $word? Answer with only yes or no.

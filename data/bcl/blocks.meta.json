@@ -1,0 +1,64 @@
+{
+  "block_file": "blocks.jsonl",
+  "n_blocks": 1000,
+  "blocks_per_concept": 100,
+  "repetitions": 1,
+  "n_stimuli": 16,
+  "n_trials": 16,
+  "seed": 20261113,
+  "alpha": 0.99,
+  "label_flip_probability": 0.0,
+  "features": {
+    "color": [
+      "red",
+      "blue",
+      "green",
+      "yellow"
+    ],
+    "shape": [
+      "circle",
+      "square",
+      "triangle",
+      "diamond"
+    ]
+  },
+  "rules": {
+    "red": "lambda t: t['color'] == 'red'",
+    "blue": "lambda t: t['color'] == 'blue'",
+    "square": "lambda t: t['shape'] == 'square'",
+    "circle": "lambda t: t['shape'] == 'circle'",
+    "red and square": "lambda t: t['color'] == 'red' and t['shape'] == 'square'",
+    "red or square": "lambda t: t['color'] == 'red' or t['shape'] == 'square'",
+    "blue or square": "lambda t: t['color'] == 'blue' or t['shape'] == 'square'",
+    "not red": "lambda t: t['color'] != 'red'",
+    "red and not square": "lambda t: t['color'] == 'red' and t['shape'] != 'square'",
+    "not green": "lambda t: t['color'] != 'green'"
+  },
+  "complexity_groups": {
+    "red": "single",
+    "blue": "single",
+    "square": "single",
+    "circle": "single",
+    "red and square": "conjunction",
+    "red or square": "disjunction",
+    "blue or square": "disjunction",
+    "not red": "negation",
+    "red and not square": "compound",
+    "not green": "negation"
+  },
+  "hypothesis_space": "grammar",
+  "n_grammar_derivations": 27184,
+  "n_hypothesis_concepts": 830,
+  "prior": {
+    "red": 0.0854833879269993,
+    "blue": 0.0854833879269993,
+    "square": 0.0854833879269993,
+    "circle": 0.0854833879269993,
+    "red and square": 0.0014096864763687134,
+    "red or square": 0.001284900951489604,
+    "blue or square": 0.001284900951489604,
+    "not red": 0.020915769770706406,
+    "red and not square": 0.000309234128841049,
+    "not green": 0.020915769770706406
+  }
+}
